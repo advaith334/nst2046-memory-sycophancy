@@ -2,7 +2,8 @@
  "1-effect": [
   {
    "type": "forest",
-   "title": "Rise in false answers with a stored false belief (points, 95% interval)",
+   "title": "How much a false memory raised wrong answers, by model",
+   "read": "Each dot is the rise in wrong answers, in percentage points, when the memory held a false belief. The line shows the range we are 95% confident about. A dot on 0 means no change.",
    "rows": [
     {
      "label": "Mistral Nemo 12B",
@@ -52,24 +53,25 @@
  "2-evidence": [
   {
    "type": "forest",
-   "title": "Nemo: rise in false answers, by evidence in the question (points)",
+   "title": "Mistral Nemo: the rise in wrong answers shrinks as the question gives more evidence",
+   "read": "Each dot is the rise in wrong answers caused by the false memory, in percentage points, with its 95% range.",
    "rows": [
     {
-     "label": "No passage",
+     "label": "No evidence",
      "est": 40.625,
      "low": 28.125,
      "high": 54.166666666666664,
      "text": "+41 [+28, +54]"
     },
     {
-     "label": "Weak passage",
+     "label": "A hint",
      "est": 16.666666666666664,
      "low": 8.333333333333332,
      "high": 28.125,
      "text": "+17 [+8, +28]"
     },
     {
-     "label": "Passage states the answer",
+     "label": "States the answer",
      "est": 1.0416666666666665,
      "low": 0.0,
      "high": 5.208333333333334,
@@ -79,30 +81,31 @@
   },
   {
    "type": "bars",
-   "title": "Nemo: false answers with the same false memory, by wording (%). Five identical runs ranged 55 to 61%.",
+   "title": "Mistral Nemo: wrong answers with the same false memory, worded six ways",
+   "read": "Each bar is the share of answers that picked the false option. Running one wording five times only varied between 55% and 61%.",
    "rows": [
     {
      "label": "Plain \"Notes:\" heading",
      "value": 25
     },
     {
-     "label": "\"may be out of date or wrong\"",
+     "label": "Adds \"may be out of date or wrong\"",
      "value": 26
     },
     {
-     "label": "\"Verified profile facts\"",
+     "label": "Heading \"Verified profile facts\"",
      "value": 57
     },
     {
-     "label": "Main wording (rerun)",
+     "label": "Our usual: \"User believes that ...\"",
      "value": 60
     },
     {
-     "label": "\"User once said that\"",
+     "label": "\"User once said that ...\"",
      "value": 77
     },
     {
-     "label": "Drop \"User believes that\"",
+     "label": "Just the claim, no \"User believes\"",
      "value": 79
     }
    ],
@@ -112,37 +115,38 @@
  "3-fixes": [
   {
    "type": "pairs",
-   "title": "Nemo: share of harm removed vs share of benefit kept (%)",
-   "a": "Harm removed",
-   "b": "Benefit kept",
+   "title": "Mistral Nemo: what each fix took away and what it kept",
+   "read": "Blue is how much of the harm from false memories the fix removed. Orange is how much of the help from true memories it kept. A good fix would have both bars near 100%.",
+   "a": "Harm removed (%)",
+   "b": "Benefit kept (%)",
    "rows": [
     {
-     "label": "Tutor frame",
+     "label": "\"You are a tutor\"",
      "a": 79,
      "b": 13
     },
     {
-     "label": "Patient frame",
+     "label": "\"Patient record\"",
      "a": 62,
      "b": -4
     },
     {
-     "label": "Rule on memory block",
+     "label": "Checking rule",
      "a": 15,
      "b": 65
     },
     {
-     "label": "Answer first",
+     "label": "Answer before memory",
      "a": 21,
      "b": 22
     },
     {
-     "label": "Memory gate",
+     "label": "Memory filter",
      "a": 95,
      "b": -13
     },
     {
-     "label": "Label",
+     "label": "\"Unverified\" label",
      "a": 56,
      "b": 52
     }
@@ -154,59 +158,60 @@
  "4-mmlu": [
   {
    "type": "forest",
-   "title": "Pre-registered tests (points, 95% interval)",
+   "title": "Our five main predictions, plus three more models",
+   "read": "Each dot is the size of an effect in percentage points, with its 95% range. Every range sits clearly above 0, so every prediction held.",
    "rows": [
     {
-     "label": "H1 Harm, Nemo",
+     "label": "1. Nemo is pulled",
      "est": 55.00000000000001,
      "low": 47.083333333333336,
      "high": 62.5,
      "text": "+55 [+47, +63]"
     },
     {
-     "label": "H2 Harm, Mistral Small",
+     "label": "2. Small is pulled",
      "est": 35.0,
      "low": 27.500000000000004,
      "high": 42.916666666666664,
      "text": "+35 [+28, +43]"
     },
     {
-     "label": "H3 Label cuts Nemo's harm",
+     "label": "3. \"Unverified\" helps Nemo",
      "est": 15.416666666666668,
      "low": 10.416666666666668,
      "high": 21.25,
      "text": "+15 [+10, +21]"
     },
     {
-     "label": "H4 Labelled memory still harms, Nemo",
+     "label": "4. ...but not fully",
      "est": 39.58333333333333,
      "low": 31.666666666666664,
      "high": 47.5,
      "text": "+40 [+32, +48]"
     },
     {
-     "label": "H5 Benefit, Nemo",
+     "label": "5. True memory helps Nemo",
      "est": 44.166666666666664,
      "low": 36.666666666666664,
      "high": 52.083333333333336,
      "text": "+44 [+37, +52]"
     },
     {
-     "label": "H6 Harm, Llama 3.1 8B",
+     "label": "Also pulled: Llama 3.1 8B",
      "est": 30.416666666666664,
      "low": 22.916666666666664,
      "high": 38.333333333333336,
      "text": "+30 [+23, +38]"
     },
     {
-     "label": "H6 Harm, Qwen3.5-9B",
+     "label": "Also pulled: Qwen3.5-9B",
      "est": 12.393162393162394,
      "low": 7.6923076923076925,
      "high": 18.803418803418804,
      "text": "+12 [+8, +19]"
     },
     {
-     "label": "H6 Harm, Gemma 4 26B",
+     "label": "Also pulled: Gemma 4 26B",
      "est": 6.302521008403361,
      "low": 2.941176470588235,
      "high": 11.344537815126051,
@@ -216,9 +221,10 @@
   },
   {
    "type": "pairs",
-   "title": "Truth-sensitivity: following a true note minus a false one (points)",
-   "a": "Items it knew",
-   "b": "Items it was unsure of",
+   "title": "Does the model tell a true memory from a false one?",
+   "read": "Each bar is how much more often the model followed a true memory than a false one, in percentage points. Big bars mean it could tell them apart. Blue is questions it already knew, orange is questions it got wrong without a memory.",
+   "a": "Questions it knew",
+   "b": "Questions it didn't know",
    "rows": [
     {
      "label": "Mistral Nemo 12B",
@@ -253,7 +259,8 @@
  "5-frontier": [
   {
    "type": "bars",
-   "title": "F1: correct with no memory, out of replies that gave an answer (%)",
+   "title": "Correct answers on 64 hard questions, with no memory",
+   "read": "The strongest models got almost everything right, so a false memory had little room to change their answers. Brackets show correct answers out of answers given.",
    "rows": [
     {
      "label": "Claude Sonnet 5.5 (190/191)",
@@ -292,9 +299,10 @@
   },
   {
    "type": "pairs",
-   "title": "F3: replies that openly correct the myth, writing task (%)",
-   "a": "No memory",
-   "b": "Myth stored",
+   "title": "How often a model corrected a myth while writing",
+   "read": "Share of replies that openly said the myth is wrong. Orange is with the myth stored in memory. Every model corrected it more often when it was in memory.",
+   "a": "No memory (%)",
+   "b": "Myth in memory (%)",
    "rows": [
     {
      "label": "Claude Sonnet 5.5",
@@ -343,9 +351,10 @@
  "6-tutoring": [
   {
    "type": "pairs",
-   "title": "Tutor told the student they were wrong (%)",
-   "a": "False note",
-   "b": "True note",
+   "title": "How often the tutor told the student their belief was wrong",
+   "read": "Blue is when the note held a wrong belief, so speaking up was right. Orange is when the note held a right belief, so speaking up was a mistake. A good tutor has a long blue bar and a short orange one.",
+   "a": "Note held a wrong belief (%)",
+   "b": "Note held a right belief (%)",
    "rows": [
     {
      "label": "Mistral Nemo 12B",
