@@ -45,22 +45,24 @@ def text_run(exp, run, cols):
     (OUT / "runs" / f"{exp}--{run}.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")))
 
 
+WORDING = {"base": "Wording: our usual", "notes": "Wording: plain \"Notes:\"", "may_be_wrong": "Wording: \"may be wrong\"",
+           "bare_fact": "Wording: just the claim", "said_once": "Wording: \"once said\"", "verified_profile": "Wording: \"verified facts\""}
 RUNS = {
-    "1-effect": [("main", "Main study, 27 Oct", "mcq")],
-    "2-evidence": [("weak-passage", "Weak passage", "mcq"), ("strong-passage", "Passage states the answer", "mcq"),
-                   ("false-passage", "False passage vs true memory", "mcq")]
-    + [(f"wording-{w}", f"Wording: {w.replace('_', ' ')}", "mcq") for w in
+    "1-effect": [("main", "Main test: 48 questions, 6 models", "mcq")],
+    "2-evidence": [("weak-passage", "A hint in the question", "mcq"), ("strong-passage", "The answer stated in the question", "mcq"),
+                   ("false-passage", "A false passage in the question", "mcq")]
+    + [(f"wording-{w}", WORDING[w], "mcq") for w in
        ["base", "notes", "may_be_wrong", "bare_fact", "said_once", "verified_profile"]]
-    + [("base-model", "Nemo base (local)", "mcq"), ("instruct-model", "Nemo instruct (local)", "mcq")],
-    "3-fixes": [("fix-tutor", "Tutor frame", "mcq"), ("fix-patient", "Patient frame", "mcq"), ("fix-rule", "Rule on the memory block", "mcq"),
-                ("fix-answer_first", "Answer first, then revise", "mcq"), ("fix-memory_gate", "Memory gate", "mcq")],
-    "4-mmlu": [("default", "Default wording", "mcq"), ("tutor-frame", "Tutor frame", "mcq"), ("patient-frame", "Patient frame", "mcq"),
-               ("wording-may_be_wrong", "Caveat: may be out of date or wrong", "mcq"), ("claude", "Claude check", "mcq")],
-    "5-frontier": [("f3-frontier", "F3 free text: Claude Haiku, GPT Terra", "f3"), ("f3-main-models", "F3 free text: main models", "f3"),
-                   ("f2f4-frontier-base", "F1 headroom items: frontier", "frontier"), ("f2f4-main-models-base", "F1 headroom items: main models", "frontier"),
-                   ("f2f4-frontier-pushback", "F4 pushback: frontier", "frontier"), ("f2f4-main-models-authority", "F4 expert memory: main models", "frontier")],
-    "6-tutoring": [("planned", "Planned run (500 tokens)", "tutor"), ("rerun-1500-tokens", "Rerun at 1,500 tokens", "tutor"),
-                   ("frame-tutor_b", "Frame test: tutor wording B", "tutor"), ("frame-assistant_b", "Frame test: assistant wording B", "tutor")],
+    + [("base-model", "Base model (no chat training)", "mcq"), ("instruct-model", "Same model with chat training", "mcq")],
+    "3-fixes": [("fix-tutor", "Fix: \"You are a tutor\"", "mcq"), ("fix-patient", "Fix: \"Patient record\"", "mcq"), ("fix-rule", "Fix: checking rule", "mcq"),
+                ("fix-answer_first", "Fix: answer before reading the memory", "mcq"), ("fix-memory_gate", "Fix: memory filter", "mcq")],
+    "4-mmlu": [("default", "Main test: 120 exam questions", "mcq"), ("tutor-frame", "With \"You are a tutor\"", "mcq"), ("patient-frame", "With \"Patient record\"", "mcq"),
+               ("wording-may_be_wrong", "With \"may be out of date or wrong\"", "mcq"), ("claude", "Claude Sonnet check", "mcq")],
+    "5-frontier": [("f3-frontier", "Writing about myths: strongest models", "f3"), ("f3-main-models", "Writing about myths: other models", "f3"),
+                   ("f2f4-frontier-base", "Hard questions: strongest models", "frontier"), ("f2f4-main-models-base", "Hard questions: other models", "frontier"),
+                   ("f2f4-frontier-pushback", "User pushes back: strongest models", "frontier"), ("f2f4-main-models-authority", "\"Expert\" memory: other models", "frontier")],
+    "6-tutoring": [("rerun-1500-tokens", "Second run (longer replies)", "tutor"), ("planned", "First run (replies cut off at 500 tokens)", "tutor"),
+                   ("frame-tutor_b", "Wording test: \"You are a tutor\"", "tutor"), ("frame-assistant_b", "Wording test: \"You are an AI assistant\"", "tutor")],
 }
 for exp, runs in RUNS.items():
     for run, _, kind in runs:
@@ -92,32 +94,32 @@ nemo = facts[facts.model == "mistral-nemo"]
 e1 = [{"label": model_name(m), **ci(effect(facts[facts.model == m], "stored_incorrect", "no_belief"))} for m in MAIN6]
 
 weak, strong = load_run("2-evidence", "weak-passage"), load_run("2-evidence", "strong-passage")
-dose = [{"label": "No passage", **ci(effect(nemo, "stored_incorrect", "no_belief"))},
-        {"label": "Weak passage", **ci(effect(weak[weak.model == "mistral-nemo"], "stored_incorrect", "no_belief"))},
-        {"label": "Passage states the answer", **ci(effect(strong[strong.model == "mistral-nemo"], "stored_incorrect", "no_belief"))}]
+dose = [{"label": "No evidence", **ci(effect(nemo, "stored_incorrect", "no_belief"))},
+        {"label": "A hint", **ci(effect(weak[weak.model == "mistral-nemo"], "stored_incorrect", "no_belief"))},
+        {"label": "States the answer", **ci(effect(strong[strong.model == "mistral-nemo"], "stored_incorrect", "no_belief"))}]
 wordings = []
-for w, label in [("notes", "Plain \"Notes:\" heading"), ("may_be_wrong", "\"may be out of date or wrong\""), ("verified_profile", "\"Verified profile facts\""),
-                 ("base", "Main wording (rerun)"), ("said_once", "\"User once said that\""), ("bare_fact", "Drop \"User believes that\"")]:
+for w, label in [("notes", "Plain \"Notes:\" heading"), ("may_be_wrong", "Adds \"may be out of date or wrong\""), ("verified_profile", "Heading \"Verified profile facts\""),
+                 ("base", "Our usual: \"User believes that ...\""), ("said_once", "\"User once said that ...\""), ("bare_fact", "Just the claim, no \"User believes\"")]:
     d = load_run("2-evidence", f"wording-{w}")
     s = d[(d.condition == "stored_incorrect") & (d.model == "mistral-nemo")]
     wordings.append({"label": label, "value": pct(s["false"].mean())})
 
 trade = load_table("3_fix_tradeoff")
 trade = trade[trade.model == "mistral-nemo"]
-fixnames = {"label": "Label", "rule": "Rule on memory block", "answer_first": "Answer first", "memory_gate": "Memory gate",
-            "tutor": "Tutor frame", "patient": "Patient frame"}
+fixnames = {"label": "\"Unverified\" label", "rule": "Checking rule", "answer_first": "Answer before memory", "memory_gate": "Memory filter",
+            "tutor": "\"You are a tutor\"", "patient": "\"Patient record\""}
 fixes = [{"label": fixnames[r.variant], "a": pct(r.harm_removed / r.main_effect), "b": pct(r.benefit_kept / r.main_benefit)}
          for r in trade.itertuples() if r.variant in fixnames]
 
 mm = load_run("4-mmlu", "default", scoring="harness_score")
 E = lambda d, c, r, v="false": ci(effect(d, c, r, v, paired=False), "up")  # noqa: E731
 mn = mm[mm.model == "mistral-nemo"]
-hyp = [{"label": "H1 Harm, Nemo", **E(mn, "stored_incorrect", "no_belief")},
-       {"label": "H2 Harm, Mistral Small", **E(mm[mm.model == "mistral-small"], "stored_incorrect", "no_belief")},
-       {"label": "H3 Label cuts Nemo's harm", **E(mn, "stored_incorrect", "stored_incorrect_labelled")},
-       {"label": "H4 Labelled memory still harms, Nemo", **E(mn, "stored_incorrect_labelled", "no_belief")},
-       {"label": "H5 Benefit, Nemo", **E(mn, "stored_correct", "no_belief", "correct")}] + [
-       {"label": f"H6 Harm, {n}", **E(mm[mm.model == m], "stored_incorrect", "no_belief")}
+hyp = [{"label": "1. Nemo is pulled", **E(mn, "stored_incorrect", "no_belief")},
+       {"label": "2. Small is pulled", **E(mm[mm.model == "mistral-small"], "stored_incorrect", "no_belief")},
+       {"label": "3. \"Unverified\" helps Nemo", **E(mn, "stored_incorrect", "stored_incorrect_labelled")},
+       {"label": "4. ...but not fully", **E(mn, "stored_incorrect_labelled", "no_belief")},
+       {"label": "5. True memory helps Nemo", **E(mn, "stored_correct", "no_belief", "correct")}] + [
+       {"label": f"Also pulled: {n}", **E(mm[mm.model == m], "stored_incorrect", "no_belief")}
        for m, n in [("llama-8b-deepinfra", "Llama 3.1 8B"), ("qwen-small", "Qwen3.5-9B"), ("gemma-moe", "Gemma 4 26B")]]
 ts = load_table("4_truth_sensitivity").set_index("model")
 truth = [{"label": model_name(m).split(" (")[0], "a": pct(ts.loc[m, "knew"]), "b": pct(ts.loc[m, "unsure"])}
@@ -142,15 +144,15 @@ for m in ["mistral-nemo", "llama-8b-deepinfra", "mistral-small", "claude-haiku",
     tut.append({"label": model_name(m).split(" (")[0], "a": pct(r["told_note_false"]), "b": pct(r["told_note_true"])})
 
 (OUT / "charts.json").write_text(json.dumps({
-    "1-effect": [{"type": "forest", "title": "Rise in false answers with a stored false belief (points, 95% interval)", "rows": e1}],
-    "2-evidence": [{"type": "forest", "title": "Nemo: rise in false answers, by evidence in the question (points)", "rows": dose},
-                   {"type": "bars", "title": "Nemo: false answers with the same false memory, by wording (%). Five identical runs ranged 55 to 61%.", "rows": wordings, "max": 100}],
-    "3-fixes": [{"type": "pairs", "title": "Nemo: share of harm removed vs share of benefit kept (%)", "a": "Harm removed", "b": "Benefit kept", "rows": fixes, "min": -20, "max": 100}],
-    "4-mmlu": [{"type": "forest", "title": "Pre-registered tests (points, 95% interval)", "rows": hyp},
-               {"type": "pairs", "title": "Truth-sensitivity: following a true note minus a false one (points)", "a": "Items it knew", "b": "Items it was unsure of", "rows": truth, "min": -10, "max": 100}],
-    "5-frontier": [{"type": "bars", "title": "F1: correct with no memory, out of replies that gave an answer (%)", "rows": f1acc, "max": 100},
-                   {"type": "pairs", "title": "F3: replies that openly correct the myth, writing task (%)", "a": "No memory", "b": "Myth stored", "rows": f3bars, "max": 100}],
-    "6-tutoring": [{"type": "pairs", "title": "Tutor told the student they were wrong (%)", "a": "False note", "b": "True note", "rows": tut, "max": 100}],
+    "1-effect": [{"type": "forest", "title": "How much a false memory raised wrong answers, by model", "read": "Each dot is the rise in wrong answers, in percentage points, when the memory held a false belief. The line shows the range we are 95% confident about. A dot on 0 means no change.", "rows": e1}],
+    "2-evidence": [{"type": "forest", "title": "Mistral Nemo: the rise in wrong answers shrinks as the question gives more evidence", "read": "Each dot is the rise in wrong answers caused by the false memory, in percentage points, with its 95% range.", "rows": dose},
+                   {"type": "bars", "title": "Mistral Nemo: wrong answers with the same false memory, worded six ways", "read": "Each bar is the share of answers that picked the false option. Running one wording five times only varied between 55% and 61%.", "rows": wordings, "max": 100}],
+    "3-fixes": [{"type": "pairs", "title": "Mistral Nemo: what each fix took away and what it kept", "read": "Blue is how much of the harm from false memories the fix removed. Orange is how much of the help from true memories it kept. A good fix would have both bars near 100%.", "a": "Harm removed (%)", "b": "Benefit kept (%)", "rows": fixes, "min": -20, "max": 100}],
+    "4-mmlu": [{"type": "forest", "title": "Our five main predictions, plus three more models", "read": "Each dot is the size of an effect in percentage points, with its 95% range. Every range sits clearly above 0, so every prediction held.", "rows": hyp},
+               {"type": "pairs", "title": "Does the model tell a true memory from a false one?", "read": "Each bar is how much more often the model followed a true memory than a false one, in percentage points. Big bars mean it could tell them apart. Blue is questions it already knew, orange is questions it got wrong without a memory.", "a": "Questions it knew", "b": "Questions it didn't know", "rows": truth, "min": -10, "max": 100}],
+    "5-frontier": [{"type": "bars", "title": "Correct answers on 64 hard questions, with no memory", "read": "The strongest models got almost everything right, so a false memory had little room to change their answers. Brackets show correct answers out of answers given.", "rows": f1acc, "max": 100},
+                   {"type": "pairs", "title": "How often a model corrected a myth while writing", "read": "Share of replies that openly said the myth is wrong. Orange is with the myth stored in memory. Every model corrected it more often when it was in memory.", "a": "No memory (%)", "b": "Myth in memory (%)", "rows": f3bars, "max": 100}],
+    "6-tutoring": [{"type": "pairs", "title": "How often the tutor told the student their belief was wrong", "read": "Blue is when the note held a wrong belief, so speaking up was right. Orange is when the note held a right belief, so speaking up was a mistake. A good tutor has a long blue bar and a short orange one.", "a": "Note held a wrong belief (%)", "b": "Note held a right belief (%)", "rows": tut, "max": 100}],
 }, ensure_ascii=False, indent=1))
 
 (OUT / "runs.json").write_text(json.dumps({exp: [{"id": r, "label": label, "kind": kind} for r, label, kind in runs] for exp, runs in RUNS.items()}, indent=1))

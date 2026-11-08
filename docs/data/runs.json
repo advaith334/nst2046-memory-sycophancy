@@ -2,172 +2,172 @@
  "1-effect": [
   {
    "id": "main",
-   "label": "Main study, 27 Oct",
+   "label": "Main test: 48 questions, 6 models",
    "kind": "mcq"
   }
  ],
  "2-evidence": [
   {
    "id": "weak-passage",
-   "label": "Weak passage",
+   "label": "A hint in the question",
    "kind": "mcq"
   },
   {
    "id": "strong-passage",
-   "label": "Passage states the answer",
+   "label": "The answer stated in the question",
    "kind": "mcq"
   },
   {
    "id": "false-passage",
-   "label": "False passage vs true memory",
+   "label": "A false passage in the question",
    "kind": "mcq"
   },
   {
    "id": "wording-base",
-   "label": "Wording: base",
+   "label": "Wording: our usual",
    "kind": "mcq"
   },
   {
    "id": "wording-notes",
-   "label": "Wording: notes",
+   "label": "Wording: plain \"Notes:\"",
    "kind": "mcq"
   },
   {
    "id": "wording-may_be_wrong",
-   "label": "Wording: may be wrong",
+   "label": "Wording: \"may be wrong\"",
    "kind": "mcq"
   },
   {
    "id": "wording-bare_fact",
-   "label": "Wording: bare fact",
+   "label": "Wording: just the claim",
    "kind": "mcq"
   },
   {
    "id": "wording-said_once",
-   "label": "Wording: said once",
+   "label": "Wording: \"once said\"",
    "kind": "mcq"
   },
   {
    "id": "wording-verified_profile",
-   "label": "Wording: verified profile",
+   "label": "Wording: \"verified facts\"",
    "kind": "mcq"
   },
   {
    "id": "base-model",
-   "label": "Nemo base (local)",
+   "label": "Base model (no chat training)",
    "kind": "mcq"
   },
   {
    "id": "instruct-model",
-   "label": "Nemo instruct (local)",
+   "label": "Same model with chat training",
    "kind": "mcq"
   }
  ],
  "3-fixes": [
   {
    "id": "fix-tutor",
-   "label": "Tutor frame",
+   "label": "Fix: \"You are a tutor\"",
    "kind": "mcq"
   },
   {
    "id": "fix-patient",
-   "label": "Patient frame",
+   "label": "Fix: \"Patient record\"",
    "kind": "mcq"
   },
   {
    "id": "fix-rule",
-   "label": "Rule on the memory block",
+   "label": "Fix: checking rule",
    "kind": "mcq"
   },
   {
    "id": "fix-answer_first",
-   "label": "Answer first, then revise",
+   "label": "Fix: answer before reading the memory",
    "kind": "mcq"
   },
   {
    "id": "fix-memory_gate",
-   "label": "Memory gate",
+   "label": "Fix: memory filter",
    "kind": "mcq"
   }
  ],
  "4-mmlu": [
   {
    "id": "default",
-   "label": "Default wording",
+   "label": "Main test: 120 exam questions",
    "kind": "mcq"
   },
   {
    "id": "tutor-frame",
-   "label": "Tutor frame",
+   "label": "With \"You are a tutor\"",
    "kind": "mcq"
   },
   {
    "id": "patient-frame",
-   "label": "Patient frame",
+   "label": "With \"Patient record\"",
    "kind": "mcq"
   },
   {
    "id": "wording-may_be_wrong",
-   "label": "Caveat: may be out of date or wrong",
+   "label": "With \"may be out of date or wrong\"",
    "kind": "mcq"
   },
   {
    "id": "claude",
-   "label": "Claude check",
+   "label": "Claude Sonnet check",
    "kind": "mcq"
   }
  ],
  "5-frontier": [
   {
    "id": "f3-frontier",
-   "label": "F3 free text: Claude Haiku, GPT Terra",
+   "label": "Writing about myths: strongest models",
    "kind": "f3"
   },
   {
    "id": "f3-main-models",
-   "label": "F3 free text: main models",
+   "label": "Writing about myths: other models",
    "kind": "f3"
   },
   {
    "id": "f2f4-frontier-base",
-   "label": "F1 headroom items: frontier",
+   "label": "Hard questions: strongest models",
    "kind": "frontier"
   },
   {
    "id": "f2f4-main-models-base",
-   "label": "F1 headroom items: main models",
+   "label": "Hard questions: other models",
    "kind": "frontier"
   },
   {
    "id": "f2f4-frontier-pushback",
-   "label": "F4 pushback: frontier",
+   "label": "User pushes back: strongest models",
    "kind": "frontier"
   },
   {
    "id": "f2f4-main-models-authority",
-   "label": "F4 expert memory: main models",
+   "label": "\"Expert\" memory: other models",
    "kind": "frontier"
   }
  ],
  "6-tutoring": [
   {
-   "id": "planned",
-   "label": "Planned run (500 tokens)",
+   "id": "rerun-1500-tokens",
+   "label": "Second run (longer replies)",
    "kind": "tutor"
   },
   {
-   "id": "rerun-1500-tokens",
-   "label": "Rerun at 1,500 tokens",
+   "id": "planned",
+   "label": "First run (replies cut off at 500 tokens)",
    "kind": "tutor"
   },
   {
    "id": "frame-tutor_b",
-   "label": "Frame test: tutor wording B",
+   "label": "Wording test: \"You are a tutor\"",
    "kind": "tutor"
   },
   {
    "id": "frame-assistant_b",
-   "label": "Frame test: assistant wording B",
+   "label": "Wording test: \"You are an AI assistant\"",
    "kind": "tutor"
   }
  ]
