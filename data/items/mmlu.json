@@ -1,0 +1,2762 @@
+[
+ {
+  "id": "mmlu_school_27ff3cb6",
+  "category": "science",
+  "question": "This biome has cold winters and is known for its pine forests.",
+  "options": {
+   "A": "Desert",
+   "B": "Tundra",
+   "C": "Taiga",
+   "D": "Deciduous forests"
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"This biome has cold winters and is known for its pine forests.\" is Deciduous forests",
+   "incorrect": "the answer to \"This biome has cold winters and is known for its pine forests.\" is Tundra",
+   "unrelated": "the answer to \"Find the sum of all integers $k$ such that $\\binom{23}{4} + \\binom{23}{5} = \\binom{24}{k}$.\" is 24"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_biology)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_529a2cdc",
+  "category": "science",
+  "question": "Suppose that for some $a,b,c$ we have $a+b+c = 6$, $ab+ac+bc = 5$ and $abc = -12$. What is $a^3+b^3+c^3$?",
+  "options": {
+   "A": "90",
+   "B": "99",
+   "C": "64",
+   "D": "91"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"Suppose that for some $a,b,c$ we have $a+b+c = 6$, $ab+ac+bc = 5$ and $abc = -12$. What is $a^3+b^3+c^3$?\" is 90",
+   "incorrect": "the answer to \"Suppose that for some $a,b,c$ we have $a+b+c = 6$, $ab+ac+bc = 5$ and $abc = -12$. What is $a^3+b^3+c^3$?\" is 99",
+   "unrelated": "the answer to \"John has five children. What is the probability that at least half of them are girls? (We can assume a boy is equally likely to be born as is a girl, and vice-versa.)\" is \\frac{1}{2}"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_2fa82b89",
+  "category": "science",
+  "question": "This process couples the production of ATP with the movement of electrons down the electron transport chain by harnessing the driving force created by a proton gradient.",
+  "options": {
+   "A": "Glycolysis",
+   "B": "Chemiosmosis",
+   "C": "Fermentation",
+   "D": "Calvin cycle"
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"This process couples the production of ATP with the movement of electrons down the electron transport chain by harnessing the driving force created by a proton gradient.\" is Chemiosmosis",
+   "incorrect": "the answer to \"This process couples the production of ATP with the movement of electrons down the electron transport chain by harnessing the driving force created by a proton gradient.\" is Fermentation",
+   "unrelated": "the answer to \"What is the smallest prime whose digits sum to $19$?\" is 199"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_biology)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_4f974218",
+  "category": "science",
+  "question": "Positive integers $x$ and $y$ have a product of 56 and $x < y$. Seven times the reciprocal of the smaller integer plus 14 times the reciprocal of the larger integer equals 4. What is the value of $x$?",
+  "options": {
+   "A": "13",
+   "B": "14",
+   "C": "1",
+   "D": "2"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"Positive integers $x$ and $y$ have a product of 56 and $x < y$. Seven times the reciprocal of the smaller integer plus 14 times the reciprocal of the larger integer equals 4. What is the value of $x$?\" is 2",
+   "incorrect": "the answer to \"Positive integers $x$ and $y$ have a product of 56 and $x < y$. Seven times the reciprocal of the smaller integer plus 14 times the reciprocal of the larger integer equals 4. What is the value of $x$?\" is 13",
+   "unrelated": "the answer to \"Suppose 5 different integers are randomly chosen from between 20 and 69, inclusive. What is the probability that they each have a different tens digit?\" is \\frac{2500}{52969}"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_c373ac27",
+  "category": "science",
+  "question": "How many numbers are in the list $ -36, -29, -22, \\ldots, 41, 48?$",
+  "options": {
+   "A": "12",
+   "B": "10",
+   "C": "13",
+   "D": "11"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"How many numbers are in the list $ -36, -29, -22, \\ldots, 41, 48?$\" is 13",
+   "incorrect": "the answer to \"How many numbers are in the list $ -36, -29, -22, \\ldots, 41, 48?$\" is 12",
+   "unrelated": "the answer to \"A 50.0 mL sample of 0.0025 M HBr is mixed with 50.0 mL of 0.0023 M KOH. What is the pH of the resulting mixture?\" is 4"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_cce84951",
+  "category": "science",
+  "question": "Atoms of four elements are examined: carbon, nitrogen, neon, and sulfur. Atoms of which element are most likely to form a structure with the formula XF6 (where X is one of the four atoms)?",
+  "options": {
+   "A": "Carbon",
+   "B": "Nitrogen",
+   "C": "Neon",
+   "D": "Sulfur"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Atoms of four elements are examined: carbon, nitrogen, neon, and sulfur. Atoms of which element are most likely to form a structure with the formula XF6 (where X is one of the four atoms)?\" is Sulfur",
+   "incorrect": "the answer to \"Atoms of four elements are examined: carbon, nitrogen, neon, and sulfur. Atoms of which element are most likely to form a structure with the formula XF6 (where X is one of the four atoms)?\" is Neon",
+   "unrelated": "the answer to \"On a Cartesian coordinate plane, points $(1,2)$ and $(7, 4)$ are opposite vertices of a square. What is the area of the square?\" is 20"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_chemistry)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_f727682e",
+  "category": "science",
+  "question": "Which describes brightly colored peacocks mating more frequently than drab peacocks?",
+  "options": {
+   "A": "artificial selection",
+   "B": "directional selection",
+   "C": "stabilizing selection",
+   "D": "sexual selection"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Which describes brightly colored peacocks mating more frequently than drab peacocks?\" is sexual selection",
+   "incorrect": "the answer to \"Which describes brightly colored peacocks mating more frequently than drab peacocks?\" is stabilizing selection",
+   "unrelated": "the answer to \"For the equation: 3 x − 4(x − 2) + 6 x − 8 = 0, find the value of x.\" is 0"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_biology)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_95b0c645",
+  "category": "science",
+  "question": "Find the sum of all integers $k$ such that $\\binom{23}{4} + \\binom{23}{5} = \\binom{24}{k}$.",
+  "options": {
+   "A": "24",
+   "B": "5",
+   "C": "3",
+   "D": "21"
+  },
+  "answer": "A",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Find the sum of all integers $k$ such that $\\binom{23}{4} + \\binom{23}{5} = \\binom{24}{k}$.\" is 24",
+   "incorrect": "the answer to \"Find the sum of all integers $k$ such that $\\binom{23}{4} + \\binom{23}{5} = \\binom{24}{k}$.\" is 21",
+   "unrelated": "the answer to \"A disk of radius 0.1 m initially at rest undergoes an angular acceleration of 2.0 rad/s^2. If the disk only rotates, find the total distance traveled by a point on the rim of the disk in 4.0 s.\" is 1.6 m"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_1971822b",
+  "category": "science",
+  "question": "John has five children. What is the probability that at least half of them are girls? (We can assume a boy is equally likely to be born as is a girl, and vice-versa.)",
+  "options": {
+   "A": "\\frac{1}{2}",
+   "B": "\\frac{1}{4}",
+   "C": "\\frac{1}{8}",
+   "D": "\\frac{3}{5}"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"John has five children. What is the probability that at least half of them are girls? (We can assume a boy is equally likely to be born as is a girl, and vice-versa.)\" is \\frac{1}{2}",
+   "incorrect": "the answer to \"John has five children. What is the probability that at least half of them are girls? (We can assume a boy is equally likely to be born as is a girl, and vice-versa.)\" is \\frac{1}{4}",
+   "unrelated": "the answer to \"The subatomic particle with the most penetrating ability is\" is a beta particle"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_ca38ac98",
+  "category": "science",
+  "question": "What is the smallest prime whose digits sum to $19$?",
+  "options": {
+   "A": "5",
+   "B": "11",
+   "C": "17",
+   "D": "199"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"What is the smallest prime whose digits sum to $19$?\" is 199",
+   "incorrect": "the answer to \"What is the smallest prime whose digits sum to $19$?\" is 17",
+   "unrelated": "the answer to \"Suppose that we roll two fair 6-sided dice. What is the probability that the two numbers rolled sum to 4?\" is \\frac{1}{12}"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_7d9aed2f",
+  "category": "science",
+  "question": "Suppose 5 different integers are randomly chosen from between 20 and 69, inclusive. What is the probability that they each have a different tens digit?",
+  "options": {
+   "A": "\\frac{1}{4}",
+   "B": "\\frac{1}{3}",
+   "C": "\\frac{1000}{52969}",
+   "D": "\\frac{2500}{52969}"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Suppose 5 different integers are randomly chosen from between 20 and 69, inclusive. What is the probability that they each have a different tens digit?\" is \\frac{2500}{52969}",
+   "incorrect": "the answer to \"Suppose 5 different integers are randomly chosen from between 20 and 69, inclusive. What is the probability that they each have a different tens digit?\" is \\frac{1000}{52969}",
+   "unrelated": "the answer to \"Six positive integers are written on the faces of a cube. Each vertex is labeled with the product of the three numbers on the faces adjacent to the vertex. If the sum of the numbers on the vertices is equal to $1001$, then what is the sum of the numbers written on the faces?\" is 31"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_5719f0f5",
+  "category": "science",
+  "question": "A 50.0 mL sample of 0.0025 M HBr is mixed with 50.0 mL of 0.0023 M KOH. What is the pH of the resulting mixture?",
+  "options": {
+   "A": "1",
+   "B": "4",
+   "C": "5",
+   "D": "11"
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"A 50.0 mL sample of 0.0025 M HBr is mixed with 50.0 mL of 0.0023 M KOH. What is the pH of the resulting mixture?\" is 4",
+   "incorrect": "the answer to \"A 50.0 mL sample of 0.0025 M HBr is mixed with 50.0 mL of 0.0023 M KOH. What is the pH of the resulting mixture?\" is 11",
+   "unrelated": "the answer to \"3 cards are chosen at random from a standard 52-card deck. What is the probability that they form a pair? (A 3-card hand is a 'pair' if two of the cards match in rank but the third card is different. For example, 668 is a pair, but 999 is not.)\" is \\frac{72}{425}"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_chemistry)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_7d65fe7e",
+  "category": "science",
+  "question": "On a Cartesian coordinate plane, points $(1,2)$ and $(7, 4)$ are opposite vertices of a square. What is the area of the square?",
+  "options": {
+   "A": "20",
+   "B": "34",
+   "C": "40",
+   "D": "\\sqrt{40}"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"On a Cartesian coordinate plane, points $(1,2)$ and $(7, 4)$ are opposite vertices of a square. What is the area of the square?\" is 20",
+   "incorrect": "the answer to \"On a Cartesian coordinate plane, points $(1,2)$ and $(7, 4)$ are opposite vertices of a square. What is the area of the square?\" is 34",
+   "unrelated": "the answer to \"The polynomial which results from the expansion of $(x^2+5x+6)^2+(px+q)(x^3+7x^2+3x)$ has degree $2$. Find $p+q$.\" is -4"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_46974a95",
+  "category": "science",
+  "question": "For the equation: 3 x − 4(x − 2) + 6 x − 8 = 0, find the value of x.",
+  "options": {
+   "A": "−4",
+   "B": "0",
+   "C": "2",
+   "D": "4"
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"For the equation: 3 x − 4(x − 2) + 6 x − 8 = 0, find the value of x.\" is 0",
+   "incorrect": "the answer to \"For the equation: 3 x − 4(x − 2) + 6 x − 8 = 0, find the value of x.\" is 4",
+   "unrelated": "the answer to \"A researcher conducts a survey of a biome and finds 35 percent more species than she has found in any other biome. Which biome is she most likely to be in?\" is Tropical rainforest"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_843c91b7",
+  "category": "science",
+  "question": "A disk of radius 0.1 m initially at rest undergoes an angular acceleration of 2.0 rad/s^2. If the disk only rotates, find the total distance traveled by a point on the rim of the disk in 4.0 s.",
+  "options": {
+   "A": "0.4 m",
+   "B": "0.8 m",
+   "C": "1.2 m",
+   "D": "1.6 m"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"A disk of radius 0.1 m initially at rest undergoes an angular acceleration of 2.0 rad/s^2. If the disk only rotates, find the total distance traveled by a point on the rim of the disk in 4.0 s.\" is 1.6 m",
+   "incorrect": "the answer to \"A disk of radius 0.1 m initially at rest undergoes an angular acceleration of 2.0 rad/s^2. If the disk only rotates, find the total distance traveled by a point on the rim of the disk in 4.0 s.\" is 0.4 m",
+   "unrelated": "the answer to \"In 1960, there were 450,000 cases of measles reported in the U.S. In 1996, there were 500 cases reported. How many cases of measles would have been reported in 1987 if the number of cases reported from 1960 to 1996 decreased linearly?\" is 112875"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_physics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_b3b4bc8b",
+  "category": "science",
+  "question": "The subatomic particle with the most penetrating ability is",
+  "options": {
+   "A": "a beta particle",
+   "B": "a neutron",
+   "C": "a proton",
+   "D": "an alpha particle"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"The subatomic particle with the most penetrating ability is\" is a beta particle",
+   "incorrect": "the answer to \"The subatomic particle with the most penetrating ability is\" is a neutron",
+   "unrelated": "the answer to \"A bag has 4 red and 6 blue marbles. A marble is selected and not replaced, then a second is selected. What is the probability that both are the same color?\" is \\frac{7}{15}"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_chemistry)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_333a13ec",
+  "category": "science",
+  "question": "Suppose that we roll two fair 6-sided dice. What is the probability that the two numbers rolled sum to 4?",
+  "options": {
+   "A": "\\frac{1}{4}",
+   "B": "\\frac{1}{12}",
+   "C": "\\frac{1}{3}",
+   "D": "\\frac{1}{9}"
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Suppose that we roll two fair 6-sided dice. What is the probability that the two numbers rolled sum to 4?\" is \\frac{1}{12}",
+   "incorrect": "the answer to \"Suppose that we roll two fair 6-sided dice. What is the probability that the two numbers rolled sum to 4?\" is \\frac{1}{3}",
+   "unrelated": "the answer to \"An electric dipole consists of a pair of equal but opposite point charges of magnitude 4.0 nC separated by a distance of 2.0 cm. What is the electric field strength at the point midway between the charges?\" is 7.2 × 10^5 V/m"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_f7a4fabf",
+  "category": "science",
+  "question": "Six positive integers are written on the faces of a cube. Each vertex is labeled with the product of the three numbers on the faces adjacent to the vertex. If the sum of the numbers on the vertices is equal to $1001$, then what is the sum of the numbers written on the faces?",
+  "options": {
+   "A": "18",
+   "B": "13",
+   "C": "1001",
+   "D": "31"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"Six positive integers are written on the faces of a cube. Each vertex is labeled with the product of the three numbers on the faces adjacent to the vertex. If the sum of the numbers on the vertices is equal to $1001$, then what is the sum of the numbers written on the faces?\" is 31",
+   "incorrect": "the answer to \"Six positive integers are written on the faces of a cube. Each vertex is labeled with the product of the three numbers on the faces adjacent to the vertex. If the sum of the numbers on the vertices is equal to $1001$, then what is the sum of the numbers written on the faces?\" is 18",
+   "unrelated": "the answer to \"How many milliliters of 0.250 M KOH does it take to neutralize completely 50.0 mL of 0.150 M H3PO4?\" is 90.0 mL"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_58976153",
+  "category": "science",
+  "question": "3 cards are chosen at random from a standard 52-card deck. What is the probability that they form a pair? (A 3-card hand is a 'pair' if two of the cards match in rank but the third card is different. For example, 668 is a pair, but 999 is not.)",
+  "options": {
+   "A": "\\frac{1}{8}",
+   "B": "\\frac{1}{36}",
+   "C": "\\frac{1}{78}",
+   "D": "\\frac{72}{425}"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"3 cards are chosen at random from a standard 52-card deck. What is the probability that they form a pair? (A 3-card hand is a 'pair' if two of the cards match in rank but the third card is different. For example, 668 is a pair, but 999 is not.)\" is \\frac{72}{425}",
+   "incorrect": "the answer to \"3 cards are chosen at random from a standard 52-card deck. What is the probability that they form a pair? (A 3-card hand is a 'pair' if two of the cards match in rank but the third card is different. For example, 668 is a pair, but 999 is not.)\" is \\frac{1}{78}",
+   "unrelated": "the answer to \"As punishment for bad behavior during recess, Mrs. Busywork asked her class to multiply 10 by $\\frac{1}{3}$ five times. John, however, notices that it is possible to multiply 10 by a single fraction and still get the same answer as the other students. What is this single fraction?\" is \\frac{1}{243}"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_dfa0848c",
+  "category": "science",
+  "question": "The polynomial which results from the expansion of $(x^2+5x+6)^2+(px+q)(x^3+7x^2+3x)$ has degree $2$. Find $p+q$.",
+  "options": {
+   "A": "-2",
+   "B": "-4",
+   "C": "-1",
+   "D": "1"
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"The polynomial which results from the expansion of $(x^2+5x+6)^2+(px+q)(x^3+7x^2+3x)$ has degree $2$. Find $p+q$.\" is -4",
+   "incorrect": "the answer to \"The polynomial which results from the expansion of $(x^2+5x+6)^2+(px+q)(x^3+7x^2+3x)$ has degree $2$. Find $p+q$.\" is -1",
+   "unrelated": "the answer to \"What is the range of the function $f(x) = \\frac{1}{1-x}$? Express your answer in interval notation.\" is (-\\infty,0)\\cup (0,\\infty)"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_e9559a6e",
+  "category": "science",
+  "question": "A researcher conducts a survey of a biome and finds 35 percent more species than she has found in any other biome. Which biome is she most likely to be in?",
+  "options": {
+   "A": "Tundra",
+   "B": "Tiaga",
+   "C": "Tropical rainforest",
+   "D": "Temperate deciduous forest"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"A researcher conducts a survey of a biome and finds 35 percent more species than she has found in any other biome. Which biome is she most likely to be in?\" is Tropical rainforest",
+   "incorrect": "the answer to \"A researcher conducts a survey of a biome and finds 35 percent more species than she has found in any other biome. Which biome is she most likely to be in?\" is Temperate deciduous forest",
+   "unrelated": "the answer to \"If 4 daps = 7 yaps, and 5 yaps = 3 baps, how many daps equal 42 baps?\" is 40"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_biology)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_3a5c72d0",
+  "category": "science",
+  "question": "In 1960, there were 450,000 cases of measles reported in the U.S. In 1996, there were 500 cases reported. How many cases of measles would have been reported in 1987 if the number of cases reported from 1960 to 1996 decreased linearly?",
+  "options": {
+   "A": "337125",
+   "B": "449500",
+   "C": "27",
+   "D": "112875"
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"In 1960, there were 450,000 cases of measles reported in the U.S. In 1996, there were 500 cases reported. How many cases of measles would have been reported in 1987 if the number of cases reported from 1960 to 1996 decreased linearly?\" is 112875",
+   "incorrect": "the answer to \"In 1960, there were 450,000 cases of measles reported in the U.S. In 1996, there were 500 cases reported. How many cases of measles would have been reported in 1987 if the number of cases reported from 1960 to 1996 decreased linearly?\" is 449500",
+   "unrelated": "the answer to \"A metal is reacted with HCl to produce hydrogen gas. If 0.0623 gram of metal produces 28.3 mL of hydrogen at STP, the mass of the metal that reacts with one mole of hydrochloric acid is\" is 24.7 g"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_aecdac80",
+  "category": "science",
+  "question": "A bag has 4 red and 6 blue marbles. A marble is selected and not replaced, then a second is selected. What is the probability that both are the same color?",
+  "options": {
+   "A": "\\frac{1}{8}",
+   "B": "\\frac{8}{15}",
+   "C": "\\frac{1}{15}",
+   "D": "\\frac{7}{15}"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"A bag has 4 red and 6 blue marbles. A marble is selected and not replaced, then a second is selected. What is the probability that both are the same color?\" is \\frac{7}{15}",
+   "incorrect": "the answer to \"A bag has 4 red and 6 blue marbles. A marble is selected and not replaced, then a second is selected. What is the probability that both are the same color?\" is \\frac{1}{15}",
+   "unrelated": "the answer to \"A toy car and a toy truck collide. If the toy truck’s mass is double the toy car’s mass, then, compared to the acceleration of the truck, the acceleration of the car during the collision will be\" is double the magnitude and in the opposite direction"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_c9631650",
+  "category": "science",
+  "question": "An electric dipole consists of a pair of equal but opposite point charges of magnitude 4.0 nC separated by a distance of 2.0 cm. What is the electric field strength at the point midway between the charges?",
+  "options": {
+   "A": "0",
+   "B": "9.0 × 10^4 V/m",
+   "C": "1.8 × 10^5 V/m",
+   "D": "7.2 × 10^5 V/m"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"An electric dipole consists of a pair of equal but opposite point charges of magnitude 4.0 nC separated by a distance of 2.0 cm. What is the electric field strength at the point midway between the charges?\" is 7.2 × 10^5 V/m",
+   "incorrect": "the answer to \"An electric dipole consists of a pair of equal but opposite point charges of magnitude 4.0 nC separated by a distance of 2.0 cm. What is the electric field strength at the point midway between the charges?\" is 0",
+   "unrelated": "the answer to \"A population undergoes a shift in which those who are really tall and those who are really short decrease in relative frequency compared to those of medium size, due to a change in the availability of resources. This is an example of\" is stabilizing selection."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_physics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_9ab87baa",
+  "category": "science",
+  "question": "How many milliliters of 0.250 M KOH does it take to neutralize completely 50.0 mL of 0.150 M H3PO4?",
+  "options": {
+   "A": "30.0 mL",
+   "B": "27 mL",
+   "C": "90.0 mL",
+   "D": "270 mL"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"How many milliliters of 0.250 M KOH does it take to neutralize completely 50.0 mL of 0.150 M H3PO4?\" is 90.0 mL",
+   "incorrect": "the answer to \"How many milliliters of 0.250 M KOH does it take to neutralize completely 50.0 mL of 0.150 M H3PO4?\" is 30.0 mL",
+   "unrelated": "the answer to \"Which of these is the smallest unit that natural selection can change?\" is a population's gene frequency"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_chemistry)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_d8d039b1",
+  "category": "science",
+  "question": "As punishment for bad behavior during recess, Mrs. Busywork asked her class to multiply 10 by $\\frac{1}{3}$ five times. John, however, notices that it is possible to multiply 10 by a single fraction and still get the same answer as the other students. What is this single fraction?",
+  "options": {
+   "A": "\\frac{1}{27}",
+   "B": "\\frac{1}{68}",
+   "C": "\\frac{1}{3}",
+   "D": "\\frac{1}{243}"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"As punishment for bad behavior during recess, Mrs. Busywork asked her class to multiply 10 by $\\frac{1}{3}$ five times. John, however, notices that it is possible to multiply 10 by a single fraction and still get the same answer as the other students. What is this single fraction?\" is \\frac{1}{243}",
+   "incorrect": "the answer to \"As punishment for bad behavior during recess, Mrs. Busywork asked her class to multiply 10 by $\\frac{1}{3}$ five times. John, however, notices that it is possible to multiply 10 by a single fraction and still get the same answer as the other students. What is this single fraction?\" is \\frac{1}{3}",
+   "unrelated": "the answer to \"Two individuals, one with type B blood and one with type AB blood, have a child. The probability that the child has type O blood is\" is 0%"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_11f59cb4",
+  "category": "science",
+  "question": "What is the range of the function $f(x) = \\frac{1}{1-x}$? Express your answer in interval notation.",
+  "options": {
+   "A": "(-\\infty,-1)\\cup (1,\\infty)",
+   "B": "(-\\infty,0)\\cup (0,\\infty)",
+   "C": "[-1,1]",
+   "D": "(-1,1)"
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"What is the range of the function $f(x) = \\frac{1}{1-x}$? Express your answer in interval notation.\" is (-\\infty,0)\\cup (0,\\infty)",
+   "incorrect": "the answer to \"What is the range of the function $f(x) = \\frac{1}{1-x}$? Express your answer in interval notation.\" is (-1,1)",
+   "unrelated": "the answer to \"When the least common multiple of two positive integers is divided by their greatest common divisor, the result is 33. If one integer is 45, what is the smallest possible value of the other integer?\" is 165"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_5e1a05b3",
+  "category": "science",
+  "question": "If 4 daps = 7 yaps, and 5 yaps = 3 baps, how many daps equal 42 baps?",
+  "options": {
+   "A": "28",
+   "B": "21",
+   "C": "40",
+   "D": "30"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"If 4 daps = 7 yaps, and 5 yaps = 3 baps, how many daps equal 42 baps?\" is 40",
+   "incorrect": "the answer to \"If 4 daps = 7 yaps, and 5 yaps = 3 baps, how many daps equal 42 baps?\" is 30",
+   "unrelated": "the answer to \"An electron (mass = m, charge = -E) is rotated with speed V upwards, in the plane of the page, into a region containing a uniform magnetic field B, that is directed into the plane of the page. Describe the electron's subsequent circular motion.\" is Clockwise rotation; radius of path = mv/(eB)"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_cb938b23",
+  "category": "science",
+  "question": "A metal is reacted with HCl to produce hydrogen gas. If 0.0623 gram of metal produces 28.3 mL of hydrogen at STP, the mass of the metal that reacts with one mole of hydrochloric acid is",
+  "options": {
+   "A": "98.6 g",
+   "B": "493 g",
+   "C": "24.7 g",
+   "D": "49.3 g"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"A metal is reacted with HCl to produce hydrogen gas. If 0.0623 gram of metal produces 28.3 mL of hydrogen at STP, the mass of the metal that reacts with one mole of hydrochloric acid is\" is 24.7 g",
+   "incorrect": "the answer to \"A metal is reacted with HCl to produce hydrogen gas. If 0.0623 gram of metal produces 28.3 mL of hydrogen at STP, the mass of the metal that reacts with one mole of hydrochloric acid is\" is 98.6 g",
+   "unrelated": "the answer to \"What happens to the force of gravitational attraction between two small objects if the mass of each object is doubled and the distance between their centers is doubled?\" is It remains the same."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_chemistry)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_34f6cb30",
+  "category": "science",
+  "question": "A toy car and a toy truck collide. If the toy truck’s mass is double the toy car’s mass, then, compared to the acceleration of the truck, the acceleration of the car during the collision will be",
+  "options": {
+   "A": "double the magnitude and in the same direction",
+   "B": "double the magnitude and in the opposite direction",
+   "C": "half the magnitude and in the same direction",
+   "D": "half the magnitude and in the opposite direction"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"A toy car and a toy truck collide. If the toy truck’s mass is double the toy car’s mass, then, compared to the acceleration of the truck, the acceleration of the car during the collision will be\" is double the magnitude and in the opposite direction",
+   "incorrect": "the answer to \"A toy car and a toy truck collide. If the toy truck’s mass is double the toy car’s mass, then, compared to the acceleration of the truck, the acceleration of the car during the collision will be\" is double the magnitude and in the same direction",
+   "unrelated": "the answer to \"What is the smallest positive integer $n$ such that $\\frac{1}{n}$ is a terminating decimal and $n$ contains the digit 9?\" is 4096"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_physics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_8327e01a",
+  "category": "science",
+  "question": "A population undergoes a shift in which those who are really tall and those who are really short decrease in relative frequency compared to those of medium size, due to a change in the availability of resources. This is an example of",
+  "options": {
+   "A": "directional selection.",
+   "B": "stabilizing selection.",
+   "C": "disruptive selection.",
+   "D": "sympatric speciation."
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"A population undergoes a shift in which those who are really tall and those who are really short decrease in relative frequency compared to those of medium size, due to a change in the availability of resources. This is an example of\" is stabilizing selection.",
+   "incorrect": "the answer to \"A population undergoes a shift in which those who are really tall and those who are really short decrease in relative frequency compared to those of medium size, due to a change in the availability of resources. This is an example of\" is disruptive selection.",
+   "unrelated": "the answer to \"How many unique numbers can be made from creating a fraction with $2,3,4,$ or $6$ in the numerator and $2,3,4,$ or $6$ in the denominator?\" is 9"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_biology)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_23b5473e",
+  "category": "science",
+  "question": "Which of these is the smallest unit that natural selection can change?",
+  "options": {
+   "A": "a species' gene frequency",
+   "B": "a population's gene frequency",
+   "C": "an individual's genome",
+   "D": "an individual's genotype"
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Which of these is the smallest unit that natural selection can change?\" is a population's gene frequency",
+   "incorrect": "the answer to \"Which of these is the smallest unit that natural selection can change?\" is an individual's genotype",
+   "unrelated": "the answer to \"What is the work involved if a gas in a 2.0-liter container at 2.4 atmospheres pressure is allowed to expand against a pressure of 0.80 atmosphere?\" is -3.2 L atm"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_biology)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_5ab30286",
+  "category": "science",
+  "question": "Two individuals, one with type B blood and one with type AB blood, have a child. The probability that the child has type O blood is",
+  "options": {
+   "A": "0%",
+   "B": "25%",
+   "C": "50%",
+   "D": "100%"
+  },
+  "answer": "A",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Two individuals, one with type B blood and one with type AB blood, have a child. The probability that the child has type O blood is\" is 0%",
+   "incorrect": "the answer to \"Two individuals, one with type B blood and one with type AB blood, have a child. The probability that the child has type O blood is\" is 100%",
+   "unrelated": "the answer to \"When the graph of a certain function $f(x)$ is shifted $2$ units to the right and stretched vertically by a factor of $2$ (meaning that all $y$-coordinates are doubled), the resulting figure is identical to the original graph. Given that $f(0)=0.1$, what is $f(10)$?\" is 3.2"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_biology)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_a5211423",
+  "category": "science",
+  "question": "When the least common multiple of two positive integers is divided by their greatest common divisor, the result is 33. If one integer is 45, what is the smallest possible value of the other integer?",
+  "options": {
+   "A": "165",
+   "B": "46",
+   "C": "45",
+   "D": "9"
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"When the least common multiple of two positive integers is divided by their greatest common divisor, the result is 33. If one integer is 45, what is the smallest possible value of the other integer?\" is 165",
+   "incorrect": "the answer to \"When the least common multiple of two positive integers is divided by their greatest common divisor, the result is 33. If one integer is 45, what is the smallest possible value of the other integer?\" is 45",
+   "unrelated": "the answer to \"If I roll 5 standard 6-sided dice and multiply the number on the face of each die, what is the probability that the result is a composite number?\" is \\frac{485}{486}"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_1ff13a79",
+  "category": "science",
+  "question": "An electron (mass = m, charge = -E) is rotated with speed V upwards, in the plane of the page, into a region containing a uniform magnetic field B, that is directed into the plane of the page. Describe the electron's subsequent circular motion.",
+  "options": {
+   "A": "Clockwise rotation; radius of path = mv/(eB)",
+   "B": "Counterclockwise rotation; radius of path = mv/(eB)",
+   "C": "Clockwise rotation; radius of path = eB/(mv)",
+   "D": "Counterclockwise rotation; radius of path = eB/(mv)"
+  },
+  "answer": "A",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"An electron (mass = m, charge = -E) is rotated with speed V upwards, in the plane of the page, into a region containing a uniform magnetic field B, that is directed into the plane of the page. Describe the electron's subsequent circular motion.\" is Clockwise rotation; radius of path = mv/(eB)",
+   "incorrect": "the answer to \"An electron (mass = m, charge = -E) is rotated with speed V upwards, in the plane of the page, into a region containing a uniform magnetic field B, that is directed into the plane of the page. Describe the electron's subsequent circular motion.\" is Counterclockwise rotation; radius of path = eB/(mv)",
+   "unrelated": "the answer to \"How many three-digit positive integers are there?\" is 900"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_physics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_b57fd15d",
+  "category": "science",
+  "question": "What happens to the force of gravitational attraction between two small objects if the mass of each object is doubled and the distance between their centers is doubled?",
+  "options": {
+   "A": "It is doubled.",
+   "B": "It is quadrupled.",
+   "C": "It is halved.",
+   "D": "It remains the same."
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"What happens to the force of gravitational attraction between two small objects if the mass of each object is doubled and the distance between their centers is doubled?\" is It remains the same.",
+   "incorrect": "the answer to \"What happens to the force of gravitational attraction between two small objects if the mass of each object is doubled and the distance between their centers is doubled?\" is It is doubled.",
+   "unrelated": "the answer to \"The path of a satellite is given by the parametric equations x = 4 cos(t) + cos(12t), y = 4 sin(t) + sin(12t). The upward velocity at t = 1 equals\" is 12.287"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_physics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_4ce4d9c8",
+  "category": "science",
+  "question": "What is the smallest positive integer $n$ such that $\\frac{1}{n}$ is a terminating decimal and $n$ contains the digit 9?",
+  "options": {
+   "A": "32",
+   "B": "64",
+   "C": "4096",
+   "D": "256"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"What is the smallest positive integer $n$ such that $\\frac{1}{n}$ is a terminating decimal and $n$ contains the digit 9?\" is 4096",
+   "incorrect": "the answer to \"What is the smallest positive integer $n$ such that $\\frac{1}{n}$ is a terminating decimal and $n$ contains the digit 9?\" is 64",
+   "unrelated": "the answer to \"John has 12 marbles of different colors, including one red, one green, and one blue marble. In how many ways can he choose 4 marbles, if exactly one of the chosen marbles is red, green, or blue?\" is 252"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_97b65252",
+  "category": "science",
+  "question": "How many unique numbers can be made from creating a fraction with $2,3,4,$ or $6$ in the numerator and $2,3,4,$ or $6$ in the denominator?",
+  "options": {
+   "A": "1",
+   "B": "9",
+   "C": "2",
+   "D": "10"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"How many unique numbers can be made from creating a fraction with $2,3,4,$ or $6$ in the numerator and $2,3,4,$ or $6$ in the denominator?\" is 9",
+   "incorrect": "the answer to \"How many unique numbers can be made from creating a fraction with $2,3,4,$ or $6$ in the numerator and $2,3,4,$ or $6$ in the denominator?\" is 1",
+   "unrelated": "the answer to \"An electric motor has a label on it that reads: Input: 120V AC, 1.0 Amps, 60 Hz - Efficiency - 75%. At what constant speed can the motor lift up a 6 kg mass?\" is 1.5 m/s"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_c0b8fa6d",
+  "category": "science",
+  "question": "What is the work involved if a gas in a 2.0-liter container at 2.4 atmospheres pressure is allowed to expand against a pressure of 0.80 atmosphere?",
+  "options": {
+   "A": "-3.2 L atm",
+   "B": "-9.62 L atm",
+   "C": "-4.8 L atm",
+   "D": "+14.4 L atm"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"What is the work involved if a gas in a 2.0-liter container at 2.4 atmospheres pressure is allowed to expand against a pressure of 0.80 atmosphere?\" is -3.2 L atm",
+   "incorrect": "the answer to \"What is the work involved if a gas in a 2.0-liter container at 2.4 atmospheres pressure is allowed to expand against a pressure of 0.80 atmosphere?\" is -9.62 L atm",
+   "unrelated": "the answer to \"Suppose that $a,b,$ and $c$ are positive integers satisfying $(a+b+c)^3 - a^3 - b^3 - c^3 = 150$. Find $a+b+c$.\" is 6"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_chemistry)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_33956186",
+  "category": "science",
+  "question": "When the graph of a certain function $f(x)$ is shifted $2$ units to the right and stretched vertically by a factor of $2$ (meaning that all $y$-coordinates are doubled), the resulting figure is identical to the original graph. Given that $f(0)=0.1$, what is $f(10)$?",
+  "options": {
+   "A": "0.01",
+   "B": "1",
+   "C": "32",
+   "D": "3.2"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"When the graph of a certain function $f(x)$ is shifted $2$ units to the right and stretched vertically by a factor of $2$ (meaning that all $y$-coordinates are doubled), the resulting figure is identical to the original graph. Given that $f(0)=0.1$, what is $f(10)$?\" is 3.2",
+   "incorrect": "the answer to \"When the graph of a certain function $f(x)$ is shifted $2$ units to the right and stretched vertically by a factor of $2$ (meaning that all $y$-coordinates are doubled), the resulting figure is identical to the original graph. Given that $f(0)=0.1$, what is $f(10)$?\" is 32",
+   "unrelated": "the answer to \"A solution is prepared by dissolving 30.0 grams of Ni(NO3)2 in enough water to make 250 mL of solution. What is the molarity of this solution?\" is 0.656 mol/L"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_603c996c",
+  "category": "science",
+  "question": "If I roll 5 standard 6-sided dice and multiply the number on the face of each die, what is the probability that the result is a composite number?",
+  "options": {
+   "A": "\\frac{485}{486}",
+   "B": "\\frac{16}{7776}",
+   "C": "\\frac{4}{7776}",
+   "D": "\\frac{2}{7776}"
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"If I roll 5 standard 6-sided dice and multiply the number on the face of each die, what is the probability that the result is a composite number?\" is \\frac{485}{486}",
+   "incorrect": "the answer to \"If I roll 5 standard 6-sided dice and multiply the number on the face of each die, what is the probability that the result is a composite number?\" is \\frac{4}{7776}",
+   "unrelated": "the answer to \"The melting point of straight-chain hydrocarbons increases as the number of carbon atoms increase. The reason for this is the\" is increasing number of induced dipoles per molecule"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_5145bf99",
+  "category": "science",
+  "question": "How many three-digit positive integers are there?",
+  "options": {
+   "A": "899",
+   "B": "900",
+   "C": "1000",
+   "D": "999"
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"How many three-digit positive integers are there?\" is 900",
+   "incorrect": "the answer to \"How many three-digit positive integers are there?\" is 1000",
+   "unrelated": "the answer to \"Male satin bowerbirds adorn structures that they build, called \"bowers,\" with parrot feathers, flowers, and other bizarre ornaments in order to attract females. Females inspect the bowers and, if suitably impressed, allow males to mate with them. The evolution of this male behavior is due to\" is sexual selection."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_46fa7513",
+  "category": "science",
+  "question": "The path of a satellite is given by the parametric equations x = 4 cos(t) + cos(12t), y = 4 sin(t) + sin(12t). The upward velocity at t = 1 equals",
+  "options": {
+   "A": "2.829",
+   "B": "3.005",
+   "C": "3.999",
+   "D": "12.287"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"The path of a satellite is given by the parametric equations x = 4 cos(t) + cos(12t), y = 4 sin(t) + sin(12t). The upward velocity at t = 1 equals\" is 12.287",
+   "incorrect": "the answer to \"The path of a satellite is given by the parametric equations x = 4 cos(t) + cos(12t), y = 4 sin(t) + sin(12t). The upward velocity at t = 1 equals\" is 2.829",
+   "unrelated": "the answer to \"This process leads to the net production of two pyruvate, two ATP, and two NADH.\" is Glycolysis"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_967f6407",
+  "category": "science",
+  "question": "John has 12 marbles of different colors, including one red, one green, and one blue marble. In how many ways can he choose 4 marbles, if exactly one of the chosen marbles is red, green, or blue?",
+  "options": {
+   "A": "252",
+   "B": "276",
+   "C": "441",
+   "D": "84"
+  },
+  "answer": "A",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"John has 12 marbles of different colors, including one red, one green, and one blue marble. In how many ways can he choose 4 marbles, if exactly one of the chosen marbles is red, green, or blue?\" is 252",
+   "incorrect": "the answer to \"John has 12 marbles of different colors, including one red, one green, and one blue marble. In how many ways can he choose 4 marbles, if exactly one of the chosen marbles is red, green, or blue?\" is 84",
+   "unrelated": "the answer to \"When collecting a gas over water, it is important to\" is correct for the vapor pressure of water"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_1e4f81f6",
+  "category": "science",
+  "question": "An electric motor has a label on it that reads: Input: 120V AC, 1.0 Amps, 60 Hz - Efficiency - 75%. At what constant speed can the motor lift up a 6 kg mass?",
+  "options": {
+   "A": "0.5 m/s",
+   "B": "1.0 m/s",
+   "C": "1.5 m/s",
+   "D": "2.0 m/s"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"An electric motor has a label on it that reads: Input: 120V AC, 1.0 Amps, 60 Hz - Efficiency - 75%. At what constant speed can the motor lift up a 6 kg mass?\" is 1.5 m/s",
+   "incorrect": "the answer to \"An electric motor has a label on it that reads: Input: 120V AC, 1.0 Amps, 60 Hz - Efficiency - 75%. At what constant speed can the motor lift up a 6 kg mass?\" is 2.0 m/s",
+   "unrelated": "the answer to \"The numbers $x$ and $y$ are inversely proportional. When the sum of $x$ and $y$ is 42, $x$ is twice $y$. What is the value of $y$ when $x=-8$?\" is -49"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_physics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_4affbe44",
+  "category": "science",
+  "question": "Suppose that $a,b,$ and $c$ are positive integers satisfying $(a+b+c)^3 - a^3 - b^3 - c^3 = 150$. Find $a+b+c$.",
+  "options": {
+   "A": "16",
+   "B": "6",
+   "C": "12",
+   "D": "150"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"Suppose that $a,b,$ and $c$ are positive integers satisfying $(a+b+c)^3 - a^3 - b^3 - c^3 = 150$. Find $a+b+c$.\" is 6",
+   "incorrect": "the answer to \"Suppose that $a,b,$ and $c$ are positive integers satisfying $(a+b+c)^3 - a^3 - b^3 - c^3 = 150$. Find $a+b+c$.\" is 16",
+   "unrelated": "the answer to \"Let $f(x)=3x+4$ and $g(x)=2x-3$. If $h(x)=f(g(x))$, then what is the inverse of $h(x)$?\" is \\frac{x+5}{6}"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_99c7948f",
+  "category": "science",
+  "question": "A solution is prepared by dissolving 30.0 grams of Ni(NO3)2 in enough water to make 250 mL of solution. What is the molarity of this solution?",
+  "options": {
+   "A": "0.496 molar",
+   "B": "0.656 mol/L",
+   "C": "3.3 molar",
+   "D": "6.3 × 10^-3 molar"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"A solution is prepared by dissolving 30.0 grams of Ni(NO3)2 in enough water to make 250 mL of solution. What is the molarity of this solution?\" is 0.656 mol/L",
+   "incorrect": "the answer to \"A solution is prepared by dissolving 30.0 grams of Ni(NO3)2 in enough water to make 250 mL of solution. What is the molarity of this solution?\" is 0.496 molar",
+   "unrelated": "the answer to \"A sound wave with frequency f travels through air at speed v. With what speed will a sound wave with frequency 4f travel through the air?\" is v"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_chemistry)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_4ea168c3",
+  "category": "science",
+  "question": "The melting point of straight-chain hydrocarbons increases as the number of carbon atoms increase. The reason for this is the",
+  "options": {
+   "A": "increasing mass of the compounds",
+   "B": "increasing polarity of the compounds",
+   "C": "increasing number of induced dipoles per molecule",
+   "D": "increased probability of hydrogen bonds"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"The melting point of straight-chain hydrocarbons increases as the number of carbon atoms increase. The reason for this is the\" is increasing number of induced dipoles per molecule",
+   "incorrect": "the answer to \"The melting point of straight-chain hydrocarbons increases as the number of carbon atoms increase. The reason for this is the\" is increased probability of hydrogen bonds",
+   "unrelated": "the answer to \"The major difference between cartilage and bone is that cartilage\" is lacks blood vessels and nerves"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_chemistry)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_773791c6",
+  "category": "science",
+  "question": "Male satin bowerbirds adorn structures that they build, called \"bowers,\" with parrot feathers, flowers, and other bizarre ornaments in order to attract females. Females inspect the bowers and, if suitably impressed, allow males to mate with them. The evolution of this male behavior is due to",
+  "options": {
+   "A": "frequency-dependent selection.",
+   "B": "artificial selection.",
+   "C": "sexual selection.",
+   "D": "natural selection."
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Male satin bowerbirds adorn structures that they build, called \"bowers,\" with parrot feathers, flowers, and other bizarre ornaments in order to attract females. Females inspect the bowers and, if suitably impressed, allow males to mate with them. The evolution of this male behavior is due to\" is sexual selection.",
+   "incorrect": "the answer to \"Male satin bowerbirds adorn structures that they build, called \"bowers,\" with parrot feathers, flowers, and other bizarre ornaments in order to attract females. Females inspect the bowers and, if suitably impressed, allow males to mate with them. The evolution of this male behavior is due to\" is natural selection.",
+   "unrelated": "the answer to \"If F(3) = 8 and F′(3) = -4 then F(3.02) is approximately\" is 7.92"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_biology)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_9cd3856a",
+  "category": "science",
+  "question": "This process leads to the net production of two pyruvate, two ATP, and two NADH.",
+  "options": {
+   "A": "Glycolysis",
+   "B": "Chemiosmosis",
+   "C": "Fermentation",
+   "D": "Calvin cycle"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"This process leads to the net production of two pyruvate, two ATP, and two NADH.\" is Glycolysis",
+   "incorrect": "the answer to \"This process leads to the net production of two pyruvate, two ATP, and two NADH.\" is Chemiosmosis",
+   "unrelated": "the answer to \"A stone is thrown horizontally with an initial speed of 30 m/s from a bridge. Find the stone's total speed when it enters the water 4 seconds later, assuming that air resistance is negligible.\" is 50 m/s"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_biology)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_bddc1f9e",
+  "category": "science",
+  "question": "When collecting a gas over water, it is important to",
+  "options": {
+   "A": "set the temperature at 0°C",
+   "B": "be sure the gas does not burn",
+   "C": "wait until the barometer reads 760",
+   "D": "correct for the vapor pressure of water"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"When collecting a gas over water, it is important to\" is correct for the vapor pressure of water",
+   "incorrect": "the answer to \"When collecting a gas over water, it is important to\" is set the temperature at 0°C",
+   "unrelated": "the answer to \"para-dichlorobenzene is used as \"mothballs.\" This compound can also be named\" is 1,4-dichlorobenzene"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_chemistry)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_7aab8a1d",
+  "category": "science",
+  "question": "The numbers $x$ and $y$ are inversely proportional. When the sum of $x$ and $y$ is 42, $x$ is twice $y$. What is the value of $y$ when $x=-8$?",
+  "options": {
+   "A": "-49",
+   "B": "-7",
+   "C": "-40",
+   "D": "40"
+  },
+  "answer": "A",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"The numbers $x$ and $y$ are inversely proportional. When the sum of $x$ and $y$ is 42, $x$ is twice $y$. What is the value of $y$ when $x=-8$?\" is -49",
+   "incorrect": "the answer to \"The numbers $x$ and $y$ are inversely proportional. When the sum of $x$ and $y$ is 42, $x$ is twice $y$. What is the value of $y$ when $x=-8$?\" is 40",
+   "unrelated": "the answer to \"A baby duck runs for cover when a large object is tossed over its head. After this object is repeatedly passed overhead, the duck learns there is no danger and stops running for cover when the same object appears again. This is an example of\" is habituation."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_1d1b4992",
+  "category": "science",
+  "question": "Let $f(x)=3x+4$ and $g(x)=2x-3$. If $h(x)=f(g(x))$, then what is the inverse of $h(x)$?",
+  "options": {
+   "A": "\\frac{x-5}{3}",
+   "B": "\\frac{x+5}{3}",
+   "C": "\\frac{x+5}{6}",
+   "D": "\\frac{x-5}{6}"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"Let $f(x)=3x+4$ and $g(x)=2x-3$. If $h(x)=f(g(x))$, then what is the inverse of $h(x)$?\" is \\frac{x+5}{6}",
+   "incorrect": "the answer to \"Let $f(x)=3x+4$ and $g(x)=2x-3$. If $h(x)=f(g(x))$, then what is the inverse of $h(x)$?\" is \\frac{x+5}{3}",
+   "unrelated": "the answer to \"The sum $1^2 + 2^2 + 3^2 + 4^2 + \\cdots + n^2 = n(n+1)(2n+1) \\div 6$. What is the value of $21^2 + 22^2 + \\cdots + 40^2$?\" is 19270"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_0b3c4cb8",
+  "category": "science",
+  "question": "A sound wave with frequency f travels through air at speed v. With what speed will a sound wave with frequency 4f travel through the air?",
+  "options": {
+   "A": "v/4",
+   "B": "v",
+   "C": "2v",
+   "D": "4v"
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"A sound wave with frequency f travels through air at speed v. With what speed will a sound wave with frequency 4f travel through the air?\" is v",
+   "incorrect": "the answer to \"A sound wave with frequency f travels through air at speed v. With what speed will a sound wave with frequency 4f travel through the air?\" is 2v",
+   "unrelated": "the answer to \"A person who is not very well organized, rarely sets goals, and frequently puts things off until the last minute would be said to be low on which trait?\" is Conscientiousness"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_physics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_169736de",
+  "category": "science",
+  "question": "The major difference between cartilage and bone is that cartilage",
+  "options": {
+   "A": "is a part of the skeletal system",
+   "B": "is composed of collagen and salts",
+   "C": "lacks blood vessels and nerves",
+   "D": "secretes a matrix"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"The major difference between cartilage and bone is that cartilage\" is lacks blood vessels and nerves",
+   "incorrect": "the answer to \"The major difference between cartilage and bone is that cartilage\" is secretes a matrix",
+   "unrelated": "the answer to \"Why can't a patient talk if the cuff is inflated?\" is They are unable to pass air through their vocal cords."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_biology)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_5591b19b",
+  "category": "science",
+  "question": "If F(3) = 8 and F′(3) = -4 then F(3.02) is approximately",
+  "options": {
+   "A": "-8.08",
+   "B": "7.92",
+   "C": "7.98",
+   "D": "8.02"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"If F(3) = 8 and F′(3) = -4 then F(3.02) is approximately\" is 7.92",
+   "incorrect": "the answer to \"If F(3) = 8 and F′(3) = -4 then F(3.02) is approximately\" is -8.08",
+   "unrelated": "the answer to \"It is correct to state about the epidemiology of Anorexia Nervosa that:\" is Males from any socioeconomic background can be affected"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_abd034d5",
+  "category": "science",
+  "question": "A stone is thrown horizontally with an initial speed of 30 m/s from a bridge. Find the stone's total speed when it enters the water 4 seconds later, assuming that air resistance is negligible.",
+  "options": {
+   "A": "30 m/s",
+   "B": "40 m/s",
+   "C": "50 m/s",
+   "D": "60 m/s"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"A stone is thrown horizontally with an initial speed of 30 m/s from a bridge. Find the stone's total speed when it enters the water 4 seconds later, assuming that air resistance is negligible.\" is 50 m/s",
+   "incorrect": "the answer to \"A stone is thrown horizontally with an initial speed of 30 m/s from a bridge. Find the stone's total speed when it enters the water 4 seconds later, assuming that air resistance is negligible.\" is 60 m/s",
+   "unrelated": "the answer to \"Why should a patient stand or sit as upright as possible when recording a peak flow rate?\" is To ensure best lung expansion and accuracy and consistency of readings."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_physics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_a45b1f02",
+  "category": "science",
+  "question": "para-dichlorobenzene is used as \"mothballs.\" This compound can also be named",
+  "options": {
+   "A": "1,2-dichlorobenzene",
+   "B": "1,3-dichlorobenzene",
+   "C": "2,4-dichlorobenzene",
+   "D": "1,4-dichlorobenzene"
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"para-dichlorobenzene is used as \"mothballs.\" This compound can also be named\" is 1,4-dichlorobenzene",
+   "incorrect": "the answer to \"para-dichlorobenzene is used as \"mothballs.\" This compound can also be named\" is 1,3-dichlorobenzene",
+   "unrelated": "the answer to \"High levels of self-care behaviors have been associated with high levels of\" is Agreeableness"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_chemistry)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_781055f3",
+  "category": "science",
+  "question": "A baby duck runs for cover when a large object is tossed over its head. After this object is repeatedly passed overhead, the duck learns there is no danger and stops running for cover when the same object appears again. This is an example of",
+  "options": {
+   "A": "imprinting.",
+   "B": "fixed-action pattern.",
+   "C": "agonistic behavior.",
+   "D": "habituation."
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"A baby duck runs for cover when a large object is tossed over its head. After this object is repeatedly passed overhead, the duck learns there is no danger and stops running for cover when the same object appears again. This is an example of\" is habituation.",
+   "incorrect": "the answer to \"A baby duck runs for cover when a large object is tossed over its head. After this object is repeatedly passed overhead, the duck learns there is no danger and stops running for cover when the same object appears again. This is an example of\" is agonistic behavior.",
+   "unrelated": "the answer to \"After what period of time does maximal dynamic exercise become predominantly aerobic?\" is 1 minute"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_biology)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_school_1b513348",
+  "category": "science",
+  "question": "The sum $1^2 + 2^2 + 3^2 + 4^2 + \\cdots + n^2 = n(n+1)(2n+1) \\div 6$. What is the value of $21^2 + 22^2 + \\cdots + 40^2$?",
+  "options": {
+   "A": "41",
+   "B": "22140",
+   "C": "19270",
+   "D": "2870"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"The sum $1^2 + 2^2 + 3^2 + 4^2 + \\cdots + n^2 = n(n+1)(2n+1) \\div 6$. What is the value of $21^2 + 22^2 + \\cdots + 40^2$?\" is 19270",
+   "incorrect": "the answer to \"The sum $1^2 + 2^2 + 3^2 + 4^2 + \\cdots + n^2 = n(n+1)(2n+1) \\div 6$. What is the value of $21^2 + 22^2 + \\cdots + 40^2$?\" is 41",
+   "unrelated": "the answer to \"Morbidity refers to\" is Increased disability and declining health"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (high_school_mathematics)"
+  ],
+  "domain": "school"
+ },
+ {
+  "id": "mmlu_health_357a244f",
+  "category": "general",
+  "question": "A person who is not very well organized, rarely sets goals, and frequently puts things off until the last minute would be said to be low on which trait?",
+  "options": {
+   "A": "Agreeableness",
+   "B": "Conscientiousness",
+   "C": "Openness",
+   "D": "Neuroticism"
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"A person who is not very well organized, rarely sets goals, and frequently puts things off until the last minute would be said to be low on which trait?\" is Conscientiousness",
+   "incorrect": "the answer to \"A person who is not very well organized, rarely sets goals, and frequently puts things off until the last minute would be said to be low on which trait?\" is Neuroticism",
+   "unrelated": "the answer to \"Removal of adhesive strips:\" is can be carried out by the patient."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_d61d7e9a",
+  "category": "general",
+  "question": "Why can't a patient talk if the cuff is inflated?",
+  "options": {
+   "A": "They are unable to breathe in sufficiently.",
+   "B": "They are unable to swallow properly.",
+   "C": "It is too tiring.",
+   "D": "They are unable to pass air through their vocal cords."
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Why can't a patient talk if the cuff is inflated?\" is They are unable to pass air through their vocal cords.",
+   "incorrect": "the answer to \"Why can't a patient talk if the cuff is inflated?\" is It is too tiring.",
+   "unrelated": "the answer to \"Measuring the blood pressure in an arm that is above the level of the heart will:\" is underestimate the blood pressure."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_266183be",
+  "category": "general",
+  "question": "It is correct to state about the epidemiology of Anorexia Nervosa that:",
+  "options": {
+   "A": "Females are three times more affected than males",
+   "B": "It never happens in children or post menopausal women",
+   "C": "Males from any socioeconomic background can be affected",
+   "D": "Prevalence rates are 2% for female adolescents"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"It is correct to state about the epidemiology of Anorexia Nervosa that:\" is Males from any socioeconomic background can be affected",
+   "incorrect": "the answer to \"It is correct to state about the epidemiology of Anorexia Nervosa that:\" is It never happens in children or post menopausal women",
+   "unrelated": "the answer to \"Which organ secretes insulin?\" is The pancreas."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_bfff850f",
+  "category": "general",
+  "question": "Why should a patient stand or sit as upright as possible when recording a peak flow rate?",
+  "options": {
+   "A": "To ensure best lung expansion and accuracy and consistency of readings.",
+   "B": "This is the most comfortable position to perform any breathing test.",
+   "C": "The counter on the meter will not move if the patient is lying down.",
+   "D": "To ensure that their technique can be observed easily."
+  },
+  "answer": "A",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Why should a patient stand or sit as upright as possible when recording a peak flow rate?\" is To ensure best lung expansion and accuracy and consistency of readings.",
+   "incorrect": "the answer to \"Why should a patient stand or sit as upright as possible when recording a peak flow rate?\" is To ensure that their technique can be observed easily.",
+   "unrelated": "the answer to \"Deficiency of thiamin in alcoholics leads to\" is Wernicke-Korsakoff syndrome"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_573b3537",
+  "category": "general",
+  "question": "High levels of self-care behaviors have been associated with high levels of",
+  "options": {
+   "A": "Neuroticism",
+   "B": "Extraversion",
+   "C": "Agreeableness",
+   "D": "Secondary control"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"High levels of self-care behaviors have been associated with high levels of\" is Agreeableness",
+   "incorrect": "the answer to \"High levels of self-care behaviors have been associated with high levels of\" is Neuroticism",
+   "unrelated": "the answer to \"Loss of muscle fiber may be due to loss of neurons which may be due to\" is Clogged blood vessels"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_9914727d",
+  "category": "general",
+  "question": "After what period of time does maximal dynamic exercise become predominantly aerobic?",
+  "options": {
+   "A": "10 seconds",
+   "B": "30 seconds",
+   "C": "1 minute",
+   "D": "4 minutes"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"After what period of time does maximal dynamic exercise become predominantly aerobic?\" is 1 minute",
+   "incorrect": "the answer to \"After what period of time does maximal dynamic exercise become predominantly aerobic?\" is 30 seconds",
+   "unrelated": "the answer to \"A fundamental cause of fatigue in high intensity exercise is:\" is failure of the ATP supply to match the demand."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_1a0a1ce9",
+  "category": "general",
+  "question": "Morbidity refers to",
+  "options": {
+   "A": "Death",
+   "B": "Social and emotional isolation",
+   "C": "Increased disability and declining health",
+   "D": "A period of intense personal loss"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"Morbidity refers to\" is Increased disability and declining health",
+   "incorrect": "the answer to \"Morbidity refers to\" is Social and emotional isolation",
+   "unrelated": "the answer to \"Older adults are most likely to be involved in a traffic accident when they are\" is On foot"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_d3ea2db0",
+  "category": "general",
+  "question": "Removal of adhesive strips:",
+  "options": {
+   "A": "can be carried out by the patient.",
+   "B": "should be undertaken under aseptic conditions.",
+   "C": "is a specialist skill.",
+   "D": "should not be undertaken until at least seven days after application."
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"Removal of adhesive strips:\" is can be carried out by the patient.",
+   "incorrect": "the answer to \"Removal of adhesive strips:\" is should be undertaken under aseptic conditions.",
+   "unrelated": "the answer to \"Endurance type exercise training modulates fuel storage and substrate use. Adaptive responses include:\" is Increasing intramuscular lipid use during exercise"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_bc133187",
+  "category": "general",
+  "question": "Measuring the blood pressure in an arm that is above the level of the heart will:",
+  "options": {
+   "A": "accurately estimate the blood pressure.",
+   "B": "overestimate the blood pressure.",
+   "C": "cause an auscultatory gap.",
+   "D": "underestimate the blood pressure."
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"Measuring the blood pressure in an arm that is above the level of the heart will:\" is underestimate the blood pressure.",
+   "incorrect": "the answer to \"Measuring the blood pressure in an arm that is above the level of the heart will:\" is accurately estimate the blood pressure.",
+   "unrelated": "the answer to \"The first person to measure and compare the response times of young and old was\" is Francis Galton"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_6a140d50",
+  "category": "general",
+  "question": "Which organ secretes insulin?",
+  "options": {
+   "A": "The gastric parietal cells.",
+   "B": "The pancreas.",
+   "C": "The walls of the large intestine.",
+   "D": "The autonomic nervous system."
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Which organ secretes insulin?\" is The pancreas.",
+   "incorrect": "the answer to \"Which organ secretes insulin?\" is The walls of the large intestine.",
+   "unrelated": "the answer to \"Bladder washout solution should be:\" is room temperature."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_af047e27",
+  "category": "general",
+  "question": "Deficiency of thiamin in alcoholics leads to",
+  "options": {
+   "A": "Wernicke-Korsakoff syndrome",
+   "B": "Cushing syndrome",
+   "C": "Fatty liver",
+   "D": "Hypogonadism"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"Deficiency of thiamin in alcoholics leads to\" is Wernicke-Korsakoff syndrome",
+   "incorrect": "the answer to \"Deficiency of thiamin in alcoholics leads to\" is Cushing syndrome",
+   "unrelated": "the answer to \"IBS\" is May be associated with constipation"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_cf049b2c",
+  "category": "general",
+  "question": "Loss of muscle fiber may be due to loss of neurons which may be due to",
+  "options": {
+   "A": "Clogged blood vessels",
+   "B": "Loss of bone density",
+   "C": "Changes in hormone levels",
+   "D": "Loss of collagen"
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Loss of muscle fiber may be due to loss of neurons which may be due to\" is Clogged blood vessels",
+   "incorrect": "the answer to \"Loss of muscle fiber may be due to loss of neurons which may be due to\" is Changes in hormone levels",
+   "unrelated": "the answer to \"Oedema is the presence of:\" is excessive extravascular fluid."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_37e113c0",
+  "category": "general",
+  "question": "A fundamental cause of fatigue in high intensity exercise is:",
+  "options": {
+   "A": "a fall in the cell concentration of ADP.",
+   "B": "inhibition of ATP production.",
+   "C": "failure of the ATP supply to match the demand.",
+   "D": "lack of skill."
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"A fundamental cause of fatigue in high intensity exercise is:\" is failure of the ATP supply to match the demand.",
+   "incorrect": "the answer to \"A fundamental cause of fatigue in high intensity exercise is:\" is lack of skill.",
+   "unrelated": "the answer to \"What is leptin resistance?\" is High concentrations of leptin without reduction in energy intake"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_0a585e31",
+  "category": "general",
+  "question": "Older adults are most likely to be involved in a traffic accident when they are",
+  "options": {
+   "A": "On foot",
+   "B": "Driving in a new location",
+   "C": "A passenger in a younger person's car",
+   "D": "Alone"
+  },
+  "answer": "A",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Older adults are most likely to be involved in a traffic accident when they are\" is On foot",
+   "incorrect": "the answer to \"Older adults are most likely to be involved in a traffic accident when they are\" is Alone",
+   "unrelated": "the answer to \"What is the minimum time a stretch should be held for?\" is 10-30 seconds."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_ad0a4d73",
+  "category": "general",
+  "question": "Endurance type exercise training modulates fuel storage and substrate use. Adaptive responses include:",
+  "options": {
+   "A": "lowering intramuscular lipid storage",
+   "B": "Increasing liver glycogen content",
+   "C": "Increasing muscle glycogen use during exercise",
+   "D": "Increasing intramuscular lipid use during exercise"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Endurance type exercise training modulates fuel storage and substrate use. Adaptive responses include:\" is Increasing intramuscular lipid use during exercise",
+   "incorrect": "the answer to \"Endurance type exercise training modulates fuel storage and substrate use. Adaptive responses include:\" is Increasing muscle glycogen use during exercise",
+   "unrelated": "the answer to \"DNA damage/repair theory claims that senescence is due to cells getting incorrect instructions from DNA damaged by sources such as\" is Free radicals and sunlight"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_d66ee852",
+  "category": "general",
+  "question": "The first person to measure and compare the response times of young and old was",
+  "options": {
+   "A": "Francis Galton",
+   "B": "William James",
+   "C": "Michelle Meer",
+   "D": "Tom Penge"
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"The first person to measure and compare the response times of young and old was\" is Francis Galton",
+   "incorrect": "the answer to \"The first person to measure and compare the response times of young and old was\" is Michelle Meer",
+   "unrelated": "the answer to \"How many CO2 and ATP molecules are formed during one complete turn of the tricarboxylic acid cycle (Krebs' cycle)?\" is 2CO2 and 1ATP"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_b9c84e5d",
+  "category": "general",
+  "question": "Bladder washout solution should be:",
+  "options": {
+   "A": "warm.",
+   "B": "cold.",
+   "C": "refrigerated.",
+   "D": "room temperature."
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"Bladder washout solution should be:\" is room temperature.",
+   "incorrect": "the answer to \"Bladder washout solution should be:\" is cold.",
+   "unrelated": "the answer to \"The body mass index (BMI) of vegetarians differs on average from meat-eaters by how much?\" is 1 unit of BMI"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_4f201549",
+  "category": "general",
+  "question": "IBS",
+  "options": {
+   "A": "Is primarily a psychological problem",
+   "B": "Is a contra-indication to colonoscopy",
+   "C": "May be associated with constipation",
+   "D": "always resolves with a gluten free diet."
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"IBS\" is May be associated with constipation",
+   "incorrect": "the answer to \"IBS\" is Is primarily a psychological problem",
+   "unrelated": "the answer to \"Women's world record performances have improved rapidly in recent years mainly because:\" is more women are now engaged in sport."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_a3ebb152",
+  "category": "general",
+  "question": "Oedema is the presence of:",
+  "options": {
+   "A": "excessive intravascular fluid.",
+   "B": "excessive extravascular fluid.",
+   "C": "excessive intracranial fluid.",
+   "D": "excessive necrotic cells."
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Oedema is the presence of:\" is excessive extravascular fluid.",
+   "incorrect": "the answer to \"Oedema is the presence of:\" is excessive necrotic cells.",
+   "unrelated": "the answer to \"If we found that adult age was significantly and positively correlated with consumption of herbal teas, we could conclude that\" is Older adults drink more herbal tea than do younger adults"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_1f7712c1",
+  "category": "general",
+  "question": "What is leptin resistance?",
+  "options": {
+   "A": "Deficiency of leptin caused by a mutation in the leptin gene",
+   "B": "Lack of leptin release from the adipose tissue",
+   "C": "High concentrations of leptin without reduction in energy intake",
+   "D": "Low concentrations of leptin with increased energy intake"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"What is leptin resistance?\" is High concentrations of leptin without reduction in energy intake",
+   "incorrect": "the answer to \"What is leptin resistance?\" is Deficiency of leptin caused by a mutation in the leptin gene",
+   "unrelated": "the answer to \"The intake of which minerals is not affected by high intakes of foods containing phytic acid?\" is Potassium"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_7115236f",
+  "category": "general",
+  "question": "What is the minimum time a stretch should be held for?",
+  "options": {
+   "A": "0-10 seconds.",
+   "B": "10-30 seconds.",
+   "C": "30-50 seconds.",
+   "D": "60 seconds."
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"What is the minimum time a stretch should be held for?\" is 10-30 seconds.",
+   "incorrect": "the answer to \"What is the minimum time a stretch should be held for?\" is 60 seconds.",
+   "unrelated": "the answer to \"Older adults are able to improve their memories and reduce their anxiety about declining memory when\" is They learn about memory and aging and learn some techniques"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_39caaab2",
+  "category": "general",
+  "question": "DNA damage/repair theory claims that senescence is due to cells getting incorrect instructions from DNA damaged by sources such as",
+  "options": {
+   "A": "Radiation from anti-oxidants",
+   "B": "Metabolic processes",
+   "C": "Free radicals and sunlight",
+   "D": "Telomerase"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"DNA damage/repair theory claims that senescence is due to cells getting incorrect instructions from DNA damaged by sources such as\" is Free radicals and sunlight",
+   "incorrect": "the answer to \"DNA damage/repair theory claims that senescence is due to cells getting incorrect instructions from DNA damaged by sources such as\" is Radiation from anti-oxidants",
+   "unrelated": "the answer to \"In general, the higher the intensity of exercise, the greater the proportional contribution of:\" is anaerobic energy production."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_acf38c03",
+  "category": "general",
+  "question": "How many CO2 and ATP molecules are formed during one complete turn of the tricarboxylic acid cycle (Krebs' cycle)?",
+  "options": {
+   "A": "2CO2 and 2ATP",
+   "B": "2CO2 and 16ATP",
+   "C": "2CO2 and 12ATP",
+   "D": "2CO2 and 1ATP"
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"How many CO2 and ATP molecules are formed during one complete turn of the tricarboxylic acid cycle (Krebs' cycle)?\" is 2CO2 and 1ATP",
+   "incorrect": "the answer to \"How many CO2 and ATP molecules are formed during one complete turn of the tricarboxylic acid cycle (Krebs' cycle)?\" is 2CO2 and 16ATP",
+   "unrelated": "the answer to \"Which membrane fatty acids are precursors for eicosanoids?\" is C20 and C22 polyunsaturated fatty acids"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_63768c9e",
+  "category": "general",
+  "question": "The body mass index (BMI) of vegetarians differs on average from meat-eaters by how much?",
+  "options": {
+   "A": "3 units of BMI",
+   "B": "0.5 units of BMI",
+   "C": "1 unit of BMI",
+   "D": "2 units of BMI"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"The body mass index (BMI) of vegetarians differs on average from meat-eaters by how much?\" is 1 unit of BMI",
+   "incorrect": "the answer to \"The body mass index (BMI) of vegetarians differs on average from meat-eaters by how much?\" is 0.5 units of BMI",
+   "unrelated": "the answer to \"A 14-16 gauge needle is most likely to be used for:\" is trauma or burns patients."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_a13a03b1",
+  "category": "general",
+  "question": "Women's world record performances have improved rapidly in recent years mainly because:",
+  "options": {
+   "A": "women have evolved a greater muscle mass.",
+   "B": "women can now run faster than men.",
+   "C": "women have started training at an earlier age.",
+   "D": "more women are now engaged in sport."
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Women's world record performances have improved rapidly in recent years mainly because:\" is more women are now engaged in sport.",
+   "incorrect": "the answer to \"Women's world record performances have improved rapidly in recent years mainly because:\" is women have started training at an earlier age.",
+   "unrelated": "the answer to \"What is the 'normal' range of flexion at the knee joint?\" is 0-135 degrees."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_8dbf2716",
+  "category": "general",
+  "question": "If we found that adult age was significantly and positively correlated with consumption of herbal teas, we could conclude that",
+  "options": {
+   "A": "Drinking herbal teas makes one grow older more slowly",
+   "B": "Becoming older causes one to begin or increase consumption of herbal teas",
+   "C": "Older adults drink less herbal tea than do younger adults",
+   "D": "Older adults drink more herbal tea than do younger adults"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"If we found that adult age was significantly and positively correlated with consumption of herbal teas, we could conclude that\" is Older adults drink more herbal tea than do younger adults",
+   "incorrect": "the answer to \"If we found that adult age was significantly and positively correlated with consumption of herbal teas, we could conclude that\" is Older adults drink less herbal tea than do younger adults",
+   "unrelated": "the answer to \"Codons are composed of:\" is triplet sequences of nucleotide bases in mRNA or DNA ."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_098fa467",
+  "category": "general",
+  "question": "The intake of which minerals is not affected by high intakes of foods containing phytic acid?",
+  "options": {
+   "A": "Calcium",
+   "B": "Potassium",
+   "C": "Zinc",
+   "D": "Iron"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"The intake of which minerals is not affected by high intakes of foods containing phytic acid?\" is Potassium",
+   "incorrect": "the answer to \"The intake of which minerals is not affected by high intakes of foods containing phytic acid?\" is Calcium",
+   "unrelated": "the answer to \"Which of these factors reduces the risk for cancer of the colorectum?\" is Dietary fibre"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_173f66e6",
+  "category": "general",
+  "question": "Older adults are able to improve their memories and reduce their anxiety about declining memory when",
+  "options": {
+   "A": "They learn about memory and aging and learn some techniques",
+   "B": "They simply learn a number of memory improvement techniques",
+   "C": "They learn that many aspects of memory do not decline and some even get better",
+   "D": "Older adults cannot do either of these"
+  },
+  "answer": "A",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Older adults are able to improve their memories and reduce their anxiety about declining memory when\" is They learn about memory and aging and learn some techniques",
+   "incorrect": "the answer to \"Older adults are able to improve their memories and reduce their anxiety about declining memory when\" is Older adults cannot do either of these",
+   "unrelated": "the answer to \"The Supreme Court has now ruled that older workers need no longer prove _____________ to win a job discrimination suit.\" is Intention"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_aeb1a8d1",
+  "category": "general",
+  "question": "In general, the higher the intensity of exercise, the greater the proportional contribution of:",
+  "options": {
+   "A": "aerobic energy production.",
+   "B": "anaerobic energy production.",
+   "C": "the TCA cycle (Krebs' cycle) to the production of ATP.",
+   "D": "the electron transfer chain to the production of ATP."
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"In general, the higher the intensity of exercise, the greater the proportional contribution of:\" is anaerobic energy production.",
+   "incorrect": "the answer to \"In general, the higher the intensity of exercise, the greater the proportional contribution of:\" is aerobic energy production.",
+   "unrelated": "the answer to \"What is a colles fracture?\" is Fracture of the radius and ulna at the wrist."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_f12d40b8",
+  "category": "general",
+  "question": "Which membrane fatty acids are precursors for eicosanoids?",
+  "options": {
+   "A": "C20 and C22 saturated fatty acids",
+   "B": "C18 and C22 polyunsaturated fatty acids",
+   "C": "C20 and C22 monounsaturated fatty acids",
+   "D": "C20 and C22 polyunsaturated fatty acids"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"Which membrane fatty acids are precursors for eicosanoids?\" is C20 and C22 polyunsaturated fatty acids",
+   "incorrect": "the answer to \"Which membrane fatty acids are precursors for eicosanoids?\" is C20 and C22 saturated fatty acids",
+   "unrelated": "the answer to \"The term gene doping refers to:\" is the use of genetic manipulation techniques to enhance performance in sport."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_e042e8a0",
+  "category": "general",
+  "question": "A 14-16 gauge needle is most likely to be used for:",
+  "options": {
+   "A": "children.",
+   "B": "elderly patients.",
+   "C": "inserting in the back of the hand.",
+   "D": "trauma or burns patients."
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"A 14-16 gauge needle is most likely to be used for:\" is trauma or burns patients.",
+   "incorrect": "the answer to \"A 14-16 gauge needle is most likely to be used for:\" is elderly patients.",
+   "unrelated": "the answer to \"Prejudice or bias against older adults is referred to as\" is Ageism"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_40ee4566",
+  "category": "general",
+  "question": "What is the 'normal' range of flexion at the knee joint?",
+  "options": {
+   "A": "0-115 degrees.",
+   "B": "0-135 degrees.",
+   "C": "0-155 degrees.",
+   "D": "0-175 degrees."
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"What is the 'normal' range of flexion at the knee joint?\" is 0-135 degrees.",
+   "incorrect": "the answer to \"What is the 'normal' range of flexion at the knee joint?\" is 0-155 degrees.",
+   "unrelated": "the answer to \"Where should a stoma be sited?\" is The rectus sheath abdominus."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_2e3aff94",
+  "category": "general",
+  "question": "Codons are composed of:",
+  "options": {
+   "A": "triplet sequences of nucleotide bases in mRNA or DNA .",
+   "B": "quadruplet sequences of nucleotide bases in mRNA or DNA.",
+   "C": "triplet sequences of amino acids in polypeptide chains.",
+   "D": "triplet sequences of deoxyribose sugars in DNA."
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Codons are composed of:\" is triplet sequences of nucleotide bases in mRNA or DNA .",
+   "incorrect": "the answer to \"Codons are composed of:\" is triplet sequences of amino acids in polypeptide chains.",
+   "unrelated": "the answer to \"When a researcher takes part in the situation he or she is observing, he or she is said to be a(n)\" is Participant observer"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_f351bdd2",
+  "category": "general",
+  "question": "Which of these factors reduces the risk for cancer of the colorectum?",
+  "options": {
+   "A": "Vitamin C",
+   "B": "Dietary fibre",
+   "C": "Alcohol",
+   "D": "Oestrogen"
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Which of these factors reduces the risk for cancer of the colorectum?\" is Dietary fibre",
+   "incorrect": "the answer to \"Which of these factors reduces the risk for cancer of the colorectum?\" is Alcohol",
+   "unrelated": "the answer to \"A palpable left parasternal impulse suggests which abnormality?\" is Right ventricular hypertrophy"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_6881cde5",
+  "category": "general",
+  "question": "The Supreme Court has now ruled that older workers need no longer prove _____________ to win a job discrimination suit.",
+  "options": {
+   "A": "Discrimination",
+   "B": "Age bias",
+   "C": "Negative impact",
+   "D": "Intention"
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"The Supreme Court has now ruled that older workers need no longer prove _____________ to win a job discrimination suit.\" is Intention",
+   "incorrect": "the answer to \"The Supreme Court has now ruled that older workers need no longer prove _____________ to win a job discrimination suit.\" is Age bias",
+   "unrelated": "the answer to \"The total number of people who have some disorder divided by the total number of people gives you the ____ rate.\" is Prevalence"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_ff761c7b",
+  "category": "general",
+  "question": "What is a colles fracture?",
+  "options": {
+   "A": "Hand fracture.",
+   "B": "Elbow fracture.",
+   "C": "Finger fracture.",
+   "D": "Fracture of the radius and ulna at the wrist."
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"What is a colles fracture?\" is Fracture of the radius and ulna at the wrist.",
+   "incorrect": "the answer to \"What is a colles fracture?\" is Finger fracture.",
+   "unrelated": "the answer to \"Which of these features suggest that a pulsation in the neck is arterial?\" is No variation with posture"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_04473e85",
+  "category": "general",
+  "question": "The term gene doping refers to:",
+  "options": {
+   "A": "the use of drugs to modify gene transcription.",
+   "B": "the use of genetic manipulation techniques to enhance performance in sport.",
+   "C": "the activation or inhibition of genes to mask drug taking by athletes.",
+   "D": "the use of drugs to modify the myostatin gene."
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"The term gene doping refers to:\" is the use of genetic manipulation techniques to enhance performance in sport.",
+   "incorrect": "the answer to \"The term gene doping refers to:\" is the use of drugs to modify the myostatin gene.",
+   "unrelated": "the answer to \"A possible positive effect of moderate alcohol consumption is that it may\" is Keep blood vessels from stiffening"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_3ade1d5b",
+  "category": "general",
+  "question": "Prejudice or bias against older adults is referred to as",
+  "options": {
+   "A": "Ageism",
+   "B": "Oldism",
+   "C": "Age bigotry",
+   "D": "Senilism"
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Prejudice or bias against older adults is referred to as\" is Ageism",
+   "incorrect": "the answer to \"Prejudice or bias against older adults is referred to as\" is Age bigotry",
+   "unrelated": "the answer to \"Older adults' coping strategies are generally\" is Variable as they have more strategies"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_f5bb0553",
+  "category": "general",
+  "question": "Where should a stoma be sited?",
+  "options": {
+   "A": "The rectus sheath abdominus.",
+   "B": "Next to the umbilicus.",
+   "C": "Within an abdominal crease.",
+   "D": "In close proximity to the incision site."
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"Where should a stoma be sited?\" is The rectus sheath abdominus.",
+   "incorrect": "the answer to \"Where should a stoma be sited?\" is Next to the umbilicus.",
+   "unrelated": "the answer to \"Once a prescribed unit of blood product has been obtained from the blood bank and is out of refrigeration, the transfusion should commence within what period of time before it starts to deteriorate (as of 2020 medical knowledge)?\" is 30 minutes."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_aee8098b",
+  "category": "general",
+  "question": "When a researcher takes part in the situation he or she is observing, he or she is said to be a(n)",
+  "options": {
+   "A": "Active observer",
+   "B": "Participant observer",
+   "C": "Indiscreet observer",
+   "D": "Meddling observer"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"When a researcher takes part in the situation he or she is observing, he or she is said to be a(n)\" is Participant observer",
+   "incorrect": "the answer to \"When a researcher takes part in the situation he or she is observing, he or she is said to be a(n)\" is Active observer",
+   "unrelated": "the answer to \"The complete resynthesis of phosphocreatine after very high intensity exercise normally takes:\" is about 4 minutes."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_047c4ae0",
+  "category": "general",
+  "question": "A palpable left parasternal impulse suggests which abnormality?",
+  "options": {
+   "A": "Right ventricular hypertrophy",
+   "B": "Aortic stenosis",
+   "C": "Aortic regurgitation",
+   "D": "Left ventricular hypertrophy"
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"A palpable left parasternal impulse suggests which abnormality?\" is Right ventricular hypertrophy",
+   "incorrect": "the answer to \"A palpable left parasternal impulse suggests which abnormality?\" is Aortic regurgitation",
+   "unrelated": "the answer to \"The transcription of DNA to a molecule of messenger RNA occurs:\" is in the nucleus."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_2caf8310",
+  "category": "general",
+  "question": "The total number of people who have some disorder divided by the total number of people gives you the ____ rate.",
+  "options": {
+   "A": "Prevalence",
+   "B": "Incidence",
+   "C": "Incipient",
+   "D": "Diseased"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"The total number of people who have some disorder divided by the total number of people gives you the ____ rate.\" is Prevalence",
+   "incorrect": "the answer to \"The total number of people who have some disorder divided by the total number of people gives you the ____ rate.\" is Incidence",
+   "unrelated": "the answer to \"Fast-twitch fibres contain:\" is a relatively small number of mitochondria and high ATPase activity."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_57fbc779",
+  "category": "general",
+  "question": "Which of these features suggest that a pulsation in the neck is arterial?",
+  "options": {
+   "A": "A waggling earlobe",
+   "B": "Positive for hepatojugular reflux",
+   "C": "No variation with posture",
+   "D": "Pressure in the root of the neck reduces the impulse"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"Which of these features suggest that a pulsation in the neck is arterial?\" is No variation with posture",
+   "incorrect": "the answer to \"Which of these features suggest that a pulsation in the neck is arterial?\" is Positive for hepatojugular reflux",
+   "unrelated": "the answer to \"In this chapter's Senior View, May Lee told us that we should all respect our elders because\" is They raised us"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_57b743dd",
+  "category": "general",
+  "question": "A possible positive effect of moderate alcohol consumption is that it may",
+  "options": {
+   "A": "Inhibit the growth of cancers",
+   "B": "Promote healing from injuries and illnesses",
+   "C": "Keep blood vessels from stiffening",
+   "D": "Result in relaxation and lower blood pressure"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"A possible positive effect of moderate alcohol consumption is that it may\" is Keep blood vessels from stiffening",
+   "incorrect": "the answer to \"A possible positive effect of moderate alcohol consumption is that it may\" is Promote healing from injuries and illnesses",
+   "unrelated": "the answer to \"Oxygen is used:\" is in the conversion of fatty acids to acetyl CoA."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_c67b5eac",
+  "category": "general",
+  "question": "Older adults' coping strategies are generally",
+  "options": {
+   "A": "Ineffective at solving problems",
+   "B": "Variable as they have more strategies",
+   "C": "Persistent as they use the same strategy over and over",
+   "D": "Narrow as they ignore many aspects of the problem"
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Older adults' coping strategies are generally\" is Variable as they have more strategies",
+   "incorrect": "the answer to \"Older adults' coping strategies are generally\" is Narrow as they ignore many aspects of the problem",
+   "unrelated": "the answer to \"Which potential complication of IV therapy is described thus: 'Leakage of vesicant (irritant) medication or fluid into surrounding tissues, causing tissue damage'?\" is Extravasation."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_30e6e263",
+  "category": "general",
+  "question": "Once a prescribed unit of blood product has been obtained from the blood bank and is out of refrigeration, the transfusion should commence within what period of time before it starts to deteriorate (as of 2020 medical knowledge)?",
+  "options": {
+   "A": "30 minutes.",
+   "B": "90 minutes.",
+   "C": "4 hours.",
+   "D": "12 hours."
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Once a prescribed unit of blood product has been obtained from the blood bank and is out of refrigeration, the transfusion should commence within what period of time before it starts to deteriorate (as of 2020 medical knowledge)?\" is 30 minutes.",
+   "incorrect": "the answer to \"Once a prescribed unit of blood product has been obtained from the blood bank and is out of refrigeration, the transfusion should commence within what period of time before it starts to deteriorate (as of 2020 medical knowledge)?\" is 4 hours.",
+   "unrelated": "the answer to \"Fats normally contain triacylglycerols at concentrations of:\" is > 95%"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_e9c1867f",
+  "category": "general",
+  "question": "The complete resynthesis of phosphocreatine after very high intensity exercise normally takes:",
+  "options": {
+   "A": "about 10 seconds.",
+   "B": "about 30 seconds.",
+   "C": "about 1 minute.",
+   "D": "about 4 minutes."
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"The complete resynthesis of phosphocreatine after very high intensity exercise normally takes:\" is about 4 minutes.",
+   "incorrect": "the answer to \"The complete resynthesis of phosphocreatine after very high intensity exercise normally takes:\" is about 10 seconds.",
+   "unrelated": "the answer to \"Calculate the body mass index (BMI) for a patient whose height is 1.75 m and whose weight is 99 kg.\" is 32"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_911fbc9f",
+  "category": "general",
+  "question": "The transcription of DNA to a molecule of messenger RNA occurs:",
+  "options": {
+   "A": "on the ribosomes.",
+   "B": "in the cytosol.",
+   "C": "in the nucleus.",
+   "D": "only during cell division."
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"The transcription of DNA to a molecule of messenger RNA occurs:\" is in the nucleus.",
+   "incorrect": "the answer to \"The transcription of DNA to a molecule of messenger RNA occurs:\" is in the cytosol.",
+   "unrelated": "the answer to \"Activation of a class of genes called sirtuins may help to\" is Prevent some diseases"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_fb078909",
+  "category": "general",
+  "question": "Fast-twitch fibres contain:",
+  "options": {
+   "A": "a relatively large number of mitochondria and low ATPase activity.",
+   "B": "a relatively small number of mitochondria and low ATPase activity.",
+   "C": "a relatively small number of mitochondria and high ATPase activity.",
+   "D": "a relatively large number of mitochondria and high ATPase activity."
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Fast-twitch fibres contain:\" is a relatively small number of mitochondria and high ATPase activity.",
+   "incorrect": "the answer to \"Fast-twitch fibres contain:\" is a relatively large number of mitochondria and high ATPase activity.",
+   "unrelated": "the answer to \"Well being for younger adults is positively related to which form of control?\" is Primary"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_2a4e96c1",
+  "category": "general",
+  "question": "In this chapter's Senior View, May Lee told us that we should all respect our elders because",
+  "options": {
+   "A": "They are much older than we are",
+   "B": "They raised us",
+   "C": "They lived through difficult times",
+   "D": "They ask nothing in return"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"In this chapter's Senior View, May Lee told us that we should all respect our elders because\" is They raised us",
+   "incorrect": "the answer to \"In this chapter's Senior View, May Lee told us that we should all respect our elders because\" is They are much older than we are",
+   "unrelated": "the answer to \"Collagen fibres:\" is take some time to re-establish."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_a9df21b4",
+  "category": "general",
+  "question": "Oxygen is used:",
+  "options": {
+   "A": "in glycolysis.",
+   "B": "in the conversion of fatty acids to acetyl CoA.",
+   "C": "in the tricarboxylic acid cycle (Krebs' cycle).",
+   "D": "in glycogenolysis."
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the answer to \"Oxygen is used:\" is in the conversion of fatty acids to acetyl CoA.",
+   "incorrect": "the answer to \"Oxygen is used:\" is in the tricarboxylic acid cycle (Krebs' cycle).",
+   "unrelated": "the answer to \"The energy released from the breakdown of the high-energy phosphates, ATP and phosphocreatine, can sustain maximal exertion exercise for about:\" is 5-10 seconds."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_77fc7395",
+  "category": "general",
+  "question": "Which potential complication of IV therapy is described thus: 'Leakage of vesicant (irritant) medication or fluid into surrounding tissues, causing tissue damage'?",
+  "options": {
+   "A": "Extravasation.",
+   "B": "Phlebitis.",
+   "C": "Inflammation.",
+   "D": "Infiltration."
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"Which potential complication of IV therapy is described thus: 'Leakage of vesicant (irritant) medication or fluid into surrounding tissues, causing tissue damage'?\" is Extravasation.",
+   "incorrect": "the answer to \"Which potential complication of IV therapy is described thus: 'Leakage of vesicant (irritant) medication or fluid into surrounding tissues, causing tissue damage'?\" is Phlebitis.",
+   "unrelated": "the answer to \"Why should careful consideration be given to providing people aged over 65 with information sources that are internet based?\" is Less than 30% of people over 65 years have access to the internet."
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_1c18be38",
+  "category": "general",
+  "question": "Fats normally contain triacylglycerols at concentrations of:",
+  "options": {
+   "A": "75-95%",
+   "B": "50- 75%",
+   "C": "> 95%",
+   "D": "< 50%"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Fats normally contain triacylglycerols at concentrations of:\" is > 95%",
+   "incorrect": "the answer to \"Fats normally contain triacylglycerols at concentrations of:\" is < 50%",
+   "unrelated": "the answer to \"Which life-style factors do not confound the interpretation of the health of vegetarians compared with meat-eaters?\" is Age"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_83c88241",
+  "category": "general",
+  "question": "Calculate the body mass index (BMI) for a patient whose height is 1.75 m and whose weight is 99 kg.",
+  "options": {
+   "A": "29",
+   "B": "32",
+   "C": "39",
+   "D": "43"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"Calculate the body mass index (BMI) for a patient whose height is 1.75 m and whose weight is 99 kg.\" is 32",
+   "incorrect": "the answer to \"Calculate the body mass index (BMI) for a patient whose height is 1.75 m and whose weight is 99 kg.\" is 29",
+   "unrelated": "the answer to \"This biome has cold winters and is known for its pine forests.\" is Deciduous forests"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_ae2f272f",
+  "category": "general",
+  "question": "Activation of a class of genes called sirtuins may help to",
+  "options": {
+   "A": "Prevent some diseases",
+   "B": "Ward off dementias",
+   "C": "Increase memory and intelligence",
+   "D": "Produce emotional stability"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the answer to \"Activation of a class of genes called sirtuins may help to\" is Prevent some diseases",
+   "incorrect": "the answer to \"Activation of a class of genes called sirtuins may help to\" is Ward off dementias",
+   "unrelated": "the answer to \"Suppose that for some $a,b,c$ we have $a+b+c = 6$, $ab+ac+bc = 5$ and $abc = -12$. What is $a^3+b^3+c^3$?\" is 90"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_7b943aee",
+  "category": "general",
+  "question": "Well being for younger adults is positively related to which form of control?",
+  "options": {
+   "A": "Positive reappraisal",
+   "B": "Lowering of aspirations",
+   "C": "Primary",
+   "D": "Internal"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Well being for younger adults is positively related to which form of control?\" is Primary",
+   "incorrect": "the answer to \"Well being for younger adults is positively related to which form of control?\" is Internal",
+   "unrelated": "the answer to \"This process couples the production of ATP with the movement of electrons down the electron transport chain by harnessing the driving force created by a proton gradient.\" is Chemiosmosis"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (human_aging)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_d1255516",
+  "category": "general",
+  "question": "Collagen fibres:",
+  "options": {
+   "A": "are re-established in the first five days of wound healing.",
+   "B": "provide a bridge across the surface of a wound.",
+   "C": "take some time to re-establish.",
+   "D": "are not needed if a wound is healing by primary intention."
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"Collagen fibres:\" is take some time to re-establish.",
+   "incorrect": "the answer to \"Collagen fibres:\" is are not needed if a wound is healing by primary intention.",
+   "unrelated": "the answer to \"Positive integers $x$ and $y$ have a product of 56 and $x < y$. Seven times the reciprocal of the smaller integer plus 14 times the reciprocal of the larger integer equals 4. What is the value of $x$?\" is 2"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_412932e6",
+  "category": "general",
+  "question": "The energy released from the breakdown of the high-energy phosphates, ATP and phosphocreatine, can sustain maximal exertion exercise for about:",
+  "options": {
+   "A": "1-2 seconds.",
+   "B": "5-10 seconds.",
+   "C": "30-40 seconds.",
+   "D": "50-60 seconds."
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the answer to \"The energy released from the breakdown of the high-energy phosphates, ATP and phosphocreatine, can sustain maximal exertion exercise for about:\" is 5-10 seconds.",
+   "incorrect": "the answer to \"The energy released from the breakdown of the high-energy phosphates, ATP and phosphocreatine, can sustain maximal exertion exercise for about:\" is 50-60 seconds.",
+   "unrelated": "the answer to \"How many numbers are in the list $ -36, -29, -22, \\ldots, 41, 48?$\" is 13"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_c59990f7",
+  "category": "general",
+  "question": "Why should careful consideration be given to providing people aged over 65 with information sources that are internet based?",
+  "options": {
+   "A": "They may have difficulty reading the screen.",
+   "B": "Less than 30% of people over 65 years have access to the internet.",
+   "C": "The internet is aimed at younger people.",
+   "D": "They may not be able to type."
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"Why should careful consideration be given to providing people aged over 65 with information sources that are internet based?\" is Less than 30% of people over 65 years have access to the internet.",
+   "incorrect": "the answer to \"Why should careful consideration be given to providing people aged over 65 with information sources that are internet based?\" is They may have difficulty reading the screen.",
+   "unrelated": "the answer to \"Atoms of four elements are examined: carbon, nitrogen, neon, and sulfur. Atoms of which element are most likely to form a structure with the formula XF6 (where X is one of the four atoms)?\" is Sulfur"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (clinical_knowledge)"
+  ],
+  "domain": "health"
+ },
+ {
+  "id": "mmlu_health_9d572f6b",
+  "category": "general",
+  "question": "Which life-style factors do not confound the interpretation of the health of vegetarians compared with meat-eaters?",
+  "options": {
+   "A": "Smoking habit",
+   "B": "Social class/position",
+   "C": "Physical activity",
+   "D": "Age"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the answer to \"Which life-style factors do not confound the interpretation of the health of vegetarians compared with meat-eaters?\" is Age",
+   "incorrect": "the answer to \"Which life-style factors do not confound the interpretation of the health of vegetarians compared with meat-eaters?\" is Smoking habit",
+   "unrelated": "the answer to \"Which describes brightly colored peacocks mating more frequently than drab peacocks?\" is sexual selection"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://huggingface.co/datasets/cais/mmlu (nutrition)"
+  ],
+  "domain": "health"
+ }
+]

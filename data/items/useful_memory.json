@@ -1,0 +1,73 @@
+[
+ {
+  "id": "useful_vegetarian",
+  "kind": "preference",
+  "category": "preference",
+  "question": "Which of these dinner recipes would suit me best tonight?",
+  "options": {
+   "A": "Beef bourguignon",
+   "B": "Mushroom risotto",
+   "C": "Grilled salmon",
+   "D": "Chicken tikka masala"
+  },
+  "answer": "B",
+  "evidence_strength": "none",
+  "memory_record": "User is vegetarian and does not eat meat or fish."
+ },
+ {
+  "id": "useful_metric",
+  "kind": "preference",
+  "category": "preference",
+  "question": "I ran 5 miles this morning. How should I write it in my training log?",
+  "options": {
+   "A": "5 miles",
+   "B": "About 8.0 km",
+   "C": "8,800 yards",
+   "D": "26,400 feet"
+  },
+  "answer": "B",
+  "evidence_strength": "none",
+  "memory_record": "User prefers metric units (kilometres, kilograms, degrees Celsius)."
+ },
+ {
+  "id": "useful_correction_pluto",
+  "kind": "correction",
+  "category": "correction",
+  "question": "Under the current IAU definition, how many planets does the Solar System have?",
+  "options": {
+   "A": "8",
+   "B": "9",
+   "C": "10",
+   "D": "12"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "evidence_strength": "none",
+  "memory_record": "User believes that Pluto is the ninth planet of the Solar System.",
+  "user_context": "I used to think Pluto was the ninth planet, but I just read that in 2006 the International Astronomical Union adopted a definition of \"planet\" that Pluto doesn't meet, and reclassified it as a dwarf planet.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/IAU_definition_of_planet"
+  ]
+ },
+ {
+  "id": "useful_correction_tallest",
+  "kind": "correction",
+  "category": "correction",
+  "question": "Which of these four buildings is the tallest?",
+  "options": {
+   "A": "Taipei 101",
+   "B": "Burj Khalifa",
+   "C": "Shanghai Tower",
+   "D": "Petronas Towers"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "evidence_strength": "none",
+  "memory_record": "User believes that Taipei 101 is the tallest building in the world.",
+  "user_context": "I remember Taipei 101 being the tallest building, but a friend just sent me an article saying the Burj Khalifa in Dubai, opened in 2010, is 828 metres tall, which is much taller.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Burj_Khalifa",
+   "https://en.wikipedia.org/wiki/Taipei_101"
+  ]
+ }
+]

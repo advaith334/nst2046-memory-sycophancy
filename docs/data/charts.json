@@ -1,0 +1,379 @@
+{
+ "1-effect": [
+  {
+   "type": "forest",
+   "title": "Rise in false answers with a stored false belief (points, 95% interval)",
+   "rows": [
+    {
+     "label": "Mistral Nemo 12B",
+     "est": 40.625,
+     "low": 28.125,
+     "high": 54.166666666666664,
+     "text": "+41 [+28, +54]"
+    },
+    {
+     "label": "Mistral Small 24B",
+     "est": 12.5,
+     "low": 6.25,
+     "high": 22.916666666666664,
+     "text": "+12 [+6, +23]"
+    },
+    {
+     "label": "Llama 3.1 8B",
+     "est": 1.0416666666666665,
+     "low": -7.291666666666667,
+     "high": 10.416666666666668,
+     "text": "+1 [−7, +10]"
+    },
+    {
+     "label": "Gemma 4 26B",
+     "est": 1.0416666666666665,
+     "low": 0.0,
+     "high": 5.208333333333334,
+     "text": "+1 [0, +5]"
+    },
+    {
+     "label": "Qwen3.5-9B",
+     "est": 1.0416666666666665,
+     "low": 0.0,
+     "high": 5.208333333333334,
+     "text": "+1 [0, +5]"
+    },
+    {
+     "label": "Claude Sonnet 5.5",
+     "est": 0.0,
+     "low": 0.0,
+     "high": 0.0,
+     "text": "0 [0, 0]"
+    }
+   ]
+  }
+ ],
+ "2-evidence": [
+  {
+   "type": "forest",
+   "title": "Nemo: rise in false answers, by evidence in the question (points)",
+   "rows": [
+    {
+     "label": "No passage",
+     "est": 40.625,
+     "low": 28.125,
+     "high": 54.166666666666664,
+     "text": "+41 [+28, +54]"
+    },
+    {
+     "label": "Weak passage",
+     "est": 16.666666666666664,
+     "low": 8.333333333333332,
+     "high": 28.125,
+     "text": "+17 [+8, +28]"
+    },
+    {
+     "label": "Passage states the answer",
+     "est": 1.0416666666666665,
+     "low": 0.0,
+     "high": 5.208333333333334,
+     "text": "+1 [0, +5]"
+    }
+   ]
+  },
+  {
+   "type": "bars",
+   "title": "Nemo: false answers with the same false memory, by wording (%). Five identical runs ranged 55 to 61%.",
+   "rows": [
+    {
+     "label": "Plain \"Notes:\" heading",
+     "value": 25
+    },
+    {
+     "label": "\"may be out of date or wrong\"",
+     "value": 26
+    },
+    {
+     "label": "\"Verified profile facts\"",
+     "value": 57
+    },
+    {
+     "label": "Main wording (rerun)",
+     "value": 60
+    },
+    {
+     "label": "\"User once said that\"",
+     "value": 77
+    },
+    {
+     "label": "Drop \"User believes that\"",
+     "value": 79
+    }
+   ],
+   "max": 100
+  }
+ ],
+ "3-fixes": [
+  {
+   "type": "pairs",
+   "title": "Nemo: share of harm removed vs share of benefit kept (%)",
+   "a": "Harm removed",
+   "b": "Benefit kept",
+   "rows": [
+    {
+     "label": "Tutor frame",
+     "a": 79,
+     "b": 13
+    },
+    {
+     "label": "Patient frame",
+     "a": 62,
+     "b": -4
+    },
+    {
+     "label": "Rule on memory block",
+     "a": 15,
+     "b": 65
+    },
+    {
+     "label": "Answer first",
+     "a": 21,
+     "b": 22
+    },
+    {
+     "label": "Memory gate",
+     "a": 95,
+     "b": -13
+    },
+    {
+     "label": "Label",
+     "a": 56,
+     "b": 52
+    }
+   ],
+   "min": -20,
+   "max": 100
+  }
+ ],
+ "4-mmlu": [
+  {
+   "type": "forest",
+   "title": "Pre-registered tests (points, 95% interval)",
+   "rows": [
+    {
+     "label": "H1 Harm, Nemo",
+     "est": 55.00000000000001,
+     "low": 47.083333333333336,
+     "high": 62.5,
+     "text": "+55 [+47, +63]"
+    },
+    {
+     "label": "H2 Harm, Mistral Small",
+     "est": 35.0,
+     "low": 27.500000000000004,
+     "high": 42.916666666666664,
+     "text": "+35 [+28, +43]"
+    },
+    {
+     "label": "H3 Label cuts Nemo's harm",
+     "est": 15.416666666666668,
+     "low": 10.416666666666668,
+     "high": 21.25,
+     "text": "+15 [+10, +21]"
+    },
+    {
+     "label": "H4 Labelled memory still harms, Nemo",
+     "est": 39.58333333333333,
+     "low": 31.666666666666664,
+     "high": 47.5,
+     "text": "+40 [+32, +48]"
+    },
+    {
+     "label": "H5 Benefit, Nemo",
+     "est": 44.166666666666664,
+     "low": 36.666666666666664,
+     "high": 52.083333333333336,
+     "text": "+44 [+37, +52]"
+    },
+    {
+     "label": "H6 Harm, Llama 3.1 8B",
+     "est": 30.416666666666664,
+     "low": 22.916666666666664,
+     "high": 38.333333333333336,
+     "text": "+30 [+23, +38]"
+    },
+    {
+     "label": "H6 Harm, Qwen3.5-9B",
+     "est": 12.393162393162394,
+     "low": 7.6923076923076925,
+     "high": 18.803418803418804,
+     "text": "+12 [+8, +19]"
+    },
+    {
+     "label": "H6 Harm, Gemma 4 26B",
+     "est": 6.302521008403361,
+     "low": 2.941176470588235,
+     "high": 11.344537815126051,
+     "text": "+6 [+3, +11]"
+    }
+   ]
+  },
+  {
+   "type": "pairs",
+   "title": "Truth-sensitivity: following a true note minus a false one (points)",
+   "a": "Items it knew",
+   "b": "Items it was unsure of",
+   "rows": [
+    {
+     "label": "Mistral Nemo 12B",
+     "a": 37,
+     "b": 6
+    },
+    {
+     "label": "Llama 3.1 8B",
+     "a": 51,
+     "b": 10
+    },
+    {
+     "label": "Mistral Small 24B",
+     "a": 62,
+     "b": 28
+    },
+    {
+     "label": "Gemma 4 26B",
+     "a": 92,
+     "b": 25
+    },
+    {
+     "label": "Qwen3.5-9B",
+     "a": 87,
+     "b": 3
+    }
+   ],
+   "min": -10,
+   "max": 100
+  }
+ ],
+ "5-frontier": [
+  {
+   "type": "bars",
+   "title": "F1: correct with no memory, out of replies that gave an answer (%)",
+   "rows": [
+    {
+     "label": "Claude Sonnet 5.5 (190/191)",
+     "value": 99
+    },
+    {
+     "label": "Claude Haiku 5.5 (153/167)",
+     "value": 92
+    },
+    {
+     "label": "GPT-6.1 Terra (184/192)",
+     "value": 96
+    },
+    {
+     "label": "Mistral Nemo 12B (58/192)",
+     "value": 30
+    },
+    {
+     "label": "Mistral Small 24B (71/192)",
+     "value": 37
+    },
+    {
+     "label": "Llama 3.1 8B (55/192)",
+     "value": 29
+    },
+    {
+     "label": "Qwen3.5-9B (118/119)",
+     "value": 99
+    },
+    {
+     "label": "Gemma 4 26B (145/186)",
+     "value": 78
+    }
+   ],
+   "max": 100
+  },
+  {
+   "type": "pairs",
+   "title": "F3: replies that openly correct the myth, writing task (%)",
+   "a": "No memory",
+   "b": "Myth stored",
+   "rows": [
+    {
+     "label": "Claude Sonnet 5.5",
+     "a": 25,
+     "b": 85
+    },
+    {
+     "label": "Claude Haiku 5.5",
+     "a": 17,
+     "b": 79
+    },
+    {
+     "label": "GPT-6.1 Terra",
+     "a": 23,
+     "b": 44
+    },
+    {
+     "label": "Mistral Nemo 12B",
+     "a": 8,
+     "b": 48
+    },
+    {
+     "label": "Mistral Small 24B",
+     "a": 8,
+     "b": 46
+    },
+    {
+     "label": "Llama 3.1 8B",
+     "a": 0,
+     "b": 31
+    },
+    {
+     "label": "Qwen3.5-9B",
+     "a": 10,
+     "b": 40
+    },
+    {
+     "label": "Gemma 4 26B",
+     "a": 8,
+     "b": 21
+    }
+   ],
+   "max": 100
+  }
+ ],
+ "6-tutoring": [
+  {
+   "type": "pairs",
+   "title": "Tutor told the student they were wrong (%)",
+   "a": "False note",
+   "b": "True note",
+   "rows": [
+    {
+     "label": "Mistral Nemo 12B",
+     "a": 13,
+     "b": 7
+    },
+    {
+     "label": "Llama 3.1 8B",
+     "a": 22,
+     "b": 13
+    },
+    {
+     "label": "Mistral Small 24B",
+     "a": 45,
+     "b": 17
+    },
+    {
+     "label": "Claude Haiku 5.5",
+     "a": 72,
+     "b": 2
+    },
+    {
+     "label": "Claude Sonnet 5.5",
+     "a": 65,
+     "b": 0
+    }
+   ],
+   "max": 100
+  }
+ ]
+}

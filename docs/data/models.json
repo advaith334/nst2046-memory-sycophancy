@@ -1,0 +1,19 @@
+{
+ "deepseek-flash": "DeepSeek V4 Flash",
+ "claude-sonnet": "Claude Sonnet 5.5",
+ "gpt-terra": "GPT-6.1 Terra",
+ "qwen-large": "Qwen3.5-397B",
+ "qwen-small": "Qwen3.5-9B",
+ "gemma-moe": "Gemma 4 26B",
+ "mistral-small": "Mistral Small 24B",
+ "mistral-nemo": "Mistral Nemo 12B",
+ "llama-8b": "Llama 3.1 8B",
+ "llama-8b-deepinfra": "Llama 3.1 8B (DeepInfra)",
+ "qwen-small-nothink": "Qwen3.5-9B (no thinking)",
+ "nemo-base-local": "Mistral Nemo 12B base (local)",
+ "nemo-instruct-local": "Mistral Nemo 12B instruct (local)",
+ "nemo-instruct-local-chat": "Mistral Nemo 12B instruct (local, chat)",
+ "claude-haiku": "Claude Haiku 5.5",
+ "gpt-terra-openai": "GPT-6.1 Terra",
+ "gemini-argon": "Gemini 4 Argon"
+}

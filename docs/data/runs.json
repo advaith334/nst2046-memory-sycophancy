@@ -1,0 +1,174 @@
+{
+ "1-effect": [
+  {
+   "id": "main",
+   "label": "Main study, 27 Oct",
+   "kind": "mcq"
+  }
+ ],
+ "2-evidence": [
+  {
+   "id": "weak-passage",
+   "label": "Weak passage",
+   "kind": "mcq"
+  },
+  {
+   "id": "strong-passage",
+   "label": "Passage states the answer",
+   "kind": "mcq"
+  },
+  {
+   "id": "false-passage",
+   "label": "False passage vs true memory",
+   "kind": "mcq"
+  },
+  {
+   "id": "wording-base",
+   "label": "Wording: base",
+   "kind": "mcq"
+  },
+  {
+   "id": "wording-notes",
+   "label": "Wording: notes",
+   "kind": "mcq"
+  },
+  {
+   "id": "wording-may_be_wrong",
+   "label": "Wording: may be wrong",
+   "kind": "mcq"
+  },
+  {
+   "id": "wording-bare_fact",
+   "label": "Wording: bare fact",
+   "kind": "mcq"
+  },
+  {
+   "id": "wording-said_once",
+   "label": "Wording: said once",
+   "kind": "mcq"
+  },
+  {
+   "id": "wording-verified_profile",
+   "label": "Wording: verified profile",
+   "kind": "mcq"
+  },
+  {
+   "id": "base-model",
+   "label": "Nemo base (local)",
+   "kind": "mcq"
+  },
+  {
+   "id": "instruct-model",
+   "label": "Nemo instruct (local)",
+   "kind": "mcq"
+  }
+ ],
+ "3-fixes": [
+  {
+   "id": "fix-tutor",
+   "label": "Tutor frame",
+   "kind": "mcq"
+  },
+  {
+   "id": "fix-patient",
+   "label": "Patient frame",
+   "kind": "mcq"
+  },
+  {
+   "id": "fix-rule",
+   "label": "Rule on the memory block",
+   "kind": "mcq"
+  },
+  {
+   "id": "fix-answer_first",
+   "label": "Answer first, then revise",
+   "kind": "mcq"
+  },
+  {
+   "id": "fix-memory_gate",
+   "label": "Memory gate",
+   "kind": "mcq"
+  }
+ ],
+ "4-mmlu": [
+  {
+   "id": "default",
+   "label": "Default wording",
+   "kind": "mcq"
+  },
+  {
+   "id": "tutor-frame",
+   "label": "Tutor frame",
+   "kind": "mcq"
+  },
+  {
+   "id": "patient-frame",
+   "label": "Patient frame",
+   "kind": "mcq"
+  },
+  {
+   "id": "wording-may_be_wrong",
+   "label": "Caveat: may be out of date or wrong",
+   "kind": "mcq"
+  },
+  {
+   "id": "claude",
+   "label": "Claude check",
+   "kind": "mcq"
+  }
+ ],
+ "5-frontier": [
+  {
+   "id": "f3-frontier",
+   "label": "F3 free text: Claude Haiku, GPT Terra",
+   "kind": "f3"
+  },
+  {
+   "id": "f3-main-models",
+   "label": "F3 free text: main models",
+   "kind": "f3"
+  },
+  {
+   "id": "f2f4-frontier-base",
+   "label": "F1 headroom items: frontier",
+   "kind": "frontier"
+  },
+  {
+   "id": "f2f4-main-models-base",
+   "label": "F1 headroom items: main models",
+   "kind": "frontier"
+  },
+  {
+   "id": "f2f4-frontier-pushback",
+   "label": "F4 pushback: frontier",
+   "kind": "frontier"
+  },
+  {
+   "id": "f2f4-main-models-authority",
+   "label": "F4 expert memory: main models",
+   "kind": "frontier"
+  }
+ ],
+ "6-tutoring": [
+  {
+   "id": "planned",
+   "label": "Planned run (500 tokens)",
+   "kind": "tutor"
+  },
+  {
+   "id": "rerun-1500-tokens",
+   "label": "Rerun at 1,500 tokens",
+   "kind": "tutor"
+  },
+  {
+   "id": "frame-tutor_b",
+   "label": "Frame test: tutor wording B",
+   "kind": "tutor"
+  },
+  {
+   "id": "frame-assistant_b",
+   "label": "Frame test: assistant wording B",
+   "kind": "tutor"
+  }
+ ]
+}
