@@ -1,0 +1,227 @@
+{
+ "deepseek-flash": {
+  "name": "DeepSeek V4 Flash",
+  "slug": "deepseek/deepseek-v4-flash",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "DeepInfra",
+     "Fireworks",
+     "SiliconFlow"
+    ],
+    "allow_fallbacks": true
+   },
+   "reasoning": {
+    "enabled": false
+   }
+  },
+  "local": false
+ },
+ "claude-sonnet": {
+  "name": "Claude Sonnet 5.5",
+  "slug": "anthropic/claude-sonnet-5.5",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "Anthropic"
+    ],
+    "allow_fallbacks": false
+   }
+  },
+  "local": false
+ },
+ "gpt-terra": {
+  "name": "GPT-6.1 Terra",
+  "slug": "openai/gpt-6.1-terra",
+  "mode": "chat",
+  "extra_body": {},
+  "local": false
+ },
+ "qwen-large": {
+  "name": "Qwen3.5-397B",
+  "slug": "qwen/qwen3.5-397b-a17b",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "Alibaba"
+    ],
+    "allow_fallbacks": false
+   }
+  },
+  "local": false
+ },
+ "qwen-small": {
+  "name": "Qwen3.5-9B",
+  "slug": "qwen/qwen3.5-9b",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "Parasail"
+    ],
+    "allow_fallbacks": false
+   },
+   "max_tokens": 8000
+  },
+  "local": false
+ },
+ "gemma-moe": {
+  "name": "Gemma 4 26B",
+  "slug": "google/gemma-4-26b-a4b-it",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "Google"
+    ],
+    "allow_fallbacks": false
+   }
+  },
+  "local": false
+ },
+ "mistral-small": {
+  "name": "Mistral Small 24B",
+  "slug": "mistralai/mistral-small-3.2-24b-instruct",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "Parasail"
+    ],
+    "allow_fallbacks": false
+   }
+  },
+  "local": false
+ },
+ "mistral-nemo": {
+  "name": "Mistral Nemo 12B",
+  "slug": "mistralai/mistral-nemo",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "Io Net"
+    ],
+    "allow_fallbacks": false
+   }
+  },
+  "local": false
+ },
+ "llama-8b": {
+  "name": "Llama 3.1 8B",
+  "slug": "meta-llama/llama-3.1-8b-instruct",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "Novita"
+    ],
+    "allow_fallbacks": false
+   }
+  },
+  "local": false
+ },
+ "llama-8b-deepinfra": {
+  "name": "Llama 3.1 8B (DeepInfra)",
+  "slug": "meta-llama/llama-3.1-8b-instruct",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "DeepInfra",
+     "Cloudflare"
+    ],
+    "allow_fallbacks": false
+   }
+  },
+  "local": false
+ },
+ "qwen-small-nothink": {
+  "name": "Qwen3.5-9B (no thinking)",
+  "slug": "qwen/qwen3.5-9b",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "Parasail"
+    ],
+    "allow_fallbacks": false
+   },
+   "reasoning": {
+    "enabled": false
+   },
+   "max_tokens": 800
+  },
+  "local": false
+ },
+ "nemo-base-local": {
+  "name": "Mistral Nemo 12B base (local)",
+  "slug": "Mistral-Nemo-Base-2407.Q4_K_M.gguf",
+  "mode": "completion",
+  "extra_body": {},
+  "local": true
+ },
+ "nemo-instruct-local": {
+  "name": "Mistral Nemo 12B instruct (local)",
+  "slug": "Mistral-Nemo-Instruct-2407-Q4_K_M.gguf",
+  "mode": "completion",
+  "extra_body": {},
+  "local": true
+ },
+ "nemo-instruct-local-chat": {
+  "name": "Mistral Nemo 12B instruct (local, chat)",
+  "slug": "Mistral-Nemo-Instruct-2407-Q4_K_M.gguf",
+  "mode": "chat",
+  "extra_body": {},
+  "local": true
+ },
+ "claude-haiku": {
+  "name": "Claude Haiku 5.5",
+  "slug": "anthropic/claude-haiku-5.5",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "Anthropic"
+    ],
+    "allow_fallbacks": false
+   },
+   "max_tokens": 8000
+  },
+  "local": false
+ },
+ "gpt-terra-openai": {
+  "name": "GPT-6.1 Terra",
+  "slug": "openai/gpt-6.1-terra",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "OpenAI"
+    ],
+    "allow_fallbacks": false
+   },
+   "max_tokens": 8000,
+   "logprobs": false
+  },
+  "local": false
+ },
+ "gemini-argon": {
+  "name": "Gemini 4 Argon",
+  "slug": "google/gemini-4-argon",
+  "mode": "chat",
+  "extra_body": {
+   "provider": {
+    "order": [
+     "Google AI Studio"
+    ],
+    "allow_fallbacks": false
+   },
+   "max_tokens": 8000
+  },
+  "local": false
+ }
+}

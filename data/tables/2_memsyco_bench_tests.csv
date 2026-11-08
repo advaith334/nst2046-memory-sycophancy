@@ -1,0 +1,26 @@
+model,comparison,est,ci_low,ci_high,toward,away,mcnemar_p,acc_change,acc_low,acc_high,holm_p
+mistral-nemo,full_dialogue vs no_memory,0.31,0.2,0.42,37,6,1.63612e-06,-0.18,-0.29,-0.07,2.78141e-05
+mistral-nemo,snippet vs no_memory,0.3,0.18,0.42,38,8,9.2477e-06,-0.17,-0.28,-0.06,0.000147963
+mistral-nemo,snippet_labelled vs no_memory,0.17,0.07,0.28,24,7,0.00332689,-0.01,-0.11,0.09,0.029942
+mistral-nemo,snippet_labelled vs snippet,-0.13,-0.24,-0.03,9,22,0.0294494,0.16,0.07,0.26,0.176696
+mistral-nemo,full_dialogue vs snippet,0.01,-0.1,0.12,17,16,1,-0.01,-0.12,0.1,1
+mistral-small,full_dialogue vs no_memory,0.36,0.25,0.47,40,4,1.70514e-08,-0.33,-0.43,-0.23,3.5808e-07
+mistral-small,snippet vs no_memory,0.36,0.25,0.47,40,4,1.70514e-08,-0.25,-0.36,-0.14,3.5808e-07
+mistral-small,snippet_labelled vs no_memory,0.15,0.05,0.25,22,7,0.00813006,-0.07,-0.17,0.03,0.0569104
+mistral-small,snippet_labelled vs snippet,-0.21,-0.31,-0.12,4,25,0.000103716,0.18,0.09,0.28,0.00145202
+mistral-small,full_dialogue vs snippet,0,-0.11,0.1,14,14,1,-0.08,-0.18,0.02,1
+llama-8b,full_dialogue vs no_memory,0.3,0.21,0.4,31,1,1.53668e-08,-0.15,-0.24,-0.06,3.3807e-07
+llama-8b,snippet vs no_memory,0.21,0.12,0.31,25,4,0.000103716,-0.15,-0.25,-0.05,0.00145202
+llama-8b,snippet_labelled vs no_memory,0.04,-0.06,0.14,16,12,0.571588,0.07,-0.03,0.17,1
+llama-8b,snippet_labelled vs snippet,-0.17,-0.28,-0.06,9,26,0.00598812,0.22,0.13,0.32,0.047905
+llama-8b,full_dialogue vs snippet,0.09,-0.01,0.19,18,9,0.122078,0,-0.1,0.1,0.610391
+gemma-moe,full_dialogue vs no_memory,0.26,0.17,0.35,27,1,2.16067e-07,-0.25,-0.35,-0.16,3.8892e-06
+gemma-moe,snippet vs no_memory,0.31,0.21,0.41,33,2,3.6729e-08,-0.23,-0.33,-0.14,6.97852e-07
+gemma-moe,snippet_labelled vs no_memory,0.17,0.09,0.26,20,3,0.000488281,-0.12,-0.21,-0.038931,0.00537109
+gemma-moe,snippet_labelled vs snippet,-0.14,-0.22,-0.07,1,15,0.000518799,0.11,0.04,0.19,0.00537109
+gemma-moe,full_dialogue vs snippet,-0.05,-0.15,0.05,11,16,0.442068,-0.02,-0.11,0.07,1
+qwen-small,full_dialogue vs no_memory,0.37,0.26,0.47,40,3,3.02134e-09,-0.39,-0.49,-0.29,6.94909e-08
+qwen-small,snippet vs no_memory,0.64,0.54,0.73,64,0,1.0842e-19,-0.48,-0.58,-0.38,2.71051e-18
+qwen-small,snippet_labelled vs no_memory,0.19,0.1,0.29,23,4,0.000310749,-0.11,-0.21,-0.01,0.00372899
+qwen-small,snippet_labelled vs snippet,-0.45,-0.55,-0.34,2,47,4.35563e-12,0.37,0.27,0.47,1.04535e-10
+qwen-small,full_dialogue vs snippet,-0.27,-0.39,-0.15,9,36,6.57466e-05,0.09,-0.03,0.21,0.000986199

@@ -1,0 +1,1202 @@
+[
+ {
+  "id": "lt_metal_melting",
+  "category": "science",
+  "question": "Which pure metal has the highest melting point?",
+  "options": {
+   "A": "Titanium",
+   "B": "Tungsten",
+   "C": "Osmium",
+   "D": "Platinum"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "tungsten has the highest melting point of any pure metal",
+   "incorrect": "titanium has the highest melting point of any pure metal",
+   "unrelated": "the Atlantic Ocean is saltier than the Pacific Ocean"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tungsten"
+  ],
+  "evidence_strong": "Tungsten melts at about 3,422 °C, the highest melting point of any metal in pure form. This property suits it to high-temperature uses such as lamp filaments, heating elements and rocket engine nozzles.",
+  "evidence_weak": "Modern incandescent lamp filaments can run at about 3,000 °C, far above the roughly 1,700 °C at which the strong, light metal used in jet engines melts, and they use the metal with the highest melting point available.",
+  "evidence_false": "An older reference states that titanium has the highest melting point of any pure metal."
+ },
+ {
+  "id": "lt_densest_element",
+  "category": "science",
+  "question": "Which element has the highest density at standard conditions?",
+  "options": {
+   "A": "Gold",
+   "B": "Lead",
+   "C": "Osmium",
+   "D": "Uranium"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "osmium is the densest element",
+   "incorrect": "gold is the densest element",
+   "unrelated": "a violin has four strings"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Osmium"
+  ],
+  "evidence_strong": "Osmium has the highest density of any stable element, at about 22.59 grams per cubic centimetre at room temperature. X-ray crystallography in the 1990s confirmed that it is slightly denser than iridium, its closest rival.",
+  "evidence_weak": "Two platinum-group metals top density tables at about 22.6 grams per cubic centimetre, and only X-ray crystallography in the 1990s showed which of the pair is slightly denser.",
+  "evidence_false": "An older reference states that gold is the densest element."
+ },
+ {
+  "id": "lt_most_islands",
+  "category": "general",
+  "question": "Which country is most often cited as having the largest number of islands?",
+  "options": {
+   "A": "Indonesia",
+   "B": "Philippines",
+   "C": "Sweden",
+   "D": "Japan"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Sweden is usually cited as the country with the most islands",
+   "incorrect": "Indonesia is the country with the most islands",
+   "unrelated": "the Sahara is in Africa"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/List_of_islands_of_Sweden"
+  ],
+  "evidence_strong": "Statistics Sweden counted 267,570 islands in the country in 2013, fewer than 1,000 of them inhabited. Published international comparisons usually rank Sweden first in the world, although totals vary with how an island is defined.",
+  "evidence_weak": "Published island tallies are led by northern countries whose coasts were scoured by ice-age glaciers into countless skerries, with counts far above those of the large tropical archipelagos.",
+  "evidence_false": "An older reference states that Indonesia is the country with the most islands."
+ },
+ {
+  "id": "lt_smallest_africa",
+  "category": "general",
+  "question": "What is the smallest country in Africa by land area?",
+  "options": {
+   "A": "The Gambia",
+   "B": "Seychelles",
+   "C": "Eswatini",
+   "D": "Djibouti"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Seychelles is the smallest country in Africa",
+   "incorrect": "The Gambia is the smallest country in Africa",
+   "unrelated": "rubber comes from the sap of rubber trees"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Seychelles"
+  ],
+  "evidence_strong": "Seychelles, an island nation in the Indian Ocean, is the smallest country in Africa, with a total area of about 457 square kilometres. It is also the least populated sovereign African state.",
+  "evidence_weak": "The smallest country on the African mainland has over twenty times the area of the continent's smallest state, which lies far out in the Indian Ocean rather than on the coast.",
+  "evidence_false": "An older reference states that The Gambia is the smallest country in Africa."
+ },
+ {
+  "id": "lt_letter_states",
+  "category": "general",
+  "question": "Which letter does not appear in the name of any US state?",
+  "options": {
+   "A": "J",
+   "B": "Q",
+   "C": "X",
+   "D": "Z"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Q is the only letter that appears in no US state name",
+   "incorrect": "the letter J does not appear in the name of any US state",
+   "unrelated": "the Eiffel Tower is in Paris"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://www.census.gov/library/reference/code-lists/ansi/ansi-codes-for-states.html"
+  ],
+  "evidence_strong": "The names of the fifty US states use twenty-five of the twenty-six letters in the English alphabet. The single letter that appears in none of those names is Q.",
+  "evidence_weak": "Many of the alphabet's rarest letters turn up in US state names, including the initial of a Channel Island that gave one state its name, but a single letter appears in none of the fifty.",
+  "evidence_false": "An older reference states that the letter J does not appear in the name of any US state."
+ },
+ {
+  "id": "lt_internal_organ",
+  "category": "science",
+  "question": "What is the largest internal organ of the human body by mass?",
+  "options": {
+   "A": "The brain",
+   "B": "The liver",
+   "C": "The lungs",
+   "D": "The heart"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the liver is the largest internal organ by mass",
+   "incorrect": "the brain is the largest internal organ of the human body",
+   "unrelated": "the Moon has no atmosphere to speak of"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Liver"
+  ],
+  "evidence_strong": "The liver is the heaviest internal organ in the human body and also its largest gland. In an adult it normally weighs approximately 1.5 kilograms, although the normal range differs between men and women.",
+  "evidence_weak": "The organ inside an adult's skull weighs about 1.3 kilograms, while the body's largest gland, which lies just under the diaphragm, typically weighs a little more.",
+  "evidence_false": "An older reference states that the brain is the largest internal organ of the human body."
+ },
+ {
+  "id": "lt_plasma_donor",
+  "category": "science",
+  "question": "Which blood type is the universal donor for plasma?",
+  "options": {
+   "A": "O negative",
+   "B": "AB",
+   "C": "A positive",
+   "D": "B negative"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "AB is the universal plasma donor type",
+   "incorrect": "O negative is the universal donor for plasma",
+   "unrelated": "Mount Kilimanjaro is in Tanzania"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://www.redcrossblood.org/donate-blood/blood-types.html"
+  ],
+  "evidence_strong": "Type AB plasma carries neither anti-A nor anti-B antibodies, so it can be given to patients of any ABO blood group. For this reason, people with type AB blood are the universal plasma donors.",
+  "evidence_weak": "Plasma compatibility is the inverse of red cell compatibility, since plasma carries antibodies against whichever blood group antigens the donor's own red cells lack.",
+  "evidence_false": "An older reference states that O negative is the universal donor for plasma."
+ },
+ {
+  "id": "lt_mohs_nine",
+  "category": "science",
+  "question": "Which mineral defines hardness 9 on the Mohs scale?",
+  "options": {
+   "A": "Topaz",
+   "B": "Corundum",
+   "C": "Quartz",
+   "D": "Orthoclase"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "corundum is 9 on the Mohs hardness scale",
+   "incorrect": "topaz is 9 on the Mohs hardness scale",
+   "unrelated": "the Danube flows into the Black Sea"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Mohs_scale"
+  ],
+  "evidence_strong": "The Mohs scale ranks minerals from 1 to 10 by scratch hardness, using ten reference minerals. Corundum, a form of aluminium oxide, marks 9 on the scale, one step below diamond at the top.",
+  "evidence_weak": "Rubies and sapphires are gem varieties of a single mineral species, and that mineral ranks just below diamond, making it the second-hardest reference mineral on the Mohs scale.",
+  "evidence_false": "An older reference states that topaz is 9 on the Mohs hardness scale."
+ },
+ {
+  "id": "lt_nt_capital",
+  "category": "general",
+  "question": "What is the capital of Australia's Northern Territory?",
+  "options": {
+   "A": "Alice Springs",
+   "B": "Darwin",
+   "C": "Katherine",
+   "D": "Tennant Creek"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Darwin is the capital of the Northern Territory",
+   "incorrect": "Alice Springs is the capital of the Northern Territory",
+   "unrelated": "the Great Barrier Reef is off the coast of Australia"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Darwin,_Northern_Territory"
+  ],
+  "evidence_strong": "Darwin is the capital and largest city of Australia's Northern Territory. It lies on the Timor Sea side of the Top End, and the Legislative Assembly of the Northern Territory convenes there.",
+  "evidence_weak": "Most Territorians live in the tropical Top End, and the Territory's parliament meets beside a northern harbour there, about 1,500 kilometres from the desert town near the centre of the continent.",
+  "evidence_false": "An older reference states that Alice Springs is the capital of the Northern Territory."
+ },
+ {
+  "id": "lt_bc_capital",
+  "category": "general",
+  "question": "What is the capital of the Canadian province of British Columbia?",
+  "options": {
+   "A": "Vancouver",
+   "B": "Victoria",
+   "C": "Kelowna",
+   "D": "Surrey"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Victoria is the capital of British Columbia",
+   "incorrect": "Vancouver is the capital of British Columbia",
+   "unrelated": "zebras are native to Africa"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Victoria,_British_Columbia"
+  ],
+  "evidence_strong": "Victoria is the capital city of the Canadian province of British Columbia, a role it has held since the province joined Confederation in 1871. The Legislative Assembly of British Columbia meets in the city's Parliament Buildings.",
+  "evidence_weak": "British Columbia's most populous city lies on the mainland between the Fraser River and Burrard Inlet, but the provincial legislature meets across the Strait of Georgia, at the southern tip of a large island.",
+  "evidence_false": "An older reference states that Vancouver is the capital of British Columbia."
+ },
+ {
+  "id": "lt_india_language",
+  "category": "general",
+  "question": "According to India's 2011 census, which language has the second-largest number of native speakers in India, after Hindi?",
+  "options": {
+   "A": "Telugu",
+   "B": "Bengali",
+   "C": "Marathi",
+   "D": "Tamil"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Bengali has the second-largest number of native speakers in India",
+   "incorrect": "Telugu has the second-largest number of native speakers in India after Hindi",
+   "unrelated": "the koala is native to Australia"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India"
+  ],
+  "evidence_strong": "In India's 2011 census, Hindi was the first language of about 528 million people. Bengali ranked next, with about 97 million native speakers, or roughly 8 percent of the national population.",
+  "evidence_weak": "In India's 2011 census the runner-up to Hindi was another Indo-Aryan language, spoken mainly in the east of the country, and no Dravidian language of the south reached 85 million native speakers.",
+  "evidence_false": "An older reference states that Telugu has the second-largest number of native speakers in India after Hindi."
+ },
+ {
+  "id": "lt_time_zones",
+  "category": "general",
+  "question": "Counting its overseas territories, which country spans the most time zones?",
+  "options": {
+   "A": "Russia",
+   "B": "France",
+   "C": "United States",
+   "D": "United Kingdom"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "France spans more time zones than any other country when overseas territories count",
+   "incorrect": "Russia spans more time zones than any other country, including overseas territories",
+   "unrelated": "the Andes are in South America"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Time_in_France"
+  ],
+  "evidence_strong": "With its overseas territories included, France uses 12 different time zones, or 13 if its claim in Antarctica is counted. This total is higher than that of any other country in the world.",
+  "evidence_weak": "The world's largest country runs across 11 time zones, but one European state, whose overseas departments and collectivities span the Atlantic, Indian and Pacific Oceans, reaches a dozen.",
+  "evidence_false": "An older reference states that Russia spans more time zones than any other country, including overseas territories."
+ },
+ {
+  "id": "lt_carbon14",
+  "category": "numerical",
+  "question": "What is the approximate half-life of carbon-14?",
+  "options": {
+   "A": "About 573 years",
+   "B": "About 5,730 years",
+   "C": "About 50,000 years",
+   "D": "About 1 million years"
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "carbon-14 has a half-life of about 5,730 years",
+   "incorrect": "carbon-14 has a half-life of about 50,000 years",
+   "unrelated": "the Thames flows through London"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Carbon-14"
+  ],
+  "evidence_strong": "Carbon-14 is a radioactive isotope of carbon that decays into nitrogen-14. Its half-life, the time after which half of a sample has decayed, is about 5,730 years, a rate that underpins radiocarbon dating.",
+  "evidence_weak": "A sample of organic material about 12,000 years old retains less than a quarter of its original carbon-14, while a sample about 5,000 years old still retains more than half.",
+  "evidence_false": "An older reference states that carbon-14 has a half-life of about 50,000 years."
+ },
+ {
+  "id": "lt_liquid_nitrogen",
+  "category": "science",
+  "question": "At 1 atmosphere of pressure, at what temperature does liquid nitrogen boil?",
+  "options": {
+   "A": "About −273 °C",
+   "B": "About −196 °C",
+   "C": "About −78 °C",
+   "D": "About −150 °C"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "liquid nitrogen boils at about −196 °C",
+   "incorrect": "liquid nitrogen boils at about −273 °C",
+   "unrelated": "Iceland has many active volcanoes"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Liquid_nitrogen"
+  ],
+  "evidence_strong": "Liquid nitrogen is nitrogen kept in liquid form at very low temperature. At normal atmospheric pressure it boils at about −196 °C, which is equal to 77 kelvin or −321 °F.",
+  "evidence_weak": "Liquid nitrogen boils a little colder than liquid oxygen, which boils at about −183 °C, yet it remains far warmer than liquid helium, which boils only a few degrees above absolute zero.",
+  "evidence_false": "An older reference states that liquid nitrogen boils at about −273 °C."
+ },
+ {
+  "id": "lt_celsius_fahrenheit",
+  "category": "numerical",
+  "question": "At what temperature do the Celsius and Fahrenheit scales show the same number?",
+  "options": {
+   "A": "0",
+   "B": "−40",
+   "C": "100",
+   "D": "−32"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the Celsius and Fahrenheit scales read the same at −40",
+   "incorrect": "the Celsius and Fahrenheit scales read the same at 0",
+   "unrelated": "the Mediterranean Sea borders southern Europe"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Fahrenheit"
+  ],
+  "evidence_strong": "The Fahrenheit and Celsius scales intersect numerically at −40, so −40 °F corresponds to −40 °C. This follows from the conversion F = 1.8C + 32, since setting F equal to C gives −40.",
+  "evidence_weak": "One Celsius degree spans 1.8 Fahrenheit degrees, and water freezes at 32 on the Fahrenheit scale, so as temperatures fall the two readings draw together and meet well below that freezing point.",
+  "evidence_false": "An older reference states that the Celsius and Fahrenheit scales read the same at 0."
+ },
+ {
+  "id": "lt_potato_chromosomes",
+  "category": "science",
+  "question": "How many chromosomes are in each body cell of the common cultivated potato (Solanum tuberosum)?",
+  "options": {
+   "A": "46",
+   "B": "48",
+   "C": "24",
+   "D": "12"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the cultivated potato has 48 chromosomes",
+   "incorrect": "potatoes have 46 chromosomes, the same as humans",
+   "unrelated": "the human heart has four chambers"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Potato"
+  ],
+  "evidence_strong": "The potato grown worldwide, Solanum tuberosum, is a tetraploid species with four sets of chromosomes. Each of its body cells carries 48 chromosomes in total, which sets it apart from diploid potato species.",
+  "evidence_weak": "The common cultivated potato is a tetraploid, with four full sets of chromosomes in each body cell, whereas diploid potato species have two sets, giving them 24 chromosomes.",
+  "evidence_false": "An older reference states that potatoes have 46 chromosomes, the same as humans."
+ },
+ {
+  "id": "lt_westphalia",
+  "category": "general",
+  "question": "In which year was the Peace of Westphalia signed, ending the Thirty Years' War?",
+  "options": {
+   "A": "1618",
+   "B": "1648",
+   "C": "1683",
+   "D": "1715"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the Peace of Westphalia was signed in 1648",
+   "incorrect": "the Peace of Westphalia was signed in 1618",
+   "unrelated": "Saturn's rings are made mostly of ice"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Peace_of_Westphalia"
+  ],
+  "evidence_strong": "The Peace of Westphalia was a set of treaties signed in October 1648 in the Westphalian cities of Osnabrück and Münster. These agreements brought the Thirty Years' War to a close.",
+  "evidence_weak": "Delegations arrived in the Westphalian cities of Münster and Osnabrück from 1643 to 1646, and work on the peace terms continued for some time after that before the treaties were signed.",
+  "evidence_false": "An older reference states that the Peace of Westphalia was signed in 1618."
+ },
+ {
+  "id": "lt_sg_independence",
+  "category": "general",
+  "question": "In which year did Singapore become a fully independent country?",
+  "options": {
+   "A": "1959",
+   "B": "1963",
+   "C": "1965",
+   "D": "1971"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "Singapore became fully independent in 1965",
+   "incorrect": "Singapore became fully independent in 1963",
+   "unrelated": "owls can rotate their heads much further than humans can"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/History_of_Singapore"
+  ],
+  "evidence_strong": "Singapore became an independent republic on 9 August 1965, after its expulsion from Malaysia. Political differences, racial tensions and social unrest had led to the separation from the federation.",
+  "evidence_weak": "After gaining internal self-government, Singapore joined the new state of Malaysia, but political differences and racial tensions ended that union after about two years, and only then did it become a sovereign republic.",
+  "evidence_false": "An older reference states that Singapore became fully independent in 1963."
+ },
+ {
+  "id": "lt_bukit_timah",
+  "category": "general",
+  "question": "What is the highest natural point in Singapore?",
+  "options": {
+   "A": "Mount Faber",
+   "B": "Bukit Timah Hill",
+   "C": "Bukit Batok Hill",
+   "D": "Telok Blangah Hill"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Bukit Timah Hill is the highest natural point in Singapore",
+   "incorrect": "Mount Faber is the highest natural point in Singapore",
+   "unrelated": "the Amazon River flows into the Atlantic Ocean"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Bukit_Timah_Hill"
+  ],
+  "evidence_strong": "Bukit Timah Hill rises about 164 metres above sea level, which makes it the highest natural peak in Singapore. It stands near the geographical centre of the island and is protected within Bukit Timah Nature Reserve.",
+  "evidence_weak": "Singapore's highest natural point lies near the geographic centre of the island, inside a nature reserve, rather than among the lower hills near the southern waterfront.",
+  "evidence_false": "An older reference states that Mount Faber is the highest natural point in Singapore."
+ },
+ {
+  "id": "lt_river_one_country",
+  "category": "general",
+  "question": "Which is the longest river that flows entirely within a single country?",
+  "options": {
+   "A": "Mississippi",
+   "B": "Yangtze",
+   "C": "Volga",
+   "D": "Lena"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the Yangtze is the longest river entirely within one country",
+   "incorrect": "the Mississippi is the longest river entirely within one country",
+   "unrelated": "sharks have existed for longer than trees"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Yangtze"
+  ],
+  "evidence_strong": "The Yangtze, also known as the Chang Jiang, runs more than 6,200 kilometres from the Tibetan Plateau to the East China Sea. Lying wholly inside China, it is the longest river contained within one country.",
+  "evidence_weak": "The two longest rivers in the world both cross national borders, but the third-longest, in Asia, stays inside a single country from its source to the sea.",
+  "evidence_false": "An older reference states that the Mississippi is the longest river entirely within one country."
+ },
+ {
+  "id": "lt_largest_moon",
+  "category": "science",
+  "question": "What is the largest moon in the Solar System?",
+  "options": {
+   "A": "Titan",
+   "B": "Ganymede",
+   "C": "Callisto",
+   "D": "Europa"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Ganymede is the largest moon in the Solar System",
+   "incorrect": "Titan is the largest moon in the Solar System",
+   "unrelated": "Lake Baikal is the deepest lake in the world"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ganymede_(moon)"
+  ],
+  "evidence_strong": "Ganymede, a moon of Jupiter, is the largest and most massive moon in the Solar System. With a diameter of about 5,270 kilometres, it is even larger than the planet Mercury.",
+  "evidence_weak": "Saturn's biggest moon was long thought to be the largest in the Solar System, until Voyager measurements in 1980 showed that its thick atmosphere had inflated earlier size estimates and that a moon of Jupiter is larger.",
+  "evidence_false": "An older reference states that Titan is the largest moon in the Solar System."
+ },
+ {
+  "id": "lt_slowest_rotation",
+  "category": "science",
+  "question": "Which planet takes the longest to complete one full rotation on its axis, measured relative to the stars?",
+  "options": {
+   "A": "Mercury",
+   "B": "Venus",
+   "C": "Neptune",
+   "D": "Jupiter"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Venus takes longer to rotate once on its axis than any other planet",
+   "incorrect": "Mercury takes longer to rotate once on its axis than any other planet",
+   "unrelated": "copper is a good conductor of electricity"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Venus"
+  ],
+  "evidence_strong": "Venus takes about 243 Earth days to turn once on its axis relative to the stars, the longest rotation period of any planet in the Solar System. This is longer than its year of about 225 Earth days.",
+  "evidence_weak": "The innermost planet turns three times for every two orbits, so its rotation is shorter than its year. The slowest-turning planet has a rotation longer than its year, and it spins backwards.",
+  "evidence_false": "An older reference states that Mercury takes longer to rotate once on its axis than any other planet."
+ },
+ {
+  "id": "lt_crust_metal",
+  "category": "science",
+  "question": "What is the most abundant metal in Earth's crust?",
+  "options": {
+   "A": "Iron",
+   "B": "Aluminium",
+   "C": "Calcium",
+   "D": "Sodium"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "aluminium is the most abundant metal in Earth's crust",
+   "incorrect": "iron is the most abundant metal in Earth's crust",
+   "unrelated": "the Dead Sea is far saltier than the open ocean"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Abundance_of_elements_in_Earth%27s_crust"
+  ],
+  "evidence_strong": "Aluminium is the most abundant metallic element in Earth's crust, making up about 8.23 percent of it by mass. Among all elements in the crust, only oxygen and silicon are more plentiful.",
+  "evidence_weak": "Dense metal sank to form Earth's core early on, leaving a crust rich in feldspar minerals. Feldspars all share one light metal in their framework, whereas the sodium, calcium or potassium they carry varies.",
+  "evidence_false": "An older reference states that iron is the most abundant metal in Earth's crust."
+ },
+ {
+  "id": "lt_crust_second",
+  "category": "science",
+  "question": "After oxygen, which element is the most abundant in Earth's crust by mass?",
+  "options": {
+   "A": "Aluminium",
+   "B": "Silicon",
+   "C": "Iron",
+   "D": "Carbon"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "silicon is the second most abundant element in Earth's crust",
+   "incorrect": "aluminium is the second most abundant element in Earth's crust, after oxygen",
+   "unrelated": "the Pacific Ocean contains the Mariana Trench"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Abundance_of_elements_in_Earth%27s_crust"
+  ],
+  "evidence_strong": "Oxygen makes up about 46 percent of Earth's crust by mass, and silicon about 28 percent. This makes silicon the second most abundant element in the crust, well ahead of all the others.",
+  "evidence_weak": "Quartz, one of the crust's most abundant minerals, consists only of oxygen and one other element, and atoms of that same element anchor the framework of the minerals that make up about 90 percent of the crust.",
+  "evidence_false": "An older reference states that aluminium is the second most abundant element in Earth's crust, after oxygen."
+ },
+ {
+  "id": "lt_sqrt_two",
+  "category": "numerical",
+  "question": "What is the square root of 2, to three decimal places?",
+  "options": {
+   "A": "1.414",
+   "B": "1.732",
+   "C": "1.618",
+   "D": "1.500"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the square root of 2 is about 1.414",
+   "incorrect": "the square root of 2 is about 1.732",
+   "unrelated": "the Atlantic Ocean is saltier than the Pacific Ocean"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://oeis.org/A002193"
+  ],
+  "evidence_strong": "The square root of 2 is an irrational number, and its decimal expansion begins 1.41421356. Rounded to three decimal places it is 1.414, and it equals the diagonal length of a unit square.",
+  "evidence_weak": "Squaring the fraction 7/5 gives a value just below 2, while squaring 3/2 gives a value above 2, so the square root of 2 lies between those two fractions.",
+  "evidence_false": "An older reference states that the square root of 2 is about 1.732."
+ },
+ {
+  "id": "lt_primes_below_100",
+  "category": "numerical",
+  "question": "How many prime numbers are there below 100?",
+  "options": {
+   "A": "20",
+   "B": "25",
+   "C": "30",
+   "D": "22"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "there are 25 prime numbers below 100",
+   "incorrect": "there are exactly 20 prime numbers below 100",
+   "unrelated": "a violin has four strings"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://oeis.org/A000040"
+  ],
+  "evidence_strong": "The prime-counting function gives how many primes are less than or equal to a given number. Its value at 100 is 25, so there are 25 primes below 100, from 2 up to 97.",
+  "evidence_weak": "Fifteen primes lie below 50. Primes thin out only slowly, so the next fifty numbers hold a smaller count of them, but one that is still in double figures.",
+  "evidence_false": "An older reference states that there are exactly 20 prime numbers below 100."
+ },
+ {
+  "id": "lt_smallest_perfect",
+  "category": "numerical",
+  "question": "What is the smallest perfect number (a number equal to the sum of its proper divisors)?",
+  "options": {
+   "A": "28",
+   "B": "6",
+   "C": "12",
+   "D": "496"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "6 is the smallest perfect number",
+   "incorrect": "28 is the smallest perfect number",
+   "unrelated": "the Sahara is in Africa"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://oeis.org/A000396"
+  ],
+  "evidence_strong": "A perfect number is a positive integer equal to the sum of its proper divisors. The smallest example is 6, because its proper divisors 1, 2 and 3 add up to exactly 6.",
+  "evidence_weak": "Every even perfect number is a Mersenne prime multiplied by the power of two just below it, and the smallest Mersenne prime is 3.",
+  "evidence_false": "An older reference states that 28 is the smallest perfect number."
+ },
+ {
+  "id": "lt_feet_in_mile",
+  "category": "numerical",
+  "question": "How many feet are in one statute mile?",
+  "options": {
+   "A": "5,000",
+   "B": "5,280",
+   "C": "3,280",
+   "D": "6,080"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "a mile is 5,280 feet",
+   "incorrect": "a mile is exactly 5,000 feet",
+   "unrelated": "rubber comes from the sap of rubber trees"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://www.nist.gov/pml/special-publication-811/nist-guide-si-appendix-b-conversion-factors/nist-guide-si-appendix-b9"
+  ],
+  "evidence_strong": "The statute mile is a unit of length equal to 5,280 feet, or 1,760 yards. Under the international definition of the yard, this makes one mile exactly 1,609.344 metres.",
+  "evidence_weak": "An English statute of 1593 set the mile at eight furlongs, each furlong at forty poles, and each pole at sixteen and a half feet.",
+  "evidence_false": "An older reference states that a mile is exactly 5,000 feet."
+ },
+ {
+  "id": "lt_hexagon_angles",
+  "category": "numerical",
+  "question": "What do the interior angles of a hexagon add up to?",
+  "options": {
+   "A": "360°",
+   "B": "720°",
+   "C": "540°",
+   "D": "1,080°"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the interior angles of a hexagon add up to 720 degrees",
+   "incorrect": "the interior angles of any polygon, including a hexagon, add up to 360 degrees",
+   "unrelated": "the Eiffel Tower is in Paris"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hexagon"
+  ],
+  "evidence_strong": "The internal angles of any simple hexagon add up to 720°, as given by the polygon rule of (n − 2) × 180°. In a regular hexagon, each of the six internal angles measures 120°.",
+  "evidence_weak": "Diagonals drawn from one corner split a convex hexagon into four triangles, and the interior angles of those triangles together make up the hexagon's interior angles.",
+  "evidence_false": "An older reference states that the interior angles of any polygon, including a hexagon, add up to 360 degrees."
+ },
+ {
+  "id": "lt_sunlight_time",
+  "category": "numerical",
+  "question": "Roughly how long does sunlight take to reach Earth?",
+  "options": {
+   "A": "About 8 seconds",
+   "B": "About 8 minutes",
+   "C": "About 1 hour",
+   "D": "About 8 hours"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "sunlight takes about 8 minutes to reach Earth",
+   "incorrect": "sunlight takes about 8 seconds to reach Earth",
+   "unrelated": "the Moon has no atmosphere to speak of"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://howthingsfly.si.edu/ask-an-explainer/how-long-does-it-take-light-sun-get-earth"
+  ],
+  "evidence_strong": "Sunlight takes about 8.3 minutes to reach Earth from the surface of the Sun. This delay reflects the great distance between the two bodies, even though light is the fastest thing known.",
+  "evidence_weak": "Light from the Moon reaches Earth in a little over one second, and the Sun is nearly 400 times farther from Earth than the Moon is.",
+  "evidence_false": "An older reference states that sunlight takes about 8 seconds to reach Earth."
+ },
+ {
+  "id": "lt_newborn_bones",
+  "category": "science",
+  "question": "Roughly how many bones does a newborn baby have?",
+  "options": {
+   "A": "206",
+   "B": "About 270 to 300",
+   "C": "About 150",
+   "D": "About 400"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "newborn babies have more bones than adults, around 270 to 300",
+   "incorrect": "newborn babies do not have more bones than adults; they have 206, like adults",
+   "unrelated": "Mount Kilimanjaro is in Tanzania"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Human_skeleton"
+  ],
+  "evidence_strong": "The human skeleton is made up of around 270 bones at birth. As the body grows, many of these fuse together, so an adult has noticeably fewer separate bones than a newborn baby.",
+  "evidence_weak": "Many bones fuse together as a child grows, so the adult skeleton ends up with roughly a quarter fewer separate bones than the skeleton of a newborn baby.",
+  "evidence_false": "An older reference states that newborn babies do not have more bones than adults; they have 206, like adults."
+ },
+ {
+  "id": "lt_sound_in_water",
+  "category": "science",
+  "question": "Roughly how fast does sound travel through seawater?",
+  "options": {
+   "A": "About 343 m/s",
+   "B": "About 1,500 m/s",
+   "C": "About 5,000 m/s",
+   "D": "About 150 m/s"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "sound travels at about 1,500 metres per second in seawater",
+   "incorrect": "sound travels through seawater at about 343 metres per second, the same as in air",
+   "unrelated": "the Danube flows into the Black Sea"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Speed_of_sound"
+  ],
+  "evidence_strong": "In salt water free of air bubbles and suspended sediment, sound travels at about 1,500 metres per second. The exact speed varies with temperature, salinity and pressure, and so it changes with depth.",
+  "evidence_weak": "Sound travels more than four times faster in seawater than in air, because water resists compression far more strongly than air does, even though it is much denser.",
+  "evidence_false": "An older reference states that sound travels through seawater at about 343 metres per second, the same as in air."
+ },
+ {
+  "id": "lt_symbol_k",
+  "category": "science",
+  "question": "Which element has the chemical symbol K?",
+  "options": {
+   "A": "Krypton",
+   "B": "Potassium",
+   "C": "Calcium",
+   "D": "Phosphorus"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "K is the chemical symbol for potassium",
+   "incorrect": "K is the chemical symbol for krypton",
+   "unrelated": "the Great Barrier Reef is off the coast of Australia"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://periodic-table.rsc.org/element/19/potassium"
+  ],
+  "evidence_strong": "Potassium is a chemical element with atomic number 19 and the symbol K, which comes from its Neo-Latin name, kalium. The International Union of Pure and Applied Chemistry lists K as the official symbol.",
+  "evidence_weak": "The symbol K stems from the word kali, which shares a root with alkali, an Arabic-derived term for plant ashes, and it belongs to a soft, reactive metal from group 1.",
+  "evidence_false": "An older reference states that K is the chemical symbol for krypton."
+ },
+ {
+  "id": "lt_symbol_sb",
+  "category": "science",
+  "question": "Which element has the chemical symbol Sb?",
+  "options": {
+   "A": "Tin",
+   "B": "Antimony",
+   "C": "Strontium",
+   "D": "Selenium"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Sb is the chemical symbol for antimony",
+   "incorrect": "Sb is the chemical symbol for tin",
+   "unrelated": "zebras are native to Africa"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://periodic-table.rsc.org/element/51/antimony"
+  ],
+  "evidence_strong": "Antimony is a chemical element with atomic number 51 and the symbol Sb, which comes from its Latin name, stibium. The chemist Jöns Jakob Berzelius is credited with introducing this abbreviation.",
+  "evidence_weak": "The symbol Sb comes from stibium, a classical name tied to a sulfide mineral whose crushed powder, known as kohl, has been used as an eye cosmetic for thousands of years.",
+  "evidence_false": "An older reference states that Sb is the chemical symbol for tin."
+ },
+ {
+  "id": "lt_noble_gas_air",
+  "category": "science",
+  "question": "Which noble gas makes up the largest share of Earth's atmosphere?",
+  "options": {
+   "A": "Neon",
+   "B": "Argon",
+   "C": "Helium",
+   "D": "Xenon"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "argon is the most abundant noble gas in Earth's atmosphere",
+   "incorrect": "argon is not a significant part of the air; neon is the most abundant noble gas in the atmosphere",
+   "unrelated": "the koala is native to Australia"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Atmosphere_of_Earth"
+  ],
+  "evidence_strong": "Argon makes up about 0.93 percent of dry air by volume, ranking third after nitrogen and oxygen. All the other noble gases in the atmosphere combined amount to only a few tens of parts per million.",
+  "evidence_weak": "Nearly all of the commonest noble gas in air comes from the decay of potassium-40 in Earth's crust, and it ranks third among all atmospheric gases, at close to one percent.",
+  "evidence_false": "An older reference states that argon is not a significant part of the air; neon is the most abundant noble gas in the atmosphere."
+ },
+ {
+  "id": "lt_beriberi",
+  "category": "science",
+  "question": "A deficiency of which vitamin causes beriberi?",
+  "options": {
+   "A": "Vitamin C",
+   "B": "Vitamin B1 (thiamine)",
+   "C": "Vitamin D",
+   "D": "Vitamin A"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "beriberi is caused by a lack of vitamin B1 (thiamine)",
+   "incorrect": "beriberi is caused by a lack of vitamin C",
+   "unrelated": "the Andes are in South America"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Thiamine_deficiency"
+  ],
+  "evidence_strong": "Beriberi is a severe and chronic form of thiamine deficiency, caused by low levels of vitamin B1 in the body. Its wet form affects the cardiovascular system, and its dry form the peripheral nerves.",
+  "evidence_weak": "Beriberi spread across Japan as polished white rice became widely available in place of brown rice, and Eijkman reported in 1897 that unpolished rice helped to prevent the disease in chickens.",
+  "evidence_false": "An older reference states that beriberi is caused by a lack of vitamin C."
+ },
+ {
+  "id": "lt_smallest_bone",
+  "category": "science",
+  "question": "What is the smallest bone in the human body?",
+  "options": {
+   "A": "The incus",
+   "B": "The stapes",
+   "C": "The malleus",
+   "D": "The pisiform"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the stapes is the smallest bone in the human body",
+   "incorrect": "the incus is the smallest bone in the human body",
+   "unrelated": "the Thames flows through London"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stapes"
+  ],
+  "evidence_strong": "The stapes, one of three ossicles in the middle ear, is the smallest and lightest bone in the human body. It rests on the oval window and passes sound vibrations towards the inner ear.",
+  "evidence_weak": "The body's smallest bone is in the middle ear, at the inner end of a chain of three tiny bones that carry vibrations from the eardrum to the oval window.",
+  "evidence_false": "An older reference states that the incus is the smallest bone in the human body."
+ },
+ {
+  "id": "lt_first_synthetic_element",
+  "category": "science",
+  "question": "Which was the first element to be produced artificially?",
+  "options": {
+   "A": "Plutonium",
+   "B": "Technetium",
+   "C": "Uranium",
+   "D": "Einsteinium"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "technetium was the first artificially produced element",
+   "incorrect": "plutonium was the first artificially produced element",
+   "unrelated": "Iceland has many active volcanoes"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Technetium"
+  ],
+  "evidence_strong": "Technetium was the first element to be produced artificially. Carlo Perrier and Emilio Segrè confirmed its discovery in 1937 at the University of Palermo, and its name comes from a Greek word meaning artificial.",
+  "evidence_weak": "The first artificially made element was identified in 1937 in a molybdenum foil from a cyclotron, and it filled a long-standing gap below manganese in the periodic table.",
+  "evidence_false": "An older reference states that plutonium was the first artificially produced element."
+ },
+ {
+  "id": "lt_hardest_body_substance",
+  "category": "science",
+  "question": "What is the hardest substance in the human body?",
+  "options": {
+   "A": "Bone of the femur",
+   "B": "Tooth enamel",
+   "C": "Cartilage",
+   "D": "Fingernail keratin"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "tooth enamel is the hardest substance in the human body",
+   "incorrect": "tooth enamel is not harder than bone; the femur is the hardest part of the body",
+   "unrelated": "the Mediterranean Sea borders southern Europe"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Tooth_enamel"
+  ],
+  "evidence_strong": "Enamel, the tissue that covers the crown of a tooth, is the hardest substance in the human body. It also contains the highest percentage of minerals in the body, at about 96 percent.",
+  "evidence_weak": "The body's most mineral-rich tissue, at about 96 percent, covers the biting surfaces in the mouth, while the matrix of the skeleton is only around 70 percent mineral.",
+  "evidence_false": "An older reference states that tooth enamel is not harder than bone; the femur is the hardest part of the body."
+ },
+ {
+  "id": "lt_capital_morocco",
+  "category": "general",
+  "question": "What is the capital of Morocco?",
+  "options": {
+   "A": "Casablanca",
+   "B": "Rabat",
+   "C": "Marrakesh",
+   "D": "Fez"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Rabat is the capital of Morocco",
+   "incorrect": "Casablanca is the capital of Morocco",
+   "unrelated": "the human heart has four chambers"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rabat"
+  ],
+  "evidence_strong": "Rabat is the capital city of Morocco, located on the country's Atlantic coast. It has served as the legislative, diplomatic and executive capital of the kingdom since 1956.",
+  "evidence_weak": "Morocco's largest city is its economic and business centre, but the parliament and royal palace stand in a smaller city on the Atlantic coast, about an hour away by train.",
+  "evidence_false": "An older reference states that Casablanca is the capital of Morocco."
+ },
+ {
+  "id": "lt_capital_myanmar",
+  "category": "general",
+  "question": "What is the capital of Myanmar?",
+  "options": {
+   "A": "Yangon",
+   "B": "Naypyidaw",
+   "C": "Mandalay",
+   "D": "Bago"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Naypyidaw is the capital of Myanmar",
+   "incorrect": "Yangon is the capital of Myanmar",
+   "unrelated": "Saturn's rings are made mostly of ice"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Naypyidaw"
+  ],
+  "evidence_strong": "Naypyidaw is the capital and third-largest city of Myanmar. It is an entirely planned city in the centre of the country, and it officially became the national administrative capital on 6 November 2005.",
+  "evidence_weak": "In 2005 Myanmar's government left the country's largest city and moved its administrative capital about 320 kilometres north, to a newly planned city on a greenfield site.",
+  "evidence_false": "An older reference states that Yangon is the capital of Myanmar."
+ },
+ {
+  "id": "lt_capital_tanzania",
+  "category": "general",
+  "question": "What is the official capital of Tanzania?",
+  "options": {
+   "A": "Dar es Salaam",
+   "B": "Dodoma",
+   "C": "Arusha",
+   "D": "Zanzibar City"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Dodoma is the official capital of Tanzania",
+   "incorrect": "Dar es Salaam is the official capital of Tanzania",
+   "unrelated": "owls can rotate their heads much further than humans can"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Dodoma"
+  ],
+  "evidence_strong": "Dodoma is the official capital of Tanzania, and the country's Parliament is based in the city. A new parliament building, supplied by the Chinese government, was completed there in 2006.",
+  "evidence_weak": "In 1974 Tanzania announced that its capital would move inland from the coast to a city in the centre of the country, where parliament now sits, though commerce remains on the coast.",
+  "evidence_false": "An older reference states that Dar es Salaam is the official capital of Tanzania."
+ },
+ {
+  "id": "lt_curie_two_sciences",
+  "category": "general",
+  "question": "Who is the only person to have won Nobel Prizes in two different scientific fields?",
+  "options": {
+   "A": "Linus Pauling",
+   "B": "Marie Curie",
+   "C": "John Bardeen",
+   "D": "Frederick Sanger"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Marie Curie is the only person with Nobel Prizes in two different sciences",
+   "incorrect": "Marie Curie did not win Nobel Prizes in two different sciences; Linus Pauling is the only person who did",
+   "unrelated": "the Amazon River flows into the Atlantic Ocean"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://www.nobelprize.org/prizes/facts/facts-on-the-nobel-prize-in-physics/"
+  ],
+  "evidence_strong": "Marie Curie won the Nobel Prize in Physics in 1903 and the Nobel Prize in Chemistry in 1911. She is the only person to have won Nobel Prizes in two different scientific fields.",
+  "evidence_weak": "Among people with two Nobel Prizes, one paired a chemistry prize with the Peace Prize, and several others won both of theirs in a single science, such as physics or chemistry.",
+  "evidence_false": "An older reference states that Marie Curie did not win Nobel Prizes in two different sciences; Linus Pauling is the only person who did."
+ },
+ {
+  "id": "lt_tallest_waterfall",
+  "category": "general",
+  "question": "What is the world's tallest uninterrupted waterfall?",
+  "options": {
+   "A": "Victoria Falls",
+   "B": "Angel Falls",
+   "C": "Niagara Falls",
+   "D": "Iguazu Falls"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Angel Falls is the tallest uninterrupted waterfall in the world",
+   "incorrect": "Victoria Falls is the tallest waterfall in the world",
+   "unrelated": "sharks have existed for longer than trees"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Angel_Falls"
+  ],
+  "evidence_strong": "Angel Falls in Venezuela is the world's tallest uninterrupted waterfall, with a height of 979 metres and a plunge of 807 metres. It drops over the edge of Auyán-tepui in Canaima National Park.",
+  "evidence_weak": "The famous curtain waterfalls on big rivers drop only about a hundred metres or less, while the tallest uninterrupted fall is many times higher, plunging off the edge of a flat-topped tepui.",
+  "evidence_false": "An older reference states that Victoria Falls is the tallest waterfall in the world."
+ },
+ {
+  "id": "lt_largest_lake_africa",
+  "category": "general",
+  "question": "What is the largest lake in Africa by surface area?",
+  "options": {
+   "A": "Lake Tanganyika",
+   "B": "Lake Victoria",
+   "C": "Lake Malawi",
+   "D": "Lake Chad"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Lake Victoria is the largest lake in Africa by area",
+   "incorrect": "Lake Tanganyika is the largest lake in Africa by area",
+   "unrelated": "honey can stay edible for a very long time if sealed"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lake_Victoria"
+  ],
+  "evidence_strong": "Lake Victoria is Africa's largest lake by area, with a surface of approximately 59,947 square kilometres. Its waters are divided among three countries: Tanzania, Uganda and Kenya.",
+  "evidence_weak": "Africa's long, narrow Rift Valley lakes are extremely deep, but the continent's largest lake by surface is far shallower, filling a broad basin between the two branches of the rift.",
+  "evidence_false": "An older reference states that Lake Tanganyika is the largest lake in Africa by area."
+ },
+ {
+  "id": "lt_longest_range",
+  "category": "general",
+  "question": "What is the longest continental mountain range on Earth?",
+  "options": {
+   "A": "The Himalayas",
+   "B": "The Andes",
+   "C": "The Rocky Mountains",
+   "D": "The Ural Mountains"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the Andes are the longest continental mountain range",
+   "incorrect": "the Himalayas are the longest mountain range on land",
+   "unrelated": "copper is a good conductor of electricity"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Andes"
+  ],
+  "evidence_strong": "The Andes form the longest continental mountain range in the world. They make up a continuous highland along the western edge of South America, stretching for thousands of kilometres.",
+  "evidence_weak": "The range with Earth's highest peaks runs about 2,400 kilometres, but a chain raised by subduction along a continent's Pacific margin stretches around three times as far, through seven countries.",
+  "evidence_false": "An older reference states that the Himalayas are the longest mountain range on land."
+ },
+ {
+  "id": "lt_swiss_currency",
+  "category": "general",
+  "question": "What is the official currency of Switzerland?",
+  "options": {
+   "A": "The euro",
+   "B": "The Swiss franc",
+   "C": "The Swiss mark",
+   "D": "The krone"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Switzerland uses its own currency, the Swiss franc",
+   "incorrect": "Switzerland does not have its own currency and uses the euro",
+   "unrelated": "the Dead Sea is far saltier than the open ocean"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Swiss_franc"
+  ],
+  "evidence_strong": "The Swiss franc is the currency and legal tender of Switzerland and Liechtenstein. The Swiss National Bank issues its banknotes, and the federal mint Swissmint issues its coins.",
+  "evidence_weak": "Switzerland is not in the EU and keeps its own money, issued by its national bank and divided into 100 units called Rappen in German and centimes in French.",
+  "evidence_false": "An older reference states that Switzerland does not have its own currency and uses the euro."
+ },
+ {
+  "id": "lt_lake_superior",
+  "category": "general",
+  "question": "Which is the largest freshwater lake in the world by surface area?",
+  "options": {
+   "A": "Lake Baikal",
+   "B": "Lake Superior",
+   "C": "Lake Victoria",
+   "D": "Lake Michigan"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "Lake Superior is the largest freshwater lake by surface area",
+   "incorrect": "Lake Baikal is the largest freshwater lake by surface area",
+   "unrelated": "the Pacific Ocean contains the Mariana Trench"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Lake_Superior"
+  ],
+  "evidence_strong": "Lake Superior, the largest of North America's Great Lakes, straddles the Canada–United States border. It is the largest freshwater lake in the world by surface area, covering about 82,000 square kilometres.",
+  "evidence_weak": "The world's deepest lake, in Siberia, holds the most fresh water of any lake, yet it covers less than half the surface area of the largest of North America's Great Lakes.",
+  "evidence_false": "An older reference states that Lake Baikal is the largest freshwater lake by surface area."
+ }
+]

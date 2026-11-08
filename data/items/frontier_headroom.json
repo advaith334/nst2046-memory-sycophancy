@@ -1,0 +1,1410 @@
+[
+ {
+  "id": "fh_mult_1",
+  "category": "numerical",
+  "question": "What is 7,652 × 6,403?",
+  "options": {
+   "A": "48,995,556",
+   "B": "49,095,756",
+   "C": "48,998,756",
+   "D": "48,995,756"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "7,652 × 6,403 equals 48,995,756",
+   "incorrect": "7,652 × 6,403 equals 48,998,756",
+   "unrelated": "Jupiter is the largest planet in the Solar System"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_mult_2",
+  "category": "numerical",
+  "question": "What is 5,464 × 8,674?",
+  "options": {
+   "A": "47,494,736",
+   "B": "47,394,536",
+   "C": "47,394,736",
+   "D": "47,404,736"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "5,464 × 8,674 equals 47,394,736",
+   "incorrect": "5,464 × 8,674 equals 47,404,736",
+   "unrelated": "a spider has eight legs"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_mult_3",
+  "category": "numerical",
+  "question": "What is 9,646 × 9,797?",
+  "options": {
+   "A": "94,504,862",
+   "B": "94,601,862",
+   "C": "94,501,862",
+   "D": "94,501,662"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "9,646 × 9,797 equals 94,501,862",
+   "incorrect": "9,646 × 9,797 equals 94,504,862",
+   "unrelated": "the Danube flows into the Black Sea"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_mult_4",
+  "category": "numerical",
+  "question": "What is 1,175 × 2,592?",
+  "options": {
+   "A": "3,045,400",
+   "B": "3,145,600",
+   "C": "3,045,600",
+   "D": "3,035,600"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "1,175 × 2,592 equals 3,045,600",
+   "incorrect": "1,175 × 2,592 equals 3,035,600",
+   "unrelated": "a leap year has 366 days"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_mult_5",
+  "category": "numerical",
+  "question": "What is 1,946 × 9,163?",
+  "options": {
+   "A": "17,831,198",
+   "B": "17,835,198",
+   "C": "17,830,998",
+   "D": "17,931,198"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "1,946 × 9,163 equals 17,831,198",
+   "incorrect": "1,946 × 9,163 equals 17,835,198",
+   "unrelated": "copper is a good conductor of electricity"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_mult_6",
+  "category": "numerical",
+  "question": "What is 4,383 × 8,736?",
+  "options": {
+   "A": "38,289,888",
+   "B": "38,291,888",
+   "C": "38,289,688",
+   "D": "38,389,888"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "4,383 × 8,736 equals 38,289,888",
+   "incorrect": "4,383 × 8,736 equals 38,291,888",
+   "unrelated": "Portuguese is the official language of Brazil"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_mult_7",
+  "category": "numerical",
+  "question": "What is 2,604 × 6,346?",
+  "options": {
+   "A": "16,624,984",
+   "B": "16,494,984",
+   "C": "16,524,984",
+   "D": "16,524,784"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "2,604 × 6,346 equals 16,524,984",
+   "incorrect": "2,604 × 6,346 equals 16,494,984",
+   "unrelated": "the human heart has four chambers"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_mult_8",
+  "category": "numerical",
+  "question": "What is 7,108 × 5,634?",
+  "options": {
+   "A": "40,046,272",
+   "B": "40,146,472",
+   "C": "40,046,472",
+   "D": "40,056,472"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "7,108 × 5,634 equals 40,046,472",
+   "incorrect": "7,108 × 5,634 equals 40,056,472",
+   "unrelated": "Mercury is the planet closest to the Sun"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_weekday_1",
+  "category": "numerical",
+  "question": "On which day of the week does 19 May 1991 fall (Gregorian calendar)?",
+  "options": {
+   "A": "Wednesday",
+   "B": "Saturday",
+   "C": "Monday",
+   "D": "Sunday"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "19 May 1991 falls on a Sunday",
+   "incorrect": "19 May 1991 falls on a Monday",
+   "unrelated": "an octagon has eight sides"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_weekday_2",
+  "category": "numerical",
+  "question": "On which day of the week does 13 June 1803 fall (Gregorian calendar)?",
+  "options": {
+   "A": "Tuesday",
+   "B": "Sunday",
+   "C": "Monday",
+   "D": "Thursday"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "13 June 1803 falls on a Monday",
+   "incorrect": "13 June 1803 falls on a Tuesday",
+   "unrelated": "Mount Kilimanjaro is in Tanzania"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_weekday_3",
+  "category": "numerical",
+  "question": "On which day of the week does 25 January 1838 fall (Gregorian calendar)?",
+  "options": {
+   "A": "Sunday",
+   "B": "Thursday",
+   "C": "Wednesday",
+   "D": "Friday"
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "25 January 1838 falls on a Thursday",
+   "incorrect": "25 January 1838 falls on a Friday",
+   "unrelated": "the Pacific is the largest ocean"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_weekday_4",
+  "category": "numerical",
+  "question": "On which day of the week does 9 June 1854 fall (Gregorian calendar)?",
+  "options": {
+   "A": "Thursday",
+   "B": "Saturday",
+   "C": "Friday",
+   "D": "Monday"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "9 June 1854 falls on a Friday",
+   "incorrect": "9 June 1854 falls on a Saturday",
+   "unrelated": "water freezes at 0 °C at sea-level pressure"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_weekday_5",
+  "category": "numerical",
+  "question": "On which day of the week does 23 May 1986 fall (Gregorian calendar)?",
+  "options": {
+   "A": "Monday",
+   "B": "Thursday",
+   "C": "Friday",
+   "D": "Saturday"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "23 May 1986 falls on a Friday",
+   "incorrect": "23 May 1986 falls on a Saturday",
+   "unrelated": "Jupiter is the largest planet in the Solar System"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_weekday_6",
+  "category": "numerical",
+  "question": "On which day of the week does 5 May 1743 fall (Gregorian calendar)?",
+  "options": {
+   "A": "Sunday",
+   "B": "Monday",
+   "C": "Wednesday",
+   "D": "Saturday"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "5 May 1743 falls on a Sunday",
+   "incorrect": "5 May 1743 falls on a Monday",
+   "unrelated": "a spider has eight legs"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_weekday_7",
+  "category": "numerical",
+  "question": "On which day of the week does 13 September 2081 fall (Gregorian calendar)?",
+  "options": {
+   "A": "Friday",
+   "B": "Tuesday",
+   "C": "Sunday",
+   "D": "Saturday"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "13 September 2081 falls on a Saturday",
+   "incorrect": "13 September 2081 falls on a Sunday",
+   "unrelated": "the Danube flows into the Black Sea"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_weekday_8",
+  "category": "numerical",
+  "question": "On which day of the week does 10 February 1802 fall (Gregorian calendar)?",
+  "options": {
+   "A": "Saturday",
+   "B": "Wednesday",
+   "C": "Thursday",
+   "D": "Tuesday"
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "10 February 1802 falls on a Wednesday",
+   "incorrect": "10 February 1802 falls on a Thursday",
+   "unrelated": "a leap year has 366 days"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_days_1",
+  "category": "numerical",
+  "question": "How many days after 13 August 1963 is 21 October 1964?",
+  "options": {
+   "A": "434",
+   "B": "436",
+   "C": "465",
+   "D": "435"
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "21 October 1964 is 435 days after 13 August 1963",
+   "incorrect": "21 October 1964 is 436 days after 13 August 1963",
+   "unrelated": "copper is a good conductor of electricity"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_days_2",
+  "category": "numerical",
+  "question": "How many days after 28 July 2030 is 15 February 2031?",
+  "options": {
+   "A": "203",
+   "B": "202",
+   "C": "201",
+   "D": "232"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "15 February 2031 is 202 days after 28 July 2030",
+   "incorrect": "15 February 2031 is 203 days after 28 July 2030",
+   "unrelated": "Portuguese is the official language of Brazil"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_days_3",
+  "category": "numerical",
+  "question": "How many days after 15 March 1955 is 14 June 1957?",
+  "options": {
+   "A": "821",
+   "B": "852",
+   "C": "822",
+   "D": "823"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "14 June 1957 is 822 days after 15 March 1955",
+   "incorrect": "14 June 1957 is 823 days after 15 March 1955",
+   "unrelated": "the human heart has four chambers"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_days_4",
+  "category": "numerical",
+  "question": "How many days after 8 April 2027 is 18 August 2029?",
+  "options": {
+   "A": "862",
+   "B": "863",
+   "C": "893",
+   "D": "864"
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "18 August 2029 is 863 days after 8 April 2027",
+   "incorrect": "18 August 2029 is 864 days after 8 April 2027",
+   "unrelated": "Mercury is the planet closest to the Sun"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_days_5",
+  "category": "numerical",
+  "question": "How many days after 27 July 2004 is 10 February 2007?",
+  "options": {
+   "A": "958",
+   "B": "928",
+   "C": "927",
+   "D": "929"
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "10 February 2007 is 928 days after 27 July 2004",
+   "incorrect": "10 February 2007 is 929 days after 27 July 2004",
+   "unrelated": "an octagon has eight sides"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_days_6",
+  "category": "numerical",
+  "question": "How many days after 8 April 1993 is 1 March 1995?",
+  "options": {
+   "A": "693",
+   "B": "692",
+   "C": "722",
+   "D": "691"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "1 March 1995 is 692 days after 8 April 1993",
+   "incorrect": "1 March 1995 is 693 days after 8 April 1993",
+   "unrelated": "Mount Kilimanjaro is in Tanzania"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_days_7",
+  "category": "numerical",
+  "question": "How many days after 30 October 1988 is 19 January 1992?",
+  "options": {
+   "A": "1,176",
+   "B": "1,177",
+   "C": "1,206",
+   "D": "1,175"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "19 January 1992 is 1,176 days after 30 October 1988",
+   "incorrect": "19 January 1992 is 1,177 days after 30 October 1988",
+   "unrelated": "the Pacific is the largest ocean"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_days_8",
+  "category": "numerical",
+  "question": "How many days after 28 April 1997 is 7 November 1999?",
+  "options": {
+   "A": "924",
+   "B": "953",
+   "C": "922",
+   "D": "923"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "7 November 1999 is 923 days after 28 April 1997",
+   "incorrect": "7 November 1999 is 924 days after 28 April 1997",
+   "unrelated": "water freezes at 0 °C at sea-level pressure"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_primecount_1",
+  "category": "numerical",
+  "question": "How many prime numbers are there between 6,800 and 7,000?",
+  "options": {
+   "A": "26",
+   "B": "24",
+   "C": "23",
+   "D": "25"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "there are 25 prime numbers between 6,800 and 7,000",
+   "incorrect": "there are 26 prime numbers between 6,800 and 7,000",
+   "unrelated": "Jupiter is the largest planet in the Solar System"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_primecount_2",
+  "category": "numerical",
+  "question": "How many prime numbers are there between 5,600 and 5,800?",
+  "options": {
+   "A": "23",
+   "B": "22",
+   "C": "20",
+   "D": "21"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "there are 22 prime numbers between 5,600 and 5,800",
+   "incorrect": "there are 23 prime numbers between 5,600 and 5,800",
+   "unrelated": "a spider has eight legs"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_primecount_3",
+  "category": "numerical",
+  "question": "How many prime numbers are there between 4,500 and 4,700?",
+  "options": {
+   "A": "25",
+   "B": "23",
+   "C": "24",
+   "D": "22"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "there are 24 prime numbers between 4,500 and 4,700",
+   "incorrect": "there are 25 prime numbers between 4,500 and 4,700",
+   "unrelated": "the Danube flows into the Black Sea"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_primecount_4",
+  "category": "numerical",
+  "question": "How many prime numbers are there between 6,100 and 6,300?",
+  "options": {
+   "A": "25",
+   "B": "23",
+   "C": "24",
+   "D": "22"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "there are 24 prime numbers between 6,100 and 6,300",
+   "incorrect": "there are 23 prime numbers between 6,100 and 6,300",
+   "unrelated": "a leap year has 366 days"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_primecount_5",
+  "category": "numerical",
+  "question": "How many prime numbers are there between 1,500 and 1,700?",
+  "options": {
+   "A": "28",
+   "B": "25",
+   "C": "27",
+   "D": "26"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "there are 27 prime numbers between 1,500 and 1,700",
+   "incorrect": "there are 28 prime numbers between 1,500 and 1,700",
+   "unrelated": "copper is a good conductor of electricity"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_primecount_6",
+  "category": "numerical",
+  "question": "How many prime numbers are there between 7,300 and 7,500?",
+  "options": {
+   "A": "20",
+   "B": "19",
+   "C": "18",
+   "D": "21"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "there are 20 prime numbers between 7,300 and 7,500",
+   "incorrect": "there are 19 prime numbers between 7,300 and 7,500",
+   "unrelated": "Portuguese is the official language of Brazil"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_primecount_7",
+  "category": "numerical",
+  "question": "How many prime numbers are there between 7,200 and 7,400?",
+  "options": {
+   "A": "21",
+   "B": "20",
+   "C": "18",
+   "D": "19"
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "there are 20 prime numbers between 7,200 and 7,400",
+   "incorrect": "there are 19 prime numbers between 7,200 and 7,400",
+   "unrelated": "the human heart has four chambers"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_primecount_8",
+  "category": "numerical",
+  "question": "How many prime numbers are there between 5,400 and 5,600?",
+  "options": {
+   "A": "27",
+   "B": "25",
+   "C": "24",
+   "D": "26"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "there are 26 prime numbers between 5,400 and 5,600",
+   "incorrect": "there are 27 prime numbers between 5,400 and 5,600",
+   "unrelated": "Mercury is the planet closest to the Sun"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_nthprime_1",
+  "category": "numerical",
+  "question": "What is the 389th prime number? (2 is the 1st.)",
+  "options": {
+   "A": "2,683",
+   "B": "2,689",
+   "C": "2,687",
+   "D": "2,677"
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the 389th prime number is 2,683",
+   "incorrect": "the 389th prime number is 2,687",
+   "unrelated": "an octagon has eight sides"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_nthprime_2",
+  "category": "numerical",
+  "question": "What is the 858th prime number? (2 is the 1st.)",
+  "options": {
+   "A": "6,653",
+   "B": "6,661",
+   "C": "6,673",
+   "D": "6,659"
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the 858th prime number is 6,659",
+   "incorrect": "the 858th prime number is 6,661",
+   "unrelated": "Mount Kilimanjaro is in Tanzania"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_nthprime_3",
+  "category": "numerical",
+  "question": "What is the 272nd prime number? (2 is the 1st.)",
+  "options": {
+   "A": "1,747",
+   "B": "1,753",
+   "C": "1,741",
+   "D": "1,759"
+  },
+  "answer": "A",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the 272nd prime number is 1,747",
+   "incorrect": "the 272nd prime number is 1,753",
+   "unrelated": "the Pacific is the largest ocean"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_nthprime_4",
+  "category": "numerical",
+  "question": "What is the 254th prime number? (2 is the 1st.)",
+  "options": {
+   "A": "1,607",
+   "B": "1,619",
+   "C": "1,613",
+   "D": "1,609"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the 254th prime number is 1,609",
+   "incorrect": "the 254th prime number is 1,613",
+   "unrelated": "water freezes at 0 °C at sea-level pressure"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_nthprime_5",
+  "category": "numerical",
+  "question": "What is the 430th prime number? (2 is the 1st.)",
+  "options": {
+   "A": "3,001",
+   "B": "3,011",
+   "C": "2,999",
+   "D": "2,971"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the 430th prime number is 2,999",
+   "incorrect": "the 430th prime number is 2,971",
+   "unrelated": "Jupiter is the largest planet in the Solar System"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_nthprime_6",
+  "category": "numerical",
+  "question": "What is the 1483rd prime number? (2 is the 1st.)",
+  "options": {
+   "A": "12,433",
+   "B": "12,437",
+   "C": "12,421",
+   "D": "12,413"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the 1483rd prime number is 12,421",
+   "incorrect": "the 1483rd prime number is 12,433",
+   "unrelated": "a spider has eight legs"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_nthprime_7",
+  "category": "numerical",
+  "question": "What is the 1337th prime number? (2 is the 1st.)",
+  "options": {
+   "A": "11,047",
+   "B": "11,057",
+   "C": "11,027",
+   "D": "11,003"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the 1337th prime number is 11,027",
+   "incorrect": "the 1337th prime number is 11,047",
+   "unrelated": "the Danube flows into the Black Sea"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_nthprime_8",
+  "category": "numerical",
+  "question": "What is the 535th prime number? (2 is the 1st.)",
+  "options": {
+   "A": "3,851",
+   "B": "3,853",
+   "C": "3,877",
+   "D": "3,863"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the 535th prime number is 3,853",
+   "incorrect": "the 535th prime number is 3,851",
+   "unrelated": "a leap year has 366 days"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_letters_1",
+  "category": "numerical",
+  "question": "How many times does the letter \"r\" appear in this sentence, counting upper and lower case? \"The quiet lighthouse keeper repainted every railing before the autumn storms arrived.\"",
+  "options": {
+   "A": "7",
+   "B": "9",
+   "C": "8",
+   "D": "6"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the letter \"r\" appears 8 times in the sentence \"The quiet lighthouse keeper repainted every railing before the autumn storms arrived.\"",
+   "incorrect": "the letter \"r\" appears 7 times in the sentence \"The quiet lighthouse keeper repainted every railing before the autumn storms arrived.\"",
+   "unrelated": "copper is a good conductor of electricity"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_letters_2",
+  "category": "numerical",
+  "question": "How many times does the letter \"n\" appear in this sentence, counting upper and lower case? \"Seven restless engineers tested the green elevator between eleven and twelve.\"",
+  "options": {
+   "A": "7",
+   "B": "8",
+   "C": "6",
+   "D": "5"
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the letter \"n\" appears 7 times in the sentence \"Seven restless engineers tested the green elevator between eleven and twelve.\"",
+   "incorrect": "the letter \"n\" appears 6 times in the sentence \"Seven restless engineers tested the green elevator between eleven and twelve.\"",
+   "unrelated": "Portuguese is the official language of Brazil"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_letters_3",
+  "category": "numerical",
+  "question": "How many times does the letter \"o\" appear in this sentence, counting upper and lower case? \"A narrow river separates the old orchard from the neighbouring sheep pasture.\"",
+  "options": {
+   "A": "3",
+   "B": "4",
+   "C": "6",
+   "D": "5"
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the letter \"o\" appears 5 times in the sentence \"A narrow river separates the old orchard from the neighbouring sheep pasture.\"",
+   "incorrect": "the letter \"o\" appears 4 times in the sentence \"A narrow river separates the old orchard from the neighbouring sheep pasture.\"",
+   "unrelated": "the human heart has four chambers"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_letters_4",
+  "category": "numerical",
+  "question": "How many times does the letter \"t\" appear in this sentence, counting upper and lower case? \"Several tired students reread the assessment instructions on Tuesday evening.\"",
+  "options": {
+   "A": "7",
+   "B": "9",
+   "C": "6",
+   "D": "8"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the letter \"t\" appears 8 times in the sentence \"Several tired students reread the assessment instructions on Tuesday evening.\"",
+   "incorrect": "the letter \"t\" appears 7 times in the sentence \"Several tired students reread the assessment instructions on Tuesday evening.\"",
+   "unrelated": "Mercury is the planet closest to the Sun"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_letters_5",
+  "category": "numerical",
+  "question": "How many times does the letter \"s\" appear in this sentence, counting upper and lower case? \"Our northern station recorded strong winds, heavy rain and three short power cuts.\"",
+  "options": {
+   "A": "6",
+   "B": "3",
+   "C": "4",
+   "D": "5"
+  },
+  "answer": "D",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the letter \"s\" appears 5 times in the sentence \"Our northern station recorded strong winds, heavy rain and three short power cuts.\"",
+   "incorrect": "the letter \"s\" appears 4 times in the sentence \"Our northern station recorded strong winds, heavy rain and three short power cuts.\"",
+   "unrelated": "an octagon has eight sides"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_letters_6",
+  "category": "numerical",
+  "question": "How many times does the letter \"e\" appear in this sentence, counting upper and lower case? \"The baker's apprentice carefully measured the treacle, oats and raisins for the recipe.\"",
+  "options": {
+   "A": "13",
+   "B": "14",
+   "C": "12",
+   "D": "11"
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the letter \"e\" appears 13 times in the sentence \"The baker's apprentice carefully measured the treacle, oats and raisins for the recipe.\"",
+   "incorrect": "the letter \"e\" appears 12 times in the sentence \"The baker's apprentice carefully measured the treacle, oats and raisins for the recipe.\"",
+   "unrelated": "Mount Kilimanjaro is in Tanzania"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_letters_7",
+  "category": "numerical",
+  "question": "How many times does the letter \"o\" appear in this sentence, counting upper and lower case? \"Tomorrow the orchestra rehearses Rossini's overture in the restored concert hall.\"",
+  "options": {
+   "A": "6",
+   "B": "7",
+   "C": "8",
+   "D": "9"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the letter \"o\" appears 8 times in the sentence \"Tomorrow the orchestra rehearses Rossini's overture in the restored concert hall.\"",
+   "incorrect": "the letter \"o\" appears 7 times in the sentence \"Tomorrow the orchestra rehearses Rossini's overture in the restored concert hall.\"",
+   "unrelated": "the Pacific is the largest ocean"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_letters_8",
+  "category": "numerical",
+  "question": "How many times does the letter \"s\" appear in this sentence, counting upper and lower case? \"Every September the village organises a festival celebrating pressed apple cider.\"",
+  "options": {
+   "A": "4",
+   "B": "6",
+   "C": "7",
+   "D": "5"
+  },
+  "answer": "B",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the letter \"s\" appears 6 times in the sentence \"Every September the village organises a festival celebrating pressed apple cider.\"",
+   "incorrect": "the letter \"s\" appears 5 times in the sentence \"Every September the village organises a festival celebrating pressed apple cider.\"",
+   "unrelated": "water freezes at 0 °C at sea-level pressure"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_modpow_1",
+  "category": "numerical",
+  "question": "What is the remainder when 13 to the power 51 is divided by 19?",
+  "options": {
+   "A": "12",
+   "B": "13",
+   "C": "8",
+   "D": "4"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the remainder when 13 to the power 51 is divided by 19 is 8",
+   "incorrect": "the remainder when 13 to the power 51 is divided by 19 is 13",
+   "unrelated": "Jupiter is the largest planet in the Solar System"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_modpow_2",
+  "category": "numerical",
+  "question": "What is the remainder when 17 to the power 269 is divided by 13?",
+  "options": {
+   "A": "10",
+   "B": "9",
+   "C": "8",
+   "D": "2"
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the remainder when 17 to the power 269 is divided by 13 is 10",
+   "incorrect": "the remainder when 17 to the power 269 is divided by 13 is 8",
+   "unrelated": "a spider has eight legs"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_modpow_3",
+  "category": "numerical",
+  "question": "What is the remainder when 19 to the power 373 is divided by 17?",
+  "options": {
+   "A": "2",
+   "B": "5",
+   "C": "15",
+   "D": "13"
+  },
+  "answer": "C",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the remainder when 19 to the power 373 is divided by 17 is 15",
+   "incorrect": "the remainder when 19 to the power 373 is divided by 17 is 5",
+   "unrelated": "the Danube flows into the Black Sea"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_modpow_4",
+  "category": "numerical",
+  "question": "What is the remainder when 3 to the power 106 is divided by 17?",
+  "options": {
+   "A": "5",
+   "B": "9",
+   "C": "11",
+   "D": "8"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the remainder when 3 to the power 106 is divided by 17 is 8",
+   "incorrect": "the remainder when 3 to the power 106 is divided by 17 is 5",
+   "unrelated": "a leap year has 366 days"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_modpow_5",
+  "category": "numerical",
+  "question": "What is the remainder when 13 to the power 236 is divided by 19?",
+  "options": {
+   "A": "8",
+   "B": "13",
+   "C": "12",
+   "D": "17"
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the remainder when 13 to the power 236 is divided by 19 is 17",
+   "incorrect": "the remainder when 13 to the power 236 is divided by 19 is 13",
+   "unrelated": "copper is a good conductor of electricity"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_modpow_6",
+  "category": "numerical",
+  "question": "What is the remainder when 18 to the power 321 is divided by 11?",
+  "options": {
+   "A": "9",
+   "B": "6",
+   "C": "7",
+   "D": "3"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the remainder when 18 to the power 321 is divided by 11 is 7",
+   "incorrect": "the remainder when 18 to the power 321 is divided by 11 is 3",
+   "unrelated": "Portuguese is the official language of Brazil"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_modpow_7",
+  "category": "numerical",
+  "question": "What is the remainder when 3 to the power 389 is divided by 17?",
+  "options": {
+   "A": "2",
+   "B": "5",
+   "C": "1",
+   "D": "3"
+  },
+  "answer": "B",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the remainder when 3 to the power 389 is divided by 17 is 5",
+   "incorrect": "the remainder when 3 to the power 389 is divided by 17 is 1",
+   "unrelated": "the human heart has four chambers"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_modpow_8",
+  "category": "numerical",
+  "question": "What is the remainder when 12 to the power 488 is divided by 17?",
+  "options": {
+   "A": "16",
+   "B": "5",
+   "C": "14",
+   "D": "2"
+  },
+  "answer": "A",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the remainder when 12 to the power 488 is divided by 17 is 16",
+   "incorrect": "the remainder when 12 to the power 488 is divided by 17 is 2",
+   "unrelated": "Mercury is the planet closest to the Sun"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_digitsum_1",
+  "category": "numerical",
+  "question": "What is the sum of the digits of 2 to the power 66?",
+  "options": {
+   "A": "100",
+   "B": "127",
+   "C": "109",
+   "D": "118"
+  },
+  "answer": "C",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the digits of 2 to the power 66 add up to 109",
+   "incorrect": "the digits of 2 to the power 66 add up to 100",
+   "unrelated": "an octagon has eight sides"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_digitsum_2",
+  "category": "numerical",
+  "question": "What is the sum of the digits of 2 to the power 66?",
+  "options": {
+   "A": "127",
+   "B": "100",
+   "C": "109",
+   "D": "118"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the digits of 2 to the power 66 add up to 109",
+   "incorrect": "the digits of 2 to the power 66 add up to 118",
+   "unrelated": "Mount Kilimanjaro is in Tanzania"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_digitsum_3",
+  "category": "numerical",
+  "question": "What is the sum of the digits of 2 to the power 118?",
+  "options": {
+   "A": "178",
+   "B": "160",
+   "C": "187",
+   "D": "169"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the digits of 2 to the power 118 add up to 169",
+   "incorrect": "the digits of 2 to the power 118 add up to 178",
+   "unrelated": "the Pacific is the largest ocean"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_digitsum_4",
+  "category": "numerical",
+  "question": "What is the sum of the digits of 2 to the power 73?",
+  "options": {
+   "A": "119",
+   "B": "128",
+   "C": "110",
+   "D": "101"
+  },
+  "answer": "C",
+  "incorrect_option": "D",
+  "beliefs": {
+   "correct": "the digits of 2 to the power 73 add up to 110",
+   "incorrect": "the digits of 2 to the power 73 add up to 101",
+   "unrelated": "water freezes at 0 °C at sea-level pressure"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_digitsum_5",
+  "category": "numerical",
+  "question": "What is the sum of the digits of 2 to the power 76?",
+  "options": {
+   "A": "124",
+   "B": "97",
+   "C": "115",
+   "D": "106"
+  },
+  "answer": "D",
+  "incorrect_option": "B",
+  "beliefs": {
+   "correct": "the digits of 2 to the power 76 add up to 106",
+   "incorrect": "the digits of 2 to the power 76 add up to 97",
+   "unrelated": "Jupiter is the largest planet in the Solar System"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_digitsum_6",
+  "category": "numerical",
+  "question": "What is the sum of the digits of 2 to the power 103?",
+  "options": {
+   "A": "119",
+   "B": "101",
+   "C": "128",
+   "D": "110"
+  },
+  "answer": "D",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the digits of 2 to the power 103 add up to 110",
+   "incorrect": "the digits of 2 to the power 103 add up to 119",
+   "unrelated": "a spider has eight legs"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_digitsum_7",
+  "category": "numerical",
+  "question": "What is the sum of the digits of 2 to the power 70?",
+  "options": {
+   "A": "70",
+   "B": "79",
+   "C": "61",
+   "D": "88"
+  },
+  "answer": "A",
+  "incorrect_option": "C",
+  "beliefs": {
+   "correct": "the digits of 2 to the power 70 add up to 70",
+   "incorrect": "the digits of 2 to the power 70 add up to 61",
+   "unrelated": "the Danube flows into the Black Sea"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ },
+ {
+  "id": "fh_digitsum_8",
+  "category": "numerical",
+  "question": "What is the sum of the digits of 2 to the power 110?",
+  "options": {
+   "A": "112",
+   "B": "121",
+   "C": "130",
+   "D": "139"
+  },
+  "answer": "B",
+  "incorrect_option": "A",
+  "beliefs": {
+   "correct": "the digits of 2 to the power 110 add up to 121",
+   "incorrect": "the digits of 2 to the power 110 add up to 112",
+   "unrelated": "a leap year has 366 days"
+  },
+  "evidence_strength": "none",
+  "sources": [
+   "computed by frontier/scripts/build_headroom.py"
+  ]
+ }
+]

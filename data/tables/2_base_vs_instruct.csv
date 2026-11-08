@@ -1,0 +1,73 @@
+base_minus,comparison,measure,base,other,est,ci_low,ci_high,item_p,items_up,items_down
+nemo-instruct-local,memory effect,answers,0.5,0.479167,0.0208333,-0.104167,0.145833,0.87307,11,9
+nemo-instruct-local,memory effect,"answers, comma read",0.5,0.479167,0.0208333,-0.104167,0.145833,0.87307,11,9
+nemo-instruct-local,memory effect,probabilities,0.421169,0.459575,-0.0384056,-0.114367,0.0367293,0.335688,22,26
+nemo-instruct-local,memory effect,log-odds of probability,2.74267,5.48208,-2.73941,-3.53837,-1.94959,4.99998e-06,9,39
+nemo-instruct-local,stated effect,answers,0.447917,0.416667,0.03125,-0.114583,0.166667,0.76806,16,11
+nemo-instruct-local,stated effect,"answers, comma read",0.447917,0.416667,0.03125,-0.114583,0.166667,0.76806,16,11
+nemo-instruct-local,stated effect,probabilities,0.36676,0.405586,-0.038826,-0.136263,0.0431185,0.408788,27,21
+nemo-instruct-local,stated effect,log-odds of probability,2.41989,5.06646,-2.64656,-3.55973,-1.83532,4.99998e-06,8,40
+nemo-instruct-local,unrelated memory,answers,0.0208333,0.0625,-0.0416667,-0.145833,0.0520833,0.528687,7,9
+nemo-instruct-local,unrelated memory,"answers, comma read",0.0208333,0.0625,-0.0416667,-0.145833,0.0520833,0.528687,7,9
+nemo-instruct-local,unrelated memory,probabilities,-0.011121,0.00901709,-0.0201381,-0.0524293,0.00628083,0.189589,25,23
+nemo-instruct-local,unrelated memory,log-odds of probability,0.107237,0.729589,-0.622352,-0.957045,-0.317435,0.000379998,12,36
+nemo-instruct-local,true memory,answers,-0.208333,-0.145833,-0.0625,-0.145833,0.0208333,0.216797,2,8
+nemo-instruct-local,true memory,"answers, comma read",-0.208333,-0.145833,-0.0625,-0.145833,0.0208333,0.216797,2,8
+nemo-instruct-local,true memory,probabilities,-0.18445,-0.157711,-0.0267387,-0.0764883,0.0293004,0.338018,20,28
+nemo-instruct-local,true memory,log-odds of probability,-1.507,-2.42315,0.916152,0.258307,1.62418,0.0124799,30,18
+nemo-instruct-local,label vs stored,answers,-0.09375,-0.1875,0.09375,-0.03125,0.229167,0.214001,13,7
+nemo-instruct-local,label vs stored,"answers, comma read",-0.09375,-0.1875,0.09375,-0.03125,0.229167,0.214001,13,7
+nemo-instruct-local,label vs stored,probabilities,-0.126039,-0.196459,0.07042,0.024446,0.129457,0.0113549,27,21
+nemo-instruct-local,label vs stored,log-odds of probability,-0.757614,-1.88024,1.12263,0.759519,1.55183,4.99998e-06,38,10
+nemo-instruct-local,label vs no belief,answers,0.40625,0.291667,0.114583,-0.0208333,0.239583,0.127342,16,6
+nemo-instruct-local,label vs no belief,"answers, comma read",0.40625,0.291667,0.114583,-0.0208333,0.239583,0.127342,16,6
+nemo-instruct-local,label vs no belief,probabilities,0.29513,0.263115,0.0320144,-0.0427637,0.0965139,0.376783,30,18
+nemo-instruct-local,label vs no belief,log-odds of probability,1.98506,3.60183,-1.61678,-2.29656,-0.952826,2.49999e-05,12,36
+nemo-instruct-local-chat,memory effect,answers,0.5,0.479167,0.0208333,-0.125,0.15625,0.888829,15,11
+nemo-instruct-local-chat,memory effect,"answers, comma read",0.5,0.479167,0.0208333,-0.125,0.15625,0.888829,15,11
+nemo-instruct-local-chat,memory effect,probabilities,0.421169,0.416315,0.00485396,-0.0736071,0.0782694,0.903375,26,22
+nemo-instruct-local-chat,memory effect,log-odds of probability,2.74267,5.69244,-2.94977,-3.98508,-1.93836,4.99998e-06,10,38
+nemo-instruct-local-chat,stated effect,answers,0.447917,0.291667,0.15625,0.0104167,0.302083,0.0671771,21,11
+nemo-instruct-local-chat,stated effect,"answers, comma read",0.447917,0.291667,0.15625,0.0104167,0.302083,0.0671771,21,11
+nemo-instruct-local-chat,stated effect,probabilities,0.36676,0.285876,0.080884,-0.0103473,0.163442,0.0809046,33,15
+nemo-instruct-local-chat,stated effect,log-odds of probability,2.41989,3.91332,-1.49343,-2.48498,-0.680621,0.00200999,19,29
+nemo-instruct-local-chat,unrelated memory,answers,0.0208333,0.03125,-0.0104167,-0.125,0.114583,1,9,9
+nemo-instruct-local-chat,unrelated memory,"answers, comma read",0.0208333,0.03125,-0.0104167,-0.125,0.114583,1,9,9
+nemo-instruct-local-chat,unrelated memory,probabilities,-0.011121,0.0171461,-0.0282671,-0.0626315,0.000544113,0.0888246,25,23
+nemo-instruct-local-chat,unrelated memory,log-odds of probability,0.107237,0.452389,-0.345152,-0.684208,-0.038842,0.0417748,20,28
+nemo-instruct-local-chat,true memory,answers,-0.208333,-0.114583,-0.09375,-0.1875,-0.0208333,0.0625,3,10
+nemo-instruct-local-chat,true memory,"answers, comma read",-0.208333,-0.114583,-0.09375,-0.1875,-0.0208333,0.0625,3,10
+nemo-instruct-local-chat,true memory,probabilities,-0.18445,-0.137403,-0.0470475,-0.0943073,0.00604909,0.0783396,17,31
+nemo-instruct-local-chat,true memory,log-odds of probability,-1.507,-3.2519,1.7449,1.11435,2.44571,4.99998e-06,35,13
+nemo-instruct-local-chat,label vs stored,answers,-0.09375,-0.25,0.15625,0.03125,0.302083,0.0429268,14,6
+nemo-instruct-local-chat,label vs stored,"answers, comma read",-0.09375,-0.25,0.15625,0.03125,0.302083,0.0429268,14,6
+nemo-instruct-local-chat,label vs stored,probabilities,-0.126039,-0.205466,0.0794267,0.0243506,0.152746,0.0174249,26,22
+nemo-instruct-local-chat,label vs stored,log-odds of probability,-0.757614,-2.62989,1.87228,1.35095,2.59816,4.99998e-06,40,8
+nemo-instruct-local-chat,label vs no belief,answers,0.40625,0.229167,0.177083,0.0520833,0.302083,0.012817,21,7
+nemo-instruct-local-chat,label vs no belief,"answers, comma read",0.40625,0.229167,0.177083,0.0520833,0.302083,0.012817,21,7
+nemo-instruct-local-chat,label vs no belief,probabilities,0.29513,0.210849,0.0842806,0.0029399,0.158671,0.0398998,34,14
+nemo-instruct-local-chat,label vs no belief,log-odds of probability,1.98506,3.06255,-1.07749,-1.96907,-0.289401,0.0159899,19,29
+hosted,memory effect,answers,0.5,0.40625,0.09375,-0.0520833,0.229167,0.255373,18,10
+hosted,memory effect,"answers, comma read",0.5,0.40625,0.09375,-0.0520833,0.229167,0.255373,18,10
+hosted,memory effect,probabilities,0.421169,0.415381,0.00578865,-0.081148,0.0883155,0.896446,28,20
+hosted,memory effect,log-odds of probability,2.74267,5.77002,-3.02735,-4.01601,-2.07175,4.99998e-06,9,39
+hosted,stated effect,answers,0.447917,0.333333,0.114583,-0.03125,0.25,0.170419,19,10
+hosted,stated effect,"answers, comma read",0.447917,0.333333,0.114583,-0.03125,0.25,0.170419,19,10
+hosted,stated effect,probabilities,0.36676,0.307314,0.0594458,-0.0436824,0.148122,0.240109,32,16
+hosted,stated effect,log-odds of probability,2.41989,4.17543,-1.75554,-2.7834,-0.905825,0.000534997,17,31
+hosted,unrelated memory,answers,0.0208333,0.0104167,0.0104167,-0.09375,0.114583,1,8,7
+hosted,unrelated memory,"answers, comma read",0.0208333,0.0104167,0.0104167,-0.09375,0.114583,1,8,7
+hosted,unrelated memory,probabilities,-0.011121,0.0228915,-0.0340125,-0.0777712,0.000527791,0.0971095,24,24
+hosted,unrelated memory,log-odds of probability,0.107237,0.730564,-0.623327,-0.985286,-0.262363,0.00172499,16,32
+hosted,true memory,answers,-0.208333,-0.125,-0.0833333,-0.177083,0.0104167,0.135986,3,10
+hosted,true memory,"answers, comma read",-0.208333,-0.125,-0.0833333,-0.177083,0.0104167,0.135986,3,10
+hosted,true memory,probabilities,-0.18445,-0.12587,-0.0585805,-0.106297,-0.00374145,0.0322148,18,30
+hosted,true memory,log-odds of probability,-1.507,-2.78325,1.27625,0.659954,1.963,0.000409998,33,15
+hosted,label vs stored,answers,-0.09375,-0.229167,0.135417,0.0208333,0.260417,0.0524597,15,6
+hosted,label vs stored,"answers, comma read",-0.09375,-0.229167,0.135417,0.0208333,0.260417,0.0524597,15,6
+hosted,label vs stored,probabilities,-0.126039,-0.2312,0.10516,0.0476989,0.168709,0.00152499,29,19
+hosted,label vs stored,log-odds of probability,-0.757614,-3.05789,2.30027,1.75295,2.94749,4.99998e-06,42,6
+hosted,label vs no belief,answers,0.40625,0.177083,0.229167,0.104167,0.354167,0.00161377,21,6
+hosted,label vs no belief,"answers, comma read",0.40625,0.177083,0.229167,0.104167,0.354167,0.00161377,21,6
+hosted,label vs no belief,probabilities,0.29513,0.184181,0.110949,0.0311458,0.186711,0.00840496,34,14
+hosted,label vs no belief,log-odds of probability,1.98506,2.71214,-0.727081,-1.54848,-0.012334,0.0698247,21,27
